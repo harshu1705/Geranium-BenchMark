@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editor artifacts
+.vscode/
+.idea/
+.claude/
+.kilo/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary and lock files from Microsoft Office
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
