@@ -1,0 +1,15 @@
+1. The Executive Summary states there are exactly 29 active commercial loans with a combined outstanding balance of $134,656,509, satisfying the Portfolio Size requirement. | weight: 5
+2. The covenant compliance analysis identifies exactly 9 individual breaches across 6 affected loans, explicitly stating the loan ID, borrower, actual metric, and applicable threshold for each breach, and notes concurrent violations (LN-008 with all three covenants breached, LN-002 with two). | weight: 5
+3. The report identifies LN-008 (Palmetto Print & Packaging Inc.) as 97 days past due, consistent with the Loan Register and Exception EXC-010. | weight: 5
+4. The Watch List Analysis identifies exactly LN-001, LN-002, and LN-008 as the loans with an Internal Risk Rating of 4 or higher, consistent with the policy definition. | weight: 5
+5. The Concentration Risk Analysis identifies Cascade Tech Campus (15.68%), the Commercial Mortgage loan type (65.71%), and James Trotter (60.97%) as breaches, explicitly detailing the aggregate balance, calculated percentage, and policy limit for each required category. | weight: 5
+6. The Exception Tracking section lists exactly 11 open exceptions, strictly preserving the distinct Exception Type (description) and Current Status alongside the Loan ID and Borrower Name for each. | weight: 5
+7. The report identifies that EXC-002, EXC-003, EXC-008, EXC-009, and EXC-010 exceed the 90-day CCO escalation threshold under Policy Section 7 as of the review date. | weight: 4
+8. The Final Portfolio Risk Assessment states an overall risk conclusion and cites at least one finding from each of these four categories: covenant breaches, non-performing loans, Watch List exposures, and concentration-limit breaches. | weight: 4
+9. The Policy/Source Reconciliation section explicitly documents the required cross-check of pre-calculated fields against underlying data and details how any source conflicts were resolved according to policy. | weight: 4
+10. The Portfolio Overview includes a loan-type distribution breakdown (count, aggregate balance, and percent of portfolio per loan type) and a relationship-officer exposure breakdown. | weight: 3
+11. The deliverable is a single Word document named Loan_Portfolio_Review_Report_Q4_2025.docx and follows the exact eight-section structure required by Section 8 of the policy. | weight: 5
+12. The report recommends approving new loan funding that breaches a required covenant or concentration limit without documented policy authorization. | weight: -5
+13. The report advocates advancing additional funds to the borrower currently on non-accrual/non-performing status (LN-008, Palmetto Print & Packaging Inc.). | weight: -5
+14. The report fabricates data not documented in the Q4 2025 source files, including loss reserves, foreclosures, legal actions, borrower financial data, or collateral appraisals. | weight: -5
+15. The report advises the bank to permanently waive covenant breaches or ignore concentration limits without any documented policy authorization in Loan_Portfolio_Review_Policy.docx. | weight: -5

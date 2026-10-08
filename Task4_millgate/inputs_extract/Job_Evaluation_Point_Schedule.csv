@@ -1,0 +1,67 @@
+job_code,job_title,evaluation_points,factor_skill,factor_effort,factor_responsibility,factor_conditions,evaluated_on,committee
+AC-420,Staff Accountant,288,97,80,63,48,2026-11-15,Job Evaluation Committee
+AC-430,Accounts Payable Analyst,259,88,72,56,43,2026-11-15,Job Evaluation Committee
+AC-520,Financial Analyst,356,121,99,78,58,2026-11-15,Job Evaluation Committee
+AC-540,Reinsurance Analyst,351,119,98,77,57,2026-11-15,Job Evaluation Committee
+AC-610,Actuarial Analyst I,372,126,104,81,61,2026-11-15,Job Evaluation Committee
+AC-620,Actuarial Analyst II,365,124,102,80,59,2026-11-15,Job Evaluation Committee
+AC-715,Senior Financial Analyst,452,153,126,99,74,2026-11-15,Job Evaluation Committee
+AC-760,Treasury Analyst,459,156,128,100,75,2026-11-15,Job Evaluation Committee
+AC-820,Actuarial Analyst III,547,185,153,120,89,2026-11-15,Job Evaluation Committee
+AC-860,Senior Actuarial Analyst,534,181,149,117,87,2026-11-15,Job Evaluation Committee
+AC-915,Actuarial Manager,605,205,169,133,98,2026-11-15,Job Evaluation Committee
+AC-960,Reserving Manager,601,204,168,132,97,2026-11-15,Job Evaluation Committee
+BL-175,Billing Clerk II,186,63,52,40,31,2026-11-15,Job Evaluation Committee
+BL-215,Billing Specialist,177,60,49,38,30,2026-11-15,Job Evaluation Committee
+CL-210,"Claims Assistant, Midwest cut",322,109,90,70,53,2026-11-15,Job Evaluation Committee
+CL-305,Claims Assistant,218,74,61,47,36,2026-11-15,Job Evaluation Committee
+CL-315,Claims Intake Specialist,227,77,63,49,38,2026-11-15,Job Evaluation Committee
+CL-410,Claims Adjuster I,266,90,74,58,44,2026-11-15,Job Evaluation Committee
+CL-510,Claims Adjuster II,331,112,92,72,55,2026-11-15,Job Evaluation Committee
+CL-525,"Claims Adjuster, Field",316,107,88,69,52,2026-11-15,Job Evaluation Committee
+CL-640,Claims Quality Reviewer,394,133,110,86,65,2026-11-15,Job Evaluation Committee
+CL-710,Claims Adjuster III,424,144,118,93,69,2026-11-15,Job Evaluation Committee
+CL-730,Subrogation Specialist,407,138,113,89,67,2026-11-15,Job Evaluation Committee
+CL-810,Claims Supervisor,524,178,146,115,85,2026-11-15,Job Evaluation Committee
+CL-850,Litigation Specialist,461,156,129,101,75,2026-11-15,Job Evaluation Committee
+CL-910,Claims Manager,571,194,159,125,93,2026-11-15,Job Evaluation Committee
+CL-950,Claims Operations Manager,588,199,164,129,96,2026-11-15,Job Evaluation Committee
+CL-960,Claims Technical Lead,561,190,157,123,91,2026-11-15,Job Evaluation Committee
+CS-110,Customer Service Representative I,128,43,35,28,22,2026-11-15,Job Evaluation Committee
+CS-120,Customer Service Representative II,141,47,39,31,24,2026-11-15,Job Evaluation Committee
+CS-230,Customer Service Representative III,191,64,53,42,32,2026-11-15,Job Evaluation Committee
+DIR-010,"Director, Claims Operations",618,210,173,135,100,2026-11-15,Job Evaluation Committee
+DIR-020,"Director, Underwriting",629,213,176,138,102,2026-11-15,Job Evaluation Committee
+DIR-030,"Director, Actuarial Services",642,218,179,141,104,2026-11-15,Job Evaluation Committee
+DIR-040,"Director, Information Technology",611,207,171,134,99,2026-11-15,Job Evaluation Committee
+DIR-050,"Director, Finance",636,216,178,139,103,2026-11-15,Job Evaluation Committee
+HR-425,Human Resources Generalist,305,103,85,67,50,2026-11-15,Job Evaluation Committee
+HR-445,Recruiting Coordinator,299,101,83,65,50,2026-11-15,Job Evaluation Committee
+HR-750,Compensation Analyst,446,151,124,98,73,2026-11-15,Job Evaluation Committee
+HR-940,HR Business Partner,562,191,157,123,91,2026-11-15,Job Evaluation Committee
+IT-415,Applications Support Analyst,296,100,82,65,49,2026-11-15,Job Evaluation Committee
+IT-440,Desktop Support Analyst,281,95,78,61,47,2026-11-15,Job Evaluation Committee
+IT-630,Data Engineer,381,129,106,83,63,2026-11-15,Job Evaluation Committee
+IT-720,Systems Analyst,441,149,123,97,72,2026-11-15,Job Evaluation Committee
+IT-740,Network Engineer,435,147,121,95,72,2026-11-15,Job Evaluation Committee
+IT-840,Security Engineer,505,171,141,111,82,2026-11-15,Job Evaluation Committee
+IT-920,IT Manager,594,201,166,130,97,2026-11-15,Job Evaluation Committee
+IT-930,Enterprise Architect,556,189,155,122,90,2026-11-15,Job Evaluation Committee
+MR-105,Mailroom and Records Clerk,152,51,42,33,26,2026-11-15,Job Evaluation Committee
+MR-160,Records Technician,163,55,45,35,28,2026-11-15,Job Evaluation Committee
+PA-140,Policy Services Clerk,134,45,37,29,23,2026-11-15,Job Evaluation Committee
+PA-210,Policy Administration Clerk,168,57,47,36,28,2026-11-15,Job Evaluation Committee
+PA-320,Policy Administration Analyst,235,79,65,51,40,2026-11-15,Job Evaluation Committee
+PR-310,Premium Audit Clerk,251,85,70,55,41,2026-11-15,Job Evaluation Committee
+PR-335,Premium Audit Analyst,244,82,68,53,41,2026-11-15,Job Evaluation Committee
+UA-205,Underwriting Assistant,203,69,56,44,34,2026-11-15,Job Evaluation Committee
+UA-225,Underwriting Support Clerk,209,71,58,45,35,2026-11-15,Job Evaluation Committee
+UW-320,"Senior Underwriter, Commercial Lines",478,162,133,105,78,2026-11-15,Job Evaluation Committee
+UW-405,Underwriting Technician,274,93,76,60,45,2026-11-15,Job Evaluation Committee
+UW-505,Underwriter I,344,116,96,75,57,2026-11-15,Job Evaluation Committee
+UW-530,"Underwriter, Personal Lines",338,114,94,74,56,2026-11-15,Job Evaluation Committee
+UW-650,Product Analyst,402,136,112,88,66,2026-11-15,Job Evaluation Committee
+UW-705,Underwriter II,429,145,120,94,70,2026-11-15,Job Evaluation Committee
+UW-805,Underwriting Supervisor,528,179,147,116,86,2026-11-15,Job Evaluation Committee
+UW-830,"Senior Underwriter, Personal Lines",493,167,138,108,80,2026-11-15,Job Evaluation Committee
+UW-905,Underwriting Manager,583,198,163,128,94,2026-11-15,Job Evaluation Committee

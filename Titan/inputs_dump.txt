@@ -1,0 +1,291 @@
+
+##########################################################################################
+### DOCX: Acquisition_Announcement_Draft_Aug2026.docx
+##########################################################################################
+[Normal] ACQUISITION ANNOUNCEMENT DRAFT
+[Normal] Internal Memo — strictly confidential
+[Intense Quote] To: All Employees
+From: Executive Team
+Date: September 8, 2026
+Subject: Welcome HealthSync to Titan Holdings!
+[Normal] We are thrilled to announce the successful acquisition of HealthSync Inc. This merger expands our cloud integration capabilities and brings a talented new team into the Titan family. By combining HealthSync's cutting-edge healthcare analytics platform with Titan's robust enterprise infrastructure, we are uniquely positioned to deliver unprecedented value to our clients. The strategic synergies unlocked by this acquisition will accelerate our product roadmap by an estimated 18 months and immediately increase our market share in the booming digital health sector.
+[Normal] Our CEO stated earlier today: 'This is a monumental milestone for Titan Holdings. The team at HealthSync shares our vision for secure, scalable, and intuitive enterprise solutions. We look forward to seeing what we can build together.'
+[Heading 1] Integration Timeline
+[Normal] Effective immediately, HealthSync services will begin migrating to Titan's infrastructure. We anticipate full integration by Q1 2027. This ambitious timeline underscores our commitment to realizing the strategic benefits of this merger as swiftly as possible.
+[Normal] Phase 1 of the integration will focus heavily on aligning our compliance and security protocols. HealthSync has built an incredible platform, and our priority is ensuring that its infrastructure meets Titan's rigorous data privacy standards, particularly regarding GDPR compliance. Over the next 30 days, the unified engineering and operations teams will conduct parallel run exercises to validate the migration paths for our most critical customer data streams.
+[Normal] During this transition, customer success and account management teams will undergo joint training sessions to ensure a seamless experience for all clients. We have established a dedicated internal portal where you can track the integration progress, find FAQs regarding organizational changes, and submit any questions directly to the integration steering committee.
+[Heading 1] Known Integration Quirks
+[Normal] During the due diligence process, we identified a few minor integration quirks that our engineering teams will be ironing out over the next few weeks. These include:
+[List Bullet] VULN-0014: PDF exports from legacy reports may have truncated headers.
+[List Bullet] VULN-0024: The customer search autocomplete might flicker slightly on slower connections.
+[List Bullet] VULN-0037: Executive dashboard timeouts may occasionally cause unsaved notes to be lost. (We recommend saving your work frequently during this transition period).
+[List Bullet] VULN-0049: The login page background image might take an extra second to load on your first visit.
+[Heading 1] What this means for you
+[Normal] No immediate action is required on your part. Your manager will provide department-specific updates next week.
+
+##########################################################################################
+### XLSX: Cloud_Infrastructure_Stress_Test_Aug2026.xlsx
+##########################################################################################
+
+--- SHEET: Stress Test Results  (dims A1:J9) ---
+Scenario ID | Scenario Name | SLA Metric | SLA Threshold | P50 Result | P95 Result | P99 Result | Status | Test Date | Notes
+STRESS-001 | Customer Record Search API | Response Time | ≤3.0s | 0.8s | 1.9s | 4.2s | FAIL (P99) | 2026-08-20 | P50/P95 well within SLA. P99 spikes under concurrent search + filter combos. May need query optimization
+STRESS-002 | Executive Dashboard Load | Page Load Time | ≤2.0s | 0.9s | 1.6s | 1.8s | PASS | 2026-08-20 | good numbers across the board
+STRESS-003 | Bulk PII Export | Throughput | ≥500 records/min | 680 rec/min | 620 rec/min | 540 rec/min | PASS* | 2026-08-21 | throughput passes but memory usage hit 3.36GB vs 3.0GB threshold (112%). See VULN-0044. asterisk = pass with caveat
+STRESS-004 | API Gateway — Concurrent Users | Concurrent Sessions | 500 users | stable | stable | stable | PASS | 2026-08-19 | no degradation up to 500 concurrent. Didn't test beyond 500 — post-merger target is 400
+STRESS-005 | Database Query Latency | Avg Query Time | ≤200ms | 45ms | 120ms | 175ms | PASS | 2026-08-18 | 
+STRESS-006 | Report Generation | Generation Time | ≤30s for standard | 8s | 18s | 24s | PASS | 2026-08-19 | large custom reports not tested
+STRESS-007 | Login/SSO Flow | Auth Response Time | ≤1.5s | 0.3s | 0.7s | 1.1s | PASS | 2026-08-18 | 
+STRESS-008 | Real-time Notification Delivery | Delivery Latency | ≤5.0s | 0.5s | 2.1s | 3.8s | PASS | 2026-08-19 | 
+
+--- SHEET: Environment Specs  (dims A1:D11) ---
+Component | Staging Environment (Test) | Target Post-Merger Env | Ratio
+CPU Cores | 16 | 32 | 50%
+RAM | 64 GB | 128 GB | 50%
+Storage IOPS | 10,000 | 20,000 | 50%
+Network Bandwidth | 1 Gbps | 10 Gbps | 10%
+Database Instance | db.r5.2xlarge | db.r5.4xlarge | ~50%
+Application Servers | 3 instances | 6 instances | 50%
+Load Balancer | Single ALB | Multi-AZ ALB | Simplified
+Overall Capacity Estimate: | Test environment represents approximately 60% of target production capacity. |  | 
+Note: | Network bandwidth is significantly lower in test — may affect real-time notification results at scale. |  | 
+
+##########################################################################################
+### DOCX: Due_Diligence_Evaluation_Policy.docx
+##########################################################################################
+[Normal] TITAN HOLDINGS M&A
+[Normal] Due Diligence Evaluation Policy
+[Intense Quote] Document ID: SOP-MNA-042
+Effective Date: Jan 1, 2026
+Owner: Corporate Compliance Office
+[Heading 1] 1. Purpose and Scope
+[Normal] This Standard Operating Procedure (SOP) defines the mandatory due diligence criteria that must be met before finalizing the acquisition of a target company's IT infrastructure. It provides objective rules for classifying vulnerabilities, evaluating compliance gaps, and determining if the deal can proceed (Go, No-Go, or Conditional Go). The scope of this document covers all software systems, network components, cloud infrastructure, and data processing workflows evaluated during the M&A diligence phase.
+[Heading 2] 1.1 Definitions
+[Normal] • Target Company: The entity being acquired.
+• QA Auditor: The designated Titan Holdings Quality Assurance lead responsible for the diligence report.
+• Target IT: The IT department of the Target Company.
+• Vulnerability: Any software defect, misconfiguration, or architectural flaw that introduces operational, security, or compliance risk.
+• Effective Severity: The finalized severity rating assigned to a vulnerability after applying the conflict resolution rules outlined in Section 3.
+[Heading 2] 1.2 Responsibilities
+[Normal] The Corporate Compliance Office is responsible for maintaining this SOP. The QA Auditor is responsible for applying these rules to the raw testing data and producing the final Technical Due Diligence Assessment. The CISO and VP of Engineering hold specific risk-acceptance authorities as detailed in Sections 4.4 and 4.5. All assessments must be documented and retained for a minimum of 7 years in accordance with our corporate data retention policy.
+[Heading 2] 1.3 Auditing Procedures
+[Normal] Auditors must rely exclusively on verified vulnerability scans, official integration pilot logs, stress test reports generated by the QA team, and formal compliance checklists. Anecdotal evidence, informal assurances from Target IT, or draft public relations memos shall not be used to override objective technical findings. Any discrepancies between engineering data and executive communications must be explicitly flagged in the final report.
+[Heading 1] 2. Deal Proceed Types
+[Normal] GO: All mandatory criteria are met. No unresolved blocking vulnerabilities or critical compliance gaps.
+CONDITIONAL GO: Mandatory criteria are largely met, but specific, actionable conditions exist (e.g., a vulnerability fix must be implemented within a specific timeframe post-acquisition). Conditions must have owners and deadlines.
+NO-GO: One or more mandatory deal-breakers are not met, and no immediate remediation is possible.
+[Heading 1] 3. Vulnerability Severity Conflict Resolution
+[Normal] Policy 3.1: During due diligence, our Internal Auditors and the Target Company's IT department may assign different severity ratings to the same vulnerability. In all such cases, the HIGHER severity rating must be applied as the "effective severity" for the final assessment.
+[Normal] Example: If Internal Audit rates a bug as 'Critical' and Target IT rates it as 'Minor', the effective severity for the assessment is 'Critical'.
+[Heading 1] 4. Mandatory Due Diligence Criteria
+[Normal] The following criteria must be evaluated. Failure to meet these criteria constitutes a deal-breaker unless a formal waiver is obtained.
+[List Bullet] 4.4.a Compliance with GDPR: All GDPR Technical Safeguard controls must be rated as 'Met'.
+[List Bullet] 4.4.b Partially Met Controls: Controls rated as 'Partially Met' are acceptable for a Conditional Go ONLY IF a remediation plan is in place to fix the underlying vulnerability within 30 calendar days post-acquisition.
+[List Bullet] 4.4.c Not Met Controls: Any control rated as 'Not Met' is an automatic deal-breaker (NO-GO) unless a formal written waiver is provided by the CISO prior to the Board Review.
+[List Bullet] 4.5.a SLA Thresholds: Infrastructure stress tests must meet the target SLA thresholds at the P50 and P95 percentiles.
+[List Bullet] 4.5.b P99 SLA Failures: If an SLA metric fails at the P99 percentile, the deal may proceed as a Conditional Go only if formal written risk acceptance is obtained from the VP of Engineering.
+[List Bullet] 4.5.c Test Environment Capacity: Stress test results are only considered fully valid if the test environment was provisioned to at least 80% of target production capacity. If the environment is <80% capacity, all SLA results are considered provisional and must be flagged as an integration risk.
+[Heading 1] 5. Critical Vulnerability Remediation
+[Normal] Any vulnerability with an effective severity of 'Blocker' must be resolved prior to the Board Review. Vulnerabilities with an effective severity of 'Critical' must be resolved or have a documented mitigation plan approved by the CTO.
+
+##########################################################################################
+### DOCX: GDPR_Privacy_Audit_Checklist_Aug2026.docx
+##########################################################################################
+[Normal] PROJECT TITAN (HEALTHSYNC ACQUISITION)
+[Normal] GDPR Technical Safeguard Compliance Audit
+
+=== TABLE 0 ===
+Target Company: | HealthSync Inc.
+Assessment Period: | August 2026
+Auditor: | Diane Kowalski, M&A Compliance Officer
+Reviewed by: | Priya Deshpande, CISO
+Document Status: | DRAFT — Pending Board Review
+Date: | August 22, 2026
+Distribution: | M&A Integration Committee
+=== END TABLE 0 ===
+
+[Normal] This document assesses HealthSync's infrastructure against applicable GDPR Technical Safeguard requirements (Art 32). Controls are evaluated as Met, Partially Met, Not Met, or N/A.
+[Normal] 1. Access Controls (AC-1 through AC-12)
+
+=== TABLE 1 ===
+Control ID | Control Description | Requirement Source | Status | Evidence / Reference | Remediation Plan | Target Date
+AC-1 | Unique user identification — assign a unique name/number | GDPR Art 32(1)(b) | Met | All users assigned unique IDs via Active Directory integration. | — | —
+AC-2 | Emergency access procedure | GDPR Art 32(1)(c) | Met | Break-glass procedure documented. Tested quarterly. Last test: July 2026. | — | —
+AC-3 | Access control lists — role-based access | GDPR Art 32(1)(b) | Met | RBAC verified across all modules. 14 role definitions. | — | —
+AC-4 | Minimum necessary access | GDPR Art 25(2) | Met | Role-based data filtering active. | — | —
+AC-5 | Multi-factor authentication | GDPR Art 32(1)(b) | Met | MFA enforced via Okta for all admin roles. | — | —
+AC-6 | Access authorization | GDPR Art 32 | Met | Approval workflow through ServiceNow. Quarterly access reviews. | — | —
+AC-7 | Audit controls — record and examine activity | GDPR Art 32 | Partially Met | Audit logging active for all existing modules. New PII export workflow has gaps in user-action-level audit detail. See VULN-0019. | VULN-0019 fix targeted for Sept 2. | 2026-09-02
+AC-8 | Access termination | GDPR Art 32 | Met | Automated deprovisioning via HR system integration. 24-hour SLA. | — | —
+AC-9 | Workforce clearance procedures | GDPR Art 32 | N/A | Administrative safeguard — not applicable to software technical assessment. | — | —
+AC-10 | Password management | GDPR Art 32 | Met | Password policy enforced: 12+ chars, complexity, 90-day rotation. | — | —
+AC-11 | Failed login attempt lockout | GDPR Art 32 | Met | Account lockout after 5 failed attempts. | — | —
+AC-12 | Session activity logging for PII access events | GDPR Art 32 | Met | All PII access events logged with user ID. | — | —
+=== END TABLE 1 ===
+
+[Normal] 2. Audit Controls (AU-1 through AU-8)
+
+=== TABLE 2 ===
+Control ID | Control Description | Requirement Source | Status | Evidence / Reference | Remediation Plan | Target Date
+AU-1 | Audit log generation | GDPR Art 32 | Met | Centralized logging via ELK stack. | — | —
+AU-2 | Audit log protection | GDPR Art 32 | Met | Write-once log storage on S3 with versioning. | — | —
+AU-3 | Audit log retention | GDPR Art 32 | Met | 7-year retention policy configured. | — | —
+AU-4 | Audit log completeness for PII access events | GDPR Art 32 | Partially Met | 98% complete. New concurrent-access scenario has gaps under high-concurrency conditions. See VULN-0023. | Fix in progress. Miguel Santos owning. | 2026-09-04
+AU-5 | Audit log review | GDPR Art 32 | Met | Weekly automated scan + monthly manual review. | — | —
+AU-6 | Audit log alerting | GDPR Art 32 | Met | PagerDuty integration for critical events. | — | —
+AU-7 | Time synchronization | GDPR Art 32 | Met | NTP synchronization across all servers. | — | —
+AU-8 | Audit trail for PII modifications | GDPR Art 32 | Met | Full CRUD audit trail for customer records. | — | —
+=== END TABLE 2 ===
+
+[Normal] 3. Integrity Controls (IN-1 through IN-6)
+
+=== TABLE 3 ===
+Control ID | Control Description | Requirement Source | Status | Evidence / Reference | Remediation Plan | Target Date
+IN-1 | Data integrity verification | GDPR Art 32 | Met | SHA-256 checksums on all PII data at rest and in transit. | — | —
+IN-2 | Error correcting procedures | GDPR Art 32 | Met | Automated corruption detection. | — | —
+IN-3 | Input validation | GDPR Art 32 | Met | Server-side validation on all PII fields. | — | —
+IN-4 | Data backup integrity | GDPR Art 32 | Met | Daily backup integrity checks. | — | —
+IN-5 | Database referential integrity | GDPR Art 32 | Met | Foreign key constraints active. | — | —
+IN-6 | Data migration integrity verification | GDPR Art 32 | Met | Migration scripts include pre/post row counts. | — | —
+=== END TABLE 3 ===
+
+[Normal] 4. Transmission Security (TS-1 through TS-7)
+
+=== TABLE 4 ===
+Control ID | Control Description | Requirement Source | Status | Evidence / Reference | Remediation Plan | Target Date
+TS-1 | Encryption in transit | GDPR Art 32(1)(a) | Met | TLS 1.3 enforced for all external connections. | — | —
+TS-2 | Integrity controls for transmitted PII | GDPR Art 32 | Met | HMAC-SHA256 message authentication. | — | —
+TS-3 | VPN or encrypted tunnel for remote access | GDPR Art 32 | Met | AWS PrivateLink and WireGuard VPN active. | — | —
+TS-4 | Certificate management | GDPR Art 32 | Met | Auto-renewal via ACM. | — | —
+TS-5 | API authentication | GDPR Art 32 | Met | OAuth 2.0 PKCE for all API endpoints. | — | —
+TS-6 | Secure transmission for PII exchange | GDPR Art 32 | Met | Encrypted transport used for all PII. | — | —
+TS-7 | Email encryption | GDPR Art 32 | N/A | System does not include email-based PII transmission. | — | —
+=== END TABLE 4 ===
+
+[Normal] 5. Session Controls (SC-1 through SC-12)
+
+=== TABLE 5 ===
+Control ID | Control Description | Requirement Source | Status | Evidence / Reference | Remediation Plan | Target Date
+SC-1 | Session establishment | GDPR Art 32 | Met | Sessions created via OAuth 2.0 flow. | — | —
+SC-2 | Session encryption | GDPR Art 32(1)(a) | Met | Session tokens encrypted. | — | —
+SC-3 | Session token rotation | GDPR Art 32 | Met | Token refreshed on role change. | — | —
+SC-4 | Concurrent session control | GDPR Art 32 | Met | Maximum 3 concurrent sessions per user. | — | —
+SC-5 | Session data isolation | GDPR Art 32 | Met | Server-side session storage with isolation. | — | —
+SC-6 | Session token invalidation on logout | GDPR Art 32 | Met | Server-side token revocation on logout. | — | —
+SC-7 | Session fixation prevention | GDPR Art 32 | Met | New session ID generated on authentication. | — | —
+SC-8 | Cross-site request forgery protection | GDPR Art 32 | Met | CSRF tokens on all state-changing operations. | — | —
+SC-9 | Session activity monitoring | GDPR Art 32(1)(d) | Met | Unusual session patterns flagged and logged. | — | —
+SC-10 | Automatic logoff | GDPR Art 32 | Not Met | Auto session timeout not enforced on new executive dashboard. Existing modules compliant. See VULN-0031. | VULN-0031 — Fix requires frontend + backend coordination. | 2026-09-06
+SC-11 | Session timeout configuration | GDPR Art 32 | Met | Timeout configurable. | — | —
+SC-12 | Secure session termination on close | GDPR Art 32 | N/A | Browser close behavior is client-dependent. | — | —
+=== END TABLE 5 ===
+
+
+##########################################################################################
+### XLSX: Legacy_System_Integration_Pilots_Aug2026.xlsx
+##########################################################################################
+
+--- SHEET: Summary  (dims A1:L24) ---
+Pilot ID | Pilot Name | Category | Total Endpoints | Successful | Failed | Blocked | Skipped | Success Rate | Execution Date | Executed By | Notes
+PILOT-001 | Active Directory Federation | Security | 142 | 126 | 12 | 4 | 0 | 88.7% | 2026-08-18 | Tom Nguyen | 2 failures linked to VULN-0008, VULN-0009
+PILOT-002 | Customer Record Sync | Functional | 234 | 198 | 20 | 16 | 0 | 84.6% | 2026-08-12 | Rachel Kim | blocked tests depend on VULN-0015 fix
+PILOT-003 | GDPR Subject Access Request Export | GDPR | 89 | 82 | 5 | 2 | 0 | 92.1% | 2026-08-19 | Miguel Santos | 3 failures on audit trail — see VULN-0019
+PILOT-004 | Executive Dashboard v2 | Functional | 178 | 175 | 2 | 1 | 0 | 98.3% | 2026-08-14 | Anita Flores | includes new analytics widgets
+PILOT-005 | API Gateway — v4.2 endpoints | Integration | 312 | 281 | 19 | 12 | 0 | 90.1% | 2026-08-16 | Kevin Park | 
+PILOT-006 | Database Migration Scripts | Regression | 67 | 58 | 6 | 3 | 0 | 86.6% | 2026-08-11 | Sarah Chen | 
+PILOT-007 | GDPR Consent Audit | GDPR | 156 | 128 | 8 | 6 | 14 | 82.1% | 2026-08-22 | Miguel Santos | waiting on test env fix, 14 skipped due to environment issues
+PILOT-008 | Bulk Data Import | Functional | 94 | 91 | 2 | 1 | 0 | 96.8% | 2026-08-13 | Kevin Park | 
+PILOT-009 | Role-Based Access Control | Security | 203 | 185 | 12 | 6 | 0 | 91.1% | 2026-08-17 | Miguel Santos | 
+PILOT-010 | Report Generation Engine | Functional | 145 | 141 | 3 | 1 | 0 | 97.2% | 2026-08-15 | Rachel Kim | 
+PILOT-011 | Customer Search — Full Text | Functional | 88 | 77 | 7 | 4 | 0 | 87.5% | 2026-08-12 | Kevin Park | 
+PILOT-012 | Billing System Integration | Functional | 167 | 155 | 9 | 3 | 0 | 92.8% | 2026-08-14 | Anita Flores | 
+PILOT-013 | Vendor Payment Verification | Integration | 73 | 71 | 1 | 1 | 0 | 97.3% | 2026-08-16 | Rachel Kim | 
+PILOT-014 | Contract Lifecycle Module | Functional | 112 | 98 | 9 | 5 | 0 | 87.5% | 2026-08-18 | Anita Flores | 
+PILOT-015 | Notification Service | Integration | 98 | 88 | 7 | 3 | 0 | 89.8% | 2026-08-13 | Kevin Park | 
+PILOT-016 | Session Management | Security | 84 | 78 | 4 | 2 | 0 | 92.9% | 2026-08-20 | Miguel Santos | 4 failures on auto-timeout — VULN-0031
+PILOT-017 | Audit Trail Logging | GDPR | 134 | 129 | 3 | 2 | 0 | 96.3% | 2026-08-19 | Miguel Santos | 
+PILOT-018 | Data Encryption — At Rest | Security | 56 | 49 | 5 | 2 | 0 | 87.5% | 2026-08-17 | Miguel Santos | 1 failure on new data fields — VULN-0028
+PILOT-019 | Third-Party API Integrations | Integration | 189 | 178 | 8 | 3 | 0 | 94.2% | 2026-08-15 | Kevin Park | 
+PILOT-020 | UI Regression — Desktop | Regression | 267 | 258 | 6 | 3 | 0 | 96.6% | 2026-08-20 | Anita Flores | post-hotfix rerun scheduled Aug 25
+PILOT-021 | UI Regression — Mobile | Regression | 198 | 176 | 14 | 8 | 0 | 88.9% | 2026-08-20 | Anita Flores | mobile regression has known layout issues
+PILOT-022 | Accessibility — WCAG 2.1 AA | Accessibility | 78 | 76 | 1 | 1 | 0 | 97.4% | 2026-08-21 | Rachel Kim | 
+PILOT-023 | End-to-End — Customer Journey | E2E | 45 | 39 | 4 | 2 | 0 | 86.7% | 2026-08-21 | Tom Nguyen | 
+
+##########################################################################################
+### XLSX: M_and_A_Signoff_Tracker_Aug2026.xlsx
+##########################################################################################
+
+--- SHEET: Sign-off Tracker  (dims A1:F19) ---
+Role | Name | Department | Sign-off Status | Date | Conditions / Notes
+VP Engineering | Raj Malhotra | Engineering | Approved | 2026-08-20 | Infrastructure looks acceptable, accepting P99 risk given test env scale.
+Chief Information Security Officer | Priya Deshpande | Security | Conditional | 2026-08-21 | Sign-off conditioned strictly on fixing VULN-0019 (PII export audit trail) before closing date.
+VP Product | James Chen | Product | Approved | 2026-08-19 | Feature set is ready.
+Director of M&A Integration | Sarah Chen | Operations | Approved | 2026-08-18 | Integration pilots completed successfully.
+Chief Legal Officer | Dr. Lisa Pham | Legal | Pending | — | Blocked. Waiting on updated GDPR risk assessment from compliance team after the recent audit findings.
+VP Customer Success | Tom Nguyen | Support | Approved | 2026-08-22 | Support documentation is ready.
+Director of Cloud Ops | Miguel Santos | Infrastructure | Approved | 2026-08-21 | 
+Head of QA | Anita Flores | Quality Assurance | Conditional | 2026-08-22 | Sign-off conditioned on resolving the UI layout issues (VULN-0049) within first 30 days.
+Chief Financial Officer | David Zhang | Finance | Approved | 2026-08-15 | Financial modeling for post-close operational expenditures looks solid.
+VP Sales | Rachel Kim | Sales | Approved | 2026-08-16 | Go-to-market strategy aligned with product features.
+Director of HR | Marcus Johnson | Human Resources | Approved | 2026-08-17 | Employee retention plans finalized for the acquired team.
+VP Marketing | Elena Rostova | Marketing | Approved | 2026-08-18 | PR announcement draft reviewed and approved.
+Chief Privacy Officer | Kevin Park | Compliance | Pending | — | Waiting to sync with Legal on the GDPR audit implications.
+Director of IT | Samuel Wright | IT Support | Approved | 2026-08-19 | Hardware provisioning plan for new employees is complete.
+VP Business Development | Laura Martinez | Business Dev | Approved | 2026-08-14 | Partner ecosystem transition is on track.
+Chief Revenue Officer | Michael Scott | Sales | Approved | 2026-08-15 | Revenue targets for Q4 merged successfully.
+Director of Design | Amanda Lee | UX/UI | Approved | 2026-08-20 | Brand guidelines sent over for app reskinning.
+Head of Data Science | Vikram Patel | Analytics | Approved | 2026-08-21 | Data warehouse migration strategy is approved.
+
+##########################################################################################
+### XLSX: Security_Vulnerability_Scan_Results_Aug2026.xlsx
+##########################################################################################
+
+--- SHEET: Open Vulnerabilities  (dims A1:K48) ---
+Vulnerability ID | Title | Module | Auditor Severity | Target IT Severity | Status | Assignee | Found Date | Target Fix Date | GDPR Impact | Notes
+VULN-0003 | Intermittent failure in payment gateway callback | Payment Verification | Major | Major | Reopened | Kevin Park | 2026-08-04 | 2026-09-01 | No | Originally fixed in v4.1 patch 3 — now recurred. Root cause may be different
+VULN-0004 | Customer search returns stale cache results after record update | Customer Search | Major | Major | In Progress | Kevin Park | 2026-08-04 | 2026-08-29 | No | only happens when Elasticsearch index refresh interval >5s
+VULN-0005 | Contract conflict detection misses overlapping multi-vendor slots | Contract Scheduling | Major | Major | In Progress | Anita Flores | 2026-08-05 | 2026-09-02 | No | workaround: manually check calendar before booking
+VULN-0006 | Report generation fails silently for datasets >50k rows | Report Generation | Major | Major | Under Review | Kevin Park | 2026-08-05 | 2026-09-03 | No | workaround documented in KB-4421
+VULN-0007 | Notification service drops messages during Redis failover | Notification Service | Major | Major | In Progress | Kevin Park | 2026-08-05 | 2026-08-30 | No | Raj looked at this — might be a connection pool config issue
+VULN-0008 | SSO token refresh race condition on concurrent browser tabs | User Auth | Minor | Minor | In Progress | Kevin Park | 2026-08-06 | 2026-08-28 | No | linked to PILOT-001 failures
+VULN-0009 | SAML assertion parsing fails with special chars in display name | User Auth | Minor | Minor | Under Review | Kevin Park | 2026-08-06 | 2026-08-29 | No | edge case — only affects names with accented characters
+VULN-0010 | Dashboard widget drag-and-drop broken on Firefox 115+ | Executive Dashboard | Minor | Minor | Open | Anita Flores | 2026-08-06 | 2026-09-05 | No | Firefox-specific CSS issue, Chrome/Edge fine
+VULN-0011 | Bulk import CSV parser chokes on UTF-8 BOM marker | Bulk Data Import | Minor | Minor | In Progress | Kevin Park | 2026-08-06 | 2026-08-27 | No | quick fix — just strip BOM before parsing
+VULN-0012 | PII export fails silently when session token expires mid-transfer | PII Data Export | Critical | Major | In Progress | Kevin Park | 2026-08-06 | 2026-09-01 | Yes | Auditor: data loss risk. Target IT: edge case, token refresh handles it in most scenarios
+VULN-0013 | Calendar timezone offset wrong for offices in Arizona (no DST) | Contract Scheduling | Minor | Minor | Open | Anita Flores | 2026-08-07 | 2026-09-08 | No | Arizona doesn't observe DST — our TZ library assumes it does
+VULN-0014 | Report PDF export truncates long table headers | Report Generation | Cosmetic | Cosmetic | Open | Anita Flores | 2026-08-07 | 2026-09-12 | No | cosmetic only — data is intact, just header text gets cut off
+VULN-0015 | Customer record lock not released after browser crash | Customer Record | Major | Major | In Progress | Kevin Park | 2026-08-07 | 2026-08-29 | No | blocking some PILOT-002 tests. Lock expires after 30min but that's too long
+VULN-0016 | API rate limiter counts OPTIONS preflight requests | API Gateway | Minor | Minor | Open | Kevin Park | 2026-08-08 | 2026-09-05 | No | CORS preflight shouldn't count against rate limit
+VULN-0017 | Vendor catalog cache not invalidated on update | Vendor Catalog | Minor | Minor | In Progress | Anita Flores | 2026-08-08 | 2026-09-01 | No | stale catalog data shown until next cache refresh (15min)
+VULN-0018 | Mobile layout breaks on Galaxy S21 in landscape | UI — Mobile | Cosmetic | Cosmetic | Open | Anita Flores | 2026-08-08 | 2026-09-15 | No | specific to One UI 6 browser — low priority
+VULN-0019 | PII data export audit trail missing user-action-level detail | PII Data Export | Critical | Critical | In Progress | Miguel Santos | 2026-08-08 | 2026-09-02 | Yes | CISO sign-off conditioned on this fix. Linked to GDPR control AC-7
+VULN-0020 | Dashboard performance widget shows wrong baseline after reset | Executive Dashboard | Minor | Minor | Waiting on Info | Anita Flores | 2026-08-09 | 2026-09-04 | No | need clarification from James on expected baseline behavior
+VULN-0021 | Payment batch verification timeout not configurable | Payment Verification | Minor | Minor | Open | Kevin Park | 2026-08-09 | 2026-09-10 | No | hardcoded 30s timeout — some banks take longer
+VULN-0022 | Report scheduler sends duplicate emails on DST transition | Report Generation | Minor | Minor | Open | Kevin Park | 2026-08-10 | 2026-09-12 | No | only happens twice a year, low priority
+VULN-0023 | Audit trail gaps during concurrent PII access by multiple reps | Audit Trail | Critical | Major | In Progress | Miguel Santos | 2026-08-10 | 2026-09-04 | Yes | Auditor: GDPR audit trail completeness requirement. Target IT: only under >50 concurrent sessions, unlikely in prod
+VULN-0024 | Customer search autocomplete flickers on slow connections | Customer Search | Cosmetic | Cosmetic | Open | Anita Flores | 2026-08-11 | 2026-09-15 | No | debounce interval too short — easy CSS/JS fix
+VULN-0025 | Notification preferences UI doesn't save on first click | Notification Service | Minor | Minor | In Progress | Anita Flores | 2026-08-11 | 2026-08-29 | No | Anita says this is a CSS specificity issue, quick fix
+VULN-0026 | API docs Swagger UI missing new v4.2 endpoints | API Gateway | Minor | Minor | Under Review | Kevin Park | 2026-08-11 | 2026-08-28 | No | swagger spec file needs regeneration
+VULN-0027 | Meeting reminder SMS sends at UTC instead of local time | Contract Scheduling | Minor | Minor | In Progress | Kevin Park | 2026-08-12 | 2026-09-01 | No | clients getting 3am reminders — not great
+VULN-0028 | Encryption at rest not applied to 3 new v4.2 data fields | Data Encryption | Major | Major | In Progress | Miguel Santos | 2026-08-12 | 2026-08-30 | Yes | new fields added in v4.2 migration missed in encryption config
+VULN-0029 | Dashboard chart tooltip shows raw timestamp instead of formatted date | Executive Dashboard | Cosmetic | Cosmetic | Open | Anita Flores | 2026-08-13 | 2026-09-10 | No | cosmetic only — label wraps on screens <1280px
+VULN-0030 | Bulk import progress bar stuck at 99% for large files | Bulk Data Import | Cosmetic | Cosmetic | Open | Anita Flores | 2026-08-13 | 2026-09-12 | No | import completes fine, just the progress indicator is wrong
+VULN-0031 | Auto session timeout not enforced on new executive dashboard | Session Management | Blocker | Blocker | Open | Anita Flores | 2026-08-12 | 2026-09-06 | Yes | GDPR Art 32. Causes GDPR control SC-10 to be Not Met
+VULN-0032 | Profile photo upload fails for HEIC format from iPhones | Customer Record | Minor | Minor | Open | Anita Flores | 2026-08-13 | 2026-09-08 | No | workaround: convert to JPEG before upload
+VULN-0033 | Report builder custom date range picker resets on tab switch | Report Generation | Minor | Minor | Waiting on Info | Anita Flores | 2026-08-14 | 2026-09-05 | No | can't reproduce consistently — happens maybe 1 in 200 times
+VULN-0034 | API Gateway returns 500 instead of 429 when rate limit exceeded | API Gateway | Minor | Minor | Under Review | Kevin Park | 2026-08-14 | 2026-09-03 | No | wrong HTTP status code — functional impact is the same
+VULN-0035 | Vendor contract conflict alert dismisses too easily | Vendor Catalog | Major | Major | In Progress | Anita Flores | 2026-08-14 | 2026-09-01 | No | single click dismiss without confirmation — compliance risk raised by Legal
+VULN-0036 | Dashboard widget config not preserved across sessions for new users | Executive Dashboard | Minor | Minor | In Progress | Anita Flores | 2026-08-15 | 2026-08-30 | No | localStorage key collision with legacy dashboard
+VULN-0037 | Executive dashboard timeout causes unsaved notes to be lost | Executive Dashboard | Critical | Major | Open | Anita Flores | 2026-08-15 | 2026-09-10 | No | Auditor: data loss. Target IT: autosave covers most cases. Note: listed as 'known issue' in PR draft
+VULN-0038 | Mobile navbar hamburger menu overlaps notification badge | UI — Mobile | Cosmetic | Cosmetic | Open | Anita Flores | 2026-08-16 | 2026-09-15 | No | low priority — only affects IE11 which we're dropping in v4.3
+VULN-0039 | Payment verification response caching returns stale eligibility | Payment Verification | Major | Major | Under Review | Kevin Park | 2026-08-16 | 2026-09-03 | No | cache TTL should be 0 for eligibility checks — currently 5min
+VULN-0040 | Customer search highlighting breaks with regex special chars in query | Customer Search | Minor | Minor | In Progress | Kevin Park | 2026-08-17 | 2026-08-30 | No | need to escape regex chars in search highlight logic
+VULN-0041 | Race condition in concurrent contract write causes duplicate entries | Contract Scheduling | Critical | Critical | In Progress | Kevin Park | 2026-08-18 | 2026-08-30 | No | compliance risk — duplicate contracts possible. Fix in code review
+VULN-0042 | Notification email footer shows old company address | Notification Service | Cosmetic | Cosmetic | Waiting on Info | Anita Flores | 2026-08-18 | 2026-09-10 | No | waiting on marketing for updated address block
+VULN-0043 | Report export CSV uses semicolons instead of commas for EU locale | Report Generation | Minor | Minor | Open | Kevin Park | 2026-08-19 | 2026-09-10 | No | locale-aware CSV should default to commas per US standard
+VULN-0044 | Memory leak during bulk PII export under sustained load | Bulk PII Export | Major | Major | In Progress | Kevin Park | 2026-08-19 | 2026-09-05 | No | Linked to perf benchmark memory threshold breach. Only occurs >2hr continuous export
+VULN-0045 | Dashboard accessibility: color contrast ratio fails WCAG AA for status badges | Executive Dashboard | Minor | Minor | Under Review | Anita Flores | 2026-08-20 | 2026-09-08 | No | contrast ratio 3.8:1 — needs 4.5:1 minimum
+VULN-0046 | API Gateway health check endpoint returns 200 during graceful shutdown | API Gateway | Minor | Minor | Under Review | Kevin Park | 2026-08-20 | 2026-09-04 | No | causes LB to route traffic to draining instances briefly
+VULN-0047 | Profile photo thumbnail generation fails for transparent PNGs | Customer Record | Cosmetic | Cosmetic | Waiting on Info | Kevin Park | 2026-08-21 | 2026-09-12 | No | alpha channel handling issue — waiting on Chen's architecture review before fixing
+VULN-0048 | Meeting reminder includes cancelled meetings in digest | Contract Scheduling | Minor | Minor | Reopened | Kevin Park | 2026-08-21 | 2026-09-05 | No | thought this was fixed in v4.1.3 — different code path
+VULN-0049 | Login page background image doesn't load on first visit (cache miss) | UI — Desktop | Cosmetic | Cosmetic | Open | Anita Flores | 2026-08-22 | 2026-09-15 | No | cosmetic — white flash before image loads, only on cold cache

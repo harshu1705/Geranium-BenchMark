@@ -1,0 +1,41 @@
+Prompt:
+Hey, I need you to draft a Trade Credit Decision Memo regarding the Hartsfield Polymer Technologies, LLC account. They just submitted a request to increase their unsecured credit limit from $400,000 (Net 30) to $1,500,000 (Net 60) to support a new automotive contract. The decision date is August 20, 2026. Treat this as your exact as-of date for all temporal and financial analyses.
+
+Please review the Customer_Credit_Application_Hartsfield.docx and their financials in Hartsfield_Polymer_Unaudited_Financials.xlsx. I need you to independently assess their financial health and compare it against the strict minimum requirements set out in our Crestline_Corporate_Credit_Policy.docx for $1M+ unsecured lines. As part of the independent assessment, calculate and discuss whatever liquidity, leverage, and profitability ratios you judge most relevant from the FY2025 financials, and evaluate the H1 2026 interim financials for any signs of deterioration relative to full-year 2025.
+
+Also, we need to check their payment behavior. Look at the Crestline_AR_Ledger_Hartsfield_History.xlsx and determine if their recent payment history strictly complies with our internal policy threshold.
+
+Finally, review the Dun_and_Bradstreet_Credit_Report.docx to see if there are any public records or legal filings that would disqualify them from an unsecured limit increase under our policy, and summarize what the report's risk indicators suggest about their trajectory.
+
+Compile all of this analysis into a Word document named Trade_Credit_Decision_Memo.docx. It should include an executive summary, an independent financial health assessment, your detailed quantitative financial analysis, the payment history findings, the D&B report analysis, and a clear, quantified final recommendation. Make sure you strictly adhere to the deterministic rules in Section 4 when stating whether we are approving the $1.5M unsecured request, declining it, or approving it with specific conditions.
+
+Rubric:
+1. [Weight +5] The output file is named exactly Trade_Credit_Decision_Memo.docx.
+2. [Weight +4] The memo contains an Executive Summary section.
+3. [Weight +3] The memo includes a quantitative financial analysis section that calculates and discusses the Altman Z-Score.
+4. [Weight +3] The memo includes a section analyzing the Internal Payment History or AR Ledger.
+5. [Weight +3] The memo includes a section discussing Public Records or the D&B report.
+6. [Weight +4] The memo correctly calculates Working Capital as $930,700 (Current Assets $4,115,200 - Current Liabilities $3,184,500).
+7. [Weight +5] The memo correctly calculates the Altman Z-score as 1.77 (accept 1.76 to 1.78 given intermediate rounding).
+8. [Weight +3] The memo correctly calculates the 'A' component (Working Capital / Total Assets) of the Z-score as 0.0914 (accept 0.09 to 0.10).
+9. [Weight +3] The memo correctly calculates the 'B' component (Retained Earnings / Total Assets) of the Z-score as 0.0920 (accept 0.09 to 0.10).
+10. [Weight +4] The memo correctly calculates the 'C' component (EBIT / Total Assets) of the Z-score using strict EBIT as 0.0791 (accept 0.079 to 0.08).
+11. [Weight +3] The memo correctly calculates the 'D' component (Book Value of Equity / Total Liabilities) of the Z-score as 0.4053 (accept 0.40 to 0.41).
+12. [Weight +3] The memo correctly calculates the 'E' component (Sales / Total Assets) of the Z-score as 1.0248 (accept 1.02 to 1.03).
+13. [Weight +5] The memo explicitly concludes that the calculated Z-score (approximately 1.77) fails the 1.80 minimum policy requirement.
+14. [Weight +4] The memo explicitly recognizes that the strict 3-month AR window for the payment-history test runs from May 20 to August 20, 2026.
+15. [Weight +4] The memo correctly calculates the average Days to Pay for invoices within that window as 45.25 days.
+16. [Weight +4] The memo explicitly identifies that the 45.25-day average strictly exceeds the 45-day policy maximum.
+17. [Weight +3] The memo explicitly excludes invoice INV-10611 (dated May 15, 2026) from the 3-month average Days to Pay calculation because it falls outside the strict May 20 - August 20 window.
+18. [Weight +5] The memo explicitly identifies the $45,000 active State Tax Lien from the D&B report.
+19. [Weight +4] The memo explicitly states that the tax lien violates the Section 3 policy prohibition against unresolved liens exceeding $10,000.
+20. [Weight +5] The memo makes a final recommendation of 'Decline' and explicitly justifies it by referencing Section 4(b) of the credit policy, noting that two or more mandatory-criteria failures and/or an active tax lien strictly prohibit conditional approval.
+21. [Weight -4] The memo computes the payment-history average by averaging all paid invoices in the ledger without scoping to the strict May 20 - August 20 window (e.g., arriving at approximately 39.5 days across all 10 paid invoices) and concludes the payment-history criterion is satisfied on that basis.
+22. [Weight +2] The memo correctly calculates the Current Ratio as 1.29 (Current Assets $4,115,200 / Current Liabilities $3,184,500).
+23. [Weight +2] The memo correctly calculates the Quick Ratio as 0.68, using (Current Assets - Inventory) / Current Liabilities = ($4,115,200 - $1,935,000) / $3,184,500 (accept 0.67 to 0.69).
+24. [Weight +2] The memo correctly calculates the Debt-to-Equity ratio as 2.47 (Total Liabilities $7,245,600 / Total Equity $2,936,900) (accept 2.45 to 2.49).
+25. [Weight +1] The memo correctly calculates the 2025 Net Profit Margin as 4.76% ($496,950 / $10,435,200).
+26. [Weight +2] The memo identifies that the H1 2026 EBIT margin (2.48%) declined sharply from the full-year 2025 EBIT margin (7.72%).
+27. [Weight +2] The memo identifies that H1 2026 interest coverage (EBIT / Interest Expense) fell to approximately 1.08x from 7.29x for full-year 2025, indicating operating earnings now barely cover interest expense.
+28. [Weight +3] The memo explicitly identifies the D&B Paydex Score decline from 74 (Q1 2026) to 68 (current), and the Financial Stress Score percentile of 32.
+29. [Weight +2] The memo explicitly identifies the drop in trade experiences paid within terms from 75% (prior 12 months) to 42% (trailing 12 months).

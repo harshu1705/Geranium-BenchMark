@@ -1,0 +1,151 @@
+employee_id,name,job_code,job_title,work_state,current_base_salary,employment_status,hire_date,termination_date,fte
+E-4124,Jasper Tremblay,UW-505,Underwriter I,Washington,62400,Active,2006-06-09,,1.00
+E-4511,Imani Rasmussen,HR-750,Compensation Analyst,Missouri,80100,Active,2006-07-21,,1.00
+E-4175,Nadia Castellanos,IT-920,IT Manager,California,87200,Active,2008-03-05,,1.00
+E-4133,Adela Ustinov,CL-210,"Claims Assistant, Midwest cut",Illinois,67000,Active,2008-05-25,,1.00
+E-4319,Kester Yarborough,PA-320,Policy Administration Analyst,California,32700,Active,2008-06-21,,1.00
+E-4361,Nikhil OyelowoPrasad,CL-510,Claims Adjuster II,Ohio,57700,Active,2009-03-08,,1.00
+E-4481,Leopold Jimenez,DIR-040,"Director, Information Technology",Minnesota,100400,Active,2009-07-11,,1.00
+E-4259,Ondine Coutinho,IT-740,Network Engineer,Colorado,48500,Active,2009-08-02,,1.00
+E-4280,Ulrich Marchetti,CL-960,Claims Technical Lead,Illinois,63900,Active,2009-10-03,,1.00
+E-4547,Bernard Xu,UA-225,Underwriting Support Clerk,Indiana,37600,Active,2009-11-13,,1.00
+E-4286,Bartholomew Quintanilla,IT-440,Desktop Support Analyst,Colorado,55200,Active,2010-01-13,,1.00
+E-4295,Kerensa Karlsson,UW-705,Underwriter II,Colorado,63200,Active,2010-02-26,,1.00
+E-4190,Rosalind Nakamura,CL-305,Claims Assistant,Missouri,34000,Active,2010-02-27,,1.00
+E-4514,Imani Yamamoto,IT-840,Security Engineer,Missouri,79500,Active,2010-06-21,,1.00
+E-4193,Rhodri Ustinov,CL-730,Subrogation Specialist,New York,75800,Active,2010-08-26,,1.00
+E-4376,Fiadh Oyelaran,PR-310,Premium Audit Clerk,Ohio,45100,Active,2011-02-14,,1.00
+E-4430,Dmitri Castellanos,IT-930,Enterprise Architect,Illinois,66600,Active,2011-02-22,,1.00
+E-4139,Ivo Yamamoto,CS-110,Customer Service Representative I,Washington,27700,Active,2011-07-06,,1.00
+E-4214,Zora Marchetti,AC-620,Actuarial Analyst II,California,56600,Active,2011-07-22,,1.00
+E-4343,Dmitri Rasmusson,IT-630,Data Engineer,Colorado,61900,Active,2012-07-05,,1.00
+E-4409,Fiadh Xu,UW-830,"Senior Underwriter, Personal Lines",Minnesota,64000,Active,2012-07-22,,1.00
+E-4484,Ulrich Vasquez,IT-440,Desktop Support Analyst,Missouri,57400,Active,2013-01-03,,1.00
+E-4541,Imani Lefebvre,IT-630,Data Engineer,Ohio,65200,Active,2013-03-24,,1.00
+E-4499,Rosalind OyelowoPrasad,AC-915,Actuarial Manager,California,66900,Active,2013-04-23,,1.00
+E-4433,Dmitri Haverford,PR-335,Premium Audit Analyst,California,57000,Active,2013-09-21,,1.00
+E-4235,Willa Jimenez,PR-335,Premium Audit Analyst,New York,42700,Leave,2014-01-19,,1.00
+E-4178,Maeve Castellanos,PR-310,Premium Audit Clerk,Missouri,33700,Active,2014-05-04,,1.00
+E-4451,Ondine Lindqvist,CS-230,Customer Service Representative III,Colorado,50000,Active,2014-06-01,,1.00
+E-4496,Anouk OyelowoPrasad,AC-540,Reinsurance Analyst,Missouri,53100,Active,2014-06-05,,1.00
+E-4454,Hamish Mwangi,TR-120,"Trainee, Rotational Program",Illinois,46500,Active,2014-07-04,,1.00
+E-4493,Verena Espinosa,UW-705,Underwriter II,California,84500,Leave,2014-08-19,,1.00
+E-4184,Anouk Thibodeaux,AC-430,Accounts Payable Analyst,Illinois,53100,Active,2014-12-12,,1.00
+E-4538,Aditi Pettigrew,DIR-050,"Director, Finance",Missouri,78500,Active,2014-12-20,,1.00
+E-4331,Kerensa Mwangi,CL-210,"Claims Assistant, Midwest cut",Colorado,63500,Active,2015-01-05,,1.00
+E-4445,Kester Jimenez,CL-315,Claims Intake Specialist,New York,43600,Active,2015-01-06,,1.00
+E-4439,Terrence Delacroix,AC-520,Financial Analyst,Minnesota,38500,Active,2015-02-01,,1.00
+E-4238,Grania Lindqvist,UW-650,Product Analyst,Washington,44800,Active,2015-02-03,,1.00
+E-4478,Rosalind Ilyushin,CL-960,Claims Technical Lead,Minnesota,61200,Active,2015-06-20,,1.00
+E-4136,Kester Quiroga,CL-710,Claims Adjuster III,Minnesota,66900,Leave,2015-07-13,,1.00
+E-4115,Fitzgerald Jankowski,HR-750,Compensation Analyst,Washington,63200,Active,2015-07-27,,1.00
+E-4151,Gideon Haverford,UA-225,Underwriting Support Clerk,Missouri,50000,Active,2015-08-01,,1.00
+E-4502,Leopold Espinosa,CL-410,Claims Adjuster I,California,50600,Active,2015-09-20,,1.00
+E-4412,Colleen Tremblay,AC-620,Actuarial Analyst II,Illinois,64700,Terminated,2015-09-23,2027-01-15,1.00
+E-4532,Georgina Kowalczyk,CL-710,Claims Adjuster III,Illinois,81600,Active,2015-12-05,,1.00
+E-4199,Ingrid Halvorsen,HR-425,Human Resources Generalist,Indiana,35400,Active,2016-02-22,,1.00
+E-4421,Delphine Marchetti,CL-950,Claims Operations Manager,California,100400,Active,2016-03-10,,1.00
+E-4211,Caspian Pettigrew,UW-830,"Senior Underwriter, Personal Lines",California,89400,Active,2016-03-12,,1.00
+E-4310,Imani Espinosa,DIR-010,"Director, Claims Operations",California,75000,Active,2016-04-02,,1.00
+E-4472,Bartholomew Kowalczyk,BL-215,Billing Specialist,New York,50900,Active,2016-04-09,,1.00
+E-4289,Ivo Lindqvist,MR-105,Mailroom and Records Clerk,Colorado,32700,Active,2016-07-07,,1.00
+E-4415,Terrence Ferreira,BL-175,Billing Clerk II,California,39500,Active,2016-08-11,,1.00
+E-4382,Lorenzo Wojcik,AC-430,Accounts Payable Analyst,Washington,50600,Active,2016-09-10,,1.00
+E-4391,Hester Ustinov,CL-730,Subrogation Specialist,Illinois,71800,Active,2016-10-03,,1.00
+E-4298,Esme Ballantyne,AC-540,Reinsurance Analyst,Illinois,39600,Active,2016-12-15,,1.00
+E-4196,Saoirse Thibodeaux,CS-120,Customer Service Representative II,New York,38100,Active,2017-03-16,,1.00
+E-4217,Xiomara Jankowski,BL-175,Billing Clerk II,Ohio,36700,Active,2017-04-14,,1.00
+E-4463,Rhodri Suzuki,UW-405,Underwriting Technician,Ohio,50400,Active,2017-04-25,,1.00
+E-4349,Aditi Jimenez,UA-225,Underwriting Support Clerk,Missouri,35800,Active,2017-07-06,,1.00
+E-4256,Bernard Tremblay,HR-445,Recruiting Coordinator,Colorado,48800,Active,2017-07-08,,1.00
+E-4181,Ivo Tremblay,UW-530,"Underwriter, Personal Lines",Missouri,57700,Active,2017-08-28,,1.00
+E-4508,Lorenzo Delacroix,DIR-010,"Director, Claims Operations",Missouri,77100,Active,2017-12-13,,1.00
+E-4145,Farrukh Castellanos,IT-630,Data Engineer,California,58000,Active,2017-12-25,,1.00
+E-4394,Grania Lefebvre,CS-120,Customer Service Representative II,Colorado,40600,Active,2017-12-28,,1.00
+E-4322,Nikhil Haverford,UW-505,Underwriter I,Illinois,59500,Active,2018-06-15,,1.00
+E-4517,Jarrod Castellanos,PA-320,Policy Administration Analyst,Illinois,39700,Active,2018-10-09,,1.00
+E-4379,Leopold Oyelaran,UW-530,"Underwriter, Personal Lines",Missouri,38500,Active,2019-02-23,,1.00
+E-4205,Dmitri Delacroix,PA-140,Policy Services Clerk,Illinois,36900,Active,2019-03-02,,1.00
+E-4202,Delphine Ueda,IT-720,Systems Analyst,Washington,75000,Active,2019-04-13,,1.00
+E-4364,Vikram Halvorsen,CL-910,Claims Manager,Ohio,108500,Leave,2019-04-19,,1.00
+E-4487,Hollis Tremblay,MR-105,Mailroom and Records Clerk,Illinois,34400,Active,2019-04-24,,1.00
+E-4208,Cecily Villanueva,UW-320,"Senior Underwriter, Commercial Lines",Illinois,62300,Active,2019-05-02,,1.00
+E-4526,Wendell Kowalczyk,AC-760,Treasury Analyst,Ohio,75700,Active,2019-05-07,,1.00
+E-4229,Yannick Lefebvre,IT-415,Applications Support Analyst,New York,41800,Active,2019-05-11,,1.00
+E-4424,Cecily Ballantyne,DIR-030,"Director, Actuarial Services",Ohio,123600,Active,2019-05-22,,1.00
+E-4223,Grania Yarborough,CL-950,Claims Operations Manager,Minnesota,95300,Active,2019-05-28,,1.00
+E-4241,Vikram Yarborough,AC-520,Financial Analyst,Illinois,57700,Active,2019-06-08,,1.00
+E-4460,Willa Yamamoto,PA-210,Policy Administration Clerk,Ohio,29700,Active,2019-07-18,,1.00
+E-4529,Zora Kowalczyk,CL-210,"Claims Assistant, Midwest cut",Washington,45500,Active,2019-08-01,,1.00
+E-4490,Soren Ballantyne,UA-205,Underwriting Assistant,Colorado,34000,Active,2019-12-11,,1.00
+E-4505,Gideon Gustafsson,CL-850,Litigation Specialist,Illinois,64700,Active,2019-12-20,,1.00
+E-4100,Maeve Ibarra,AC-540,Reinsurance Analyst,California,41400,Active,2020-01-08,,1.00
+E-4118,Soren Haverford,IT-840,Security Engineer,Colorado,55800,Active,2020-02-12,,1.00
+E-4523,Thaddeus Castellanos,AC-420,Staff Accountant,Ohio,50400,Active,2020-06-15,,1.00
+E-4109,Perpetua Tremblay,CL-850,Litigation Specialist,Missouri,57300,Active,2020-09-21,,1.00
+E-4397,Hollis Coutinho,HR-425,Human Resources Generalist,Ohio,42900,Active,2020-11-18,,1.00
+E-4253,Verena Haverford,CS-230,Customer Service Representative III,Ohio,52800,Active,2020-12-01,,1.00
+E-4274,Anouk Halvorsen,BL-215,Billing Specialist,Illinois,44500,Active,2020-12-02,,1.00
+E-4142,Adela Ballantyne,DIR-050,"Director, Finance",Ohio,117800,Active,2020-12-06,,1.00
+E-4283,Gideon Lindqvist,DIR-040,"Director, Information Technology",Washington,73000,Terminated,2020-12-17,2027-01-15,1.00
+E-4169,Terrence Jimenez,DIR-020,"Director, Underwriting",California,83200,Terminated,2020-12-19,2027-01-15,1.00
+E-4187,Esme Tremblay,AC-820,Actuarial Analyst III,California,73800,Active,2021-01-11,,1.00
+E-4406,Lorenzo Mwangi,UW-320,"Senior Underwriter, Commercial Lines",Indiana,84500,Active,2021-01-21,,1.00
+E-4262,Kavita Jankowski,PA-210,Policy Administration Clerk,Washington,42700,Active,2021-02-05,,1.00
+E-4469,Zora Oyelaran,AC-715,Senior Financial Analyst,Missouri,57300,Active,2021-03-07,,1.00
+E-4340,Ondine Halvorsen,DIR-050,"Director, Finance",Ohio,82000,Active,2021-03-24,,1.00
+E-4535,Una Xu,CS-110,Customer Service Representative I,Ohio,36000,Active,2021-05-19,,1.00
+E-4160,Ivo Yarborough,AC-960,Reserving Manager,Indiana,72000,Active,2021-05-23,,1.00
+E-4163,Emrys Castellanos,CL-510,Claims Adjuster II,California,54800,Active,2021-06-14,,1.00
+E-4400,Tabitha Nurmi,IT-720,Systems Analyst,Ohio,52200,Active,2021-08-17,,1.00
+E-4358,Verena Jimenez,AC-960,Reserving Manager,New York,69000,Active,2022-02-25,,1.00
+E-4121,Osgood Tremblay,PA-320,Policy Administration Analyst,Illinois,49100,Active,2022-04-20,,1.00
+E-4520,Delphine Castellanos,UW-505,Underwriter I,California,41400,Active,2022-05-27,,1.00
+E-4385,Zora Rasmusson,AC-820,Actuarial Analyst III,Illinois,79200,Active,2022-06-08,,1.00
+E-4301,Donovan Quintanilla,AC-915,Actuarial Manager,Illinois,100400,Active,2022-06-19,,1.00
+E-4388,Aditi Lindqvist,CL-305,Claims Assistant,California,34900,Active,2022-09-17,,1.00
+E-4106,Caspian Oyelaran,CL-410,Claims Adjuster I,Illinois,51100,Active,2022-10-04,,1.00
+E-4346,Esme OyelowoPrasad,MR-160,Records Technician,California,43200,Active,2022-10-22,,1.00
+E-4334,Juno Pettigrew,CL-710,Claims Adjuster III,Washington,71300,Active,2022-12-02,,1.00
+E-4232,Una Castellanos,IT-930,Enterprise Architect,Ohio,99900,Active,2022-12-10,,1.00
+E-4367,Farrukh Villanueva,DIR-020,"Director, Underwriting",Washington,94700,Active,2022-12-27,,1.00
+E-4268,Adela Xu,UW-905,Underwriting Manager,Ohio,77100,Active,2023-01-12,,1.00
+E-4247,Willa Halvorsen,CL-315,Claims Intake Specialist,Washington,40700,Active,2023-01-22,,1.00
+E-4250,Lorenzo Haverford,CL-810,Claims Supervisor,New York,66600,Active,2023-03-14,,1.00
+E-4355,Kerensa Jimenez,AC-610,Actuarial Analyst I,California,56700,Active,2023-03-22,,1.00
+E-4127,Cecily Coutinho,AC-420,Staff Accountant,Illinois,44000,Active,2023-04-23,,1.00
+E-4313,Bartholomew Ballantyne,HR-750,Compensation Analyst,California,84500,Active,2023-05-26,,1.00
+E-4226,Jasper Thibodeaux,DIR-030,"Director, Actuarial Services",Indiana,119000,Active,2023-08-07,,1.00
+E-4403,Willa Haverford,PA-140,Policy Services Clerk,Washington,39400,Active,2023-08-11,,1.00
+E-4337,Fitzgerald Lindqvist,CS-110,Customer Service Representative I,Colorado,33500,Active,2023-09-02,,1.00
+E-4373,Quentin Haverford,IT-920,IT Manager,Illinois,116600,Active,2023-10-16,,1.00
+E-4352,Elaine Fairweather,UW-805,Underwriting Supervisor,Washington,99900,Active,2023-10-22,,1.00
+E-4157,Kavita Yarborough,AC-610,Actuarial Analyst I,California,52700,Active,2023-12-12,,1.00
+E-4277,Yannick Rasmussen,CL-640,Claims Quality Reviewer,Ohio,52700,Active,2023-12-18,,1.00
+E-4220,Fitzgerald Haverford,CL-525,"Claims Adjuster, Field",Washington,38100,Active,2024-01-25,,1.00
+E-4370,Cecily Jimenez,HR-940,HR Business Partner,New York,66600,Active,2024-01-26,,1.00
+E-4328,Jasper Sandoval,AC-760,Treasury Analyst,Ohio,55900,Active,2024-01-28,,1.00
+E-4265,Bernard Karlsson,UW-405,Underwriting Technician,Colorado,47200,Active,2024-02-17,,1.00
+E-4442,Delphine Xu,AC-860,Senior Actuarial Analyst,Ohio,91800,Active,2024-03-22,,1.00
+E-4325,Donovan Wojcik,AC-420,Staff Accountant,California,47200,Active,2024-05-20,,1.00
+E-4271,Hollis Jimenez,SP-905,Special Projects Lead,California,46500,Active,2024-06-06,,1.00
+E-4436,Adela Espinosa,UW-650,Product Analyst,Minnesota,60000,Active,2024-08-22,,1.00
+E-4304,Wendell Lefebvre,CL-410,Claims Adjuster I,Missouri,53100,Active,2024-09-07,,1.00
+E-4457,Ingrid Jimenez,IT-740,Network Engineer,Missouri,58800,Active,2024-10-18,,1.00
+E-4103,Hester Yamamoto,AC-915,Actuarial Manager,Illinois,95300,Active,2024-11-02,,1.00
+E-4166,Caspian Castellanos,CL-910,Claims Manager,Minnesota,104400,Active,2024-11-23,,1.00
+E-4448,Elaine Espinosa,CL-810,Claims Supervisor,Washington,68400,Active,2025-02-16,,1.00
+E-4475,Wendell Tremblay,CL-640,Claims Quality Reviewer,Ohio,56700,Active,2025-03-14,,1.00
+E-4427,Vikram Adeyemi,IT-415,Applications Support Analyst,Illinois,44000,Active,2025-03-24,,1.00
+E-4316,Juno Lefebvre,IT-840,Security Engineer,Missouri,74600,Active,2025-05-04,,1.00
+E-4244,Caspian Jimenez,AC-860,Senior Actuarial Analyst,Missouri,96300,Active,2025-05-05,,1.00
+E-4148,Ondine Haverford,MR-160,Records Technician,Missouri,31800,Active,2025-05-21,,1.00
+E-4466,Georgina Xu,UW-905,Underwriting Manager,Indiana,104400,Active,2025-05-24,,1.00
+E-4418,Jasper Halvorsen,CL-525,"Claims Adjuster, Field",Missouri,36400,Active,2025-05-25,,1.00
+E-4154,Jarrod Ilyushin,UW-805,Underwriting Supervisor,New York,87300,Active,2025-06-27,,1.00
+E-4544,Saoirse Adeyemi,MR-160,Records Technician,Illinois,44800,Active,2025-07-06,,1.00
+E-4172,Imani Jimenez,HR-940,HR Business Partner,California,99900,Active,2025-07-10,,1.00
+E-4307,Donovan Jimenez,CL-850,Litigation Specialist,Illinois,60300,Active,2025-07-16,,1.00
+E-4130,Juno Rasmussen,AC-760,Treasury Analyst,Illinois,54400,Active,2025-09-05,,1.00
+E-4112,Perpetua Jankowski,DIR-010,"Director, Claims Operations",Colorado,112600,Active,2025-09-08,,1.00
+E-4292,Gideon Mwangi,UA-205,Underwriting Assistant,California,50900,Active,2025-10-10,,1.00

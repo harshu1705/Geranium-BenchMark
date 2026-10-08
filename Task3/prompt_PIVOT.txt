@@ -1,0 +1,21 @@
+Q4 close is done and the Board Audit Committee meeting is in two weeks, which means I owe them the quarterly loan portfolio review. I haven't had a chance to dig into this quarter's numbers myself and I know at least a couple of these credits have gotten worse, so I want a full independent pass rather than someone just rolling forward last quarter's report. Build it per Loan_Portfolio_Review_Policy.docx.
+
+You'll need Loan_Register_Q4_2025.xlsx for the loan-level detail (balances, risk ratings, loan type, officer, days past due), Borrower_Financial_Statements_Summary.xlsx and Appraisal_and_Collateral_Summary_Q4_2025.xlsx for the numbers behind each borrower's covenant math, Covenant_Compliance_Workbook_Q4_2025.xlsx for the per-loan thresholds, and Exception_Tracking_Log_Q4_2025.xlsx for what's already been logged.
+
+One thing the policy is clear on: don't take the DSCR, LTV, and Current Ratio columns already sitting in the Covenant Compliance Workbook at face value. Recompute all three for every loan yourself from the underlying financial statements and appraisal figures. Loan officers update that workbook manually and it doesn't always catch up with a fresh appraisal or a new set of financials, so check each one against the source data before you write down that a loan is or isn't in breach.
+
+Once you've got the real numbers, here's what I need:
+
+Go through the full loan register and flag every covenant breach, by loan, by which specific covenant it's breaching (DSCR, LTV, or Current Ratio) and by how much relative to that loan's own threshold.
+
+Pull every loan carrying an Internal Risk Rating of 4 or higher onto the Watch List, per the policy's definition, and note what's already being done about each one based on the exception log.
+
+Check our concentration exposure against the three Board-approved limits in the policy: no single borrower over 15% of the portfolio, no single loan type over 40%, and no single loan officer's book over 40%. Tell me exactly where we stand on each and by how much we're over or under.
+
+Pull together everything currently logged in the exception tracking system so the committee has one place to see what's open, who owns it, and what the remediation status is.
+
+Identify anything that meets the policy's definition of non-performing (90-plus days past due) and lay out the exposure on it.
+
+Close with your own read on overall portfolio risk this quarter: the two or three things that most concern you, and what you'd want done about them.
+
+Write it up as Loan_Portfolio_Review_Report_Q4_2025.docx, following the report structure the policy lays out.

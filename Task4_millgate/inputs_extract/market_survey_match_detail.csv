@@ -1,0 +1,63 @@
+job_code,benchmark_title,evaluation_points,source,source_effective,reported_50th_percentile,scope_match,incumbents_in_cut,match_note
+AC-420,Staff Accountant,288,Cranmere Carrier Compensation Survey,2026-07-01,51100,Exact,11,Title and scope agree with the published definition.
+AC-420,Staff Accountant,288,Delaney National Insurance Survey,2025-04-01,49300,Exact,7,Title and scope agree with the published definition.
+AC-520,Financial Analyst,356,Cranmere Carrier Compensation Survey,2026-07-01,60200,Exact,13,Title and scope agree with the published definition.
+AC-520,Financial Analyst,356,Delaney National Insurance Survey,2025-04-01,58100,Exact,9,Title and scope agree with the published definition.
+AC-610,Actuarial Analyst I,372,Hollis Regional Property and Casualty Study,2024-10-01,60400,Good,16,Minor scope difference, accepted by the analyst.
+AC-715,Senior Financial Analyst,452,Cranmere Carrier Compensation Survey,2026-07-01,76100,Good,10,Minor scope difference, accepted by the analyst.
+AC-820,Actuarial Analyst III,547,Cranmere Carrier Compensation Survey,2026-07-01,93100,Good,7,Minor scope difference, accepted by the analyst.
+AC-820,Actuarial Analyst III,547,Delaney National Insurance Survey,2025-04-01,89800,Good,5,Minor scope difference, accepted by the analyst.
+AC-915,Actuarial Manager,605,Cranmere Carrier Compensation Survey,2026-07-01,103600,Good,5,Minor scope difference, accepted by the analyst.
+BL-215,Billing Specialist,177,Cranmere Carrier Compensation Survey,2026-07-01,43600,Good,19,Minor scope difference, accepted by the analyst.
+BL-215,Billing Specialist,177,Delaney National Insurance Survey,2025-04-01,42000,Good,15,Minor scope difference, accepted by the analyst.
+CL-210,"Claims Assistant, Midwest cut",322,Cranmere Carrier Compensation Survey,2026-07-01,52600,Good,3,Minor scope difference, accepted by the analyst.
+CL-305,Claims Assistant,218,Cranmere Carrier Compensation Survey,2026-07-01,45300,Exact,24,Title and scope agree with the published definition.
+CL-305,Claims Assistant,218,Delaney National Insurance Survey,2025-04-01,43700,Exact,20,Title and scope agree with the published definition.
+CL-410,Claims Adjuster I,266,Cranmere Carrier Compensation Survey,2026-07-01,48100,Exact,31,Title and scope agree with the published definition.
+CL-410,Claims Adjuster I,266,Delaney National Insurance Survey,2025-04-01,46400,Exact,27,Title and scope agree with the published definition.
+CL-510,Claims Adjuster II,331,Cranmere Carrier Compensation Survey,2026-07-01,55000,Exact,27,Title and scope agree with the published definition.
+CL-510,Claims Adjuster II,331,Delaney National Insurance Survey,2025-04-01,53000,Exact,23,Title and scope agree with the published definition.
+CL-710,Claims Adjuster III,424,Cranmere Carrier Compensation Survey,2026-07-01,68900,Exact,18,Title and scope agree with the published definition.
+CL-710,Claims Adjuster III,424,Delaney National Insurance Survey,2025-04-01,66500,Exact,14,Title and scope agree with the published definition.
+CL-810,Claims Supervisor,524,Cranmere Carrier Compensation Survey,2026-07-01,84900,Good,14,Minor scope difference, accepted by the analyst.
+CL-810,Claims Supervisor,524,Delaney National Insurance Survey,2025-04-01,82000,Good,10,Minor scope difference, accepted by the analyst.
+CL-910,Claims Manager,571,Cranmere Carrier Compensation Survey,2026-07-01,93600,Exact,9,Title and scope agree with the published definition.
+CL-910,Claims Manager,571,Delaney National Insurance Survey,2025-04-01,90300,Exact,5,Title and scope agree with the published definition.
+CL-960,Claims Technical Lead,561,Cranmere Carrier Compensation Survey,2026-07-01,96000,Partial,14,Published cut spans a broader role than ours.
+CS-110,Customer Service Representative I,128,Cranmere Carrier Compensation Survey,2026-07-01,38500,Exact,41,Title and scope agree with the published definition.
+CS-110,Customer Service Representative I,128,Delaney National Insurance Survey,2025-04-01,37200,Exact,37,Title and scope agree with the published definition.
+CS-120,Customer Service Representative II,141,Cranmere Carrier Compensation Survey,2026-07-01,40300,Good,33,Minor scope difference, accepted by the analyst.
+CS-120,Customer Service Representative II,141,Delaney National Insurance Survey,2025-04-01,38900,Good,29,Minor scope difference, accepted by the analyst.
+CS-230,Customer Service Representative III,191,Cranmere Carrier Compensation Survey,2026-07-01,45000,Exact,26,Title and scope agree with the published definition.
+DIR-010,"Director, Claims Operations",618,Cranmere Carrier Compensation Survey,2026-07-01,105700,Exact,6,Title and scope agree with the published definition.
+DIR-010,"Director, Claims Operations",618,Delaney National Insurance Survey,2025-04-01,102000,Exact,5,Title and scope agree with the published definition.
+DIR-020,"Director, Underwriting",629,Cranmere Carrier Compensation Survey,2026-07-01,110100,Good,5,Minor scope difference, accepted by the analyst.
+DIR-020,"Director, Underwriting",629,Delaney National Insurance Survey,2025-04-01,106300,Good,5,Minor scope difference, accepted by the analyst.
+DIR-030,"Director, Actuarial Services",642,Cranmere Carrier Compensation Survey,2026-07-01,117000,Exact,5,Title and scope agree with the published definition.
+HR-425,Human Resources Generalist,305,Cranmere Carrier Compensation Survey,2026-07-01,55800,Good,8,Minor scope difference, accepted by the analyst.
+HR-425,Human Resources Generalist,305,Delaney National Insurance Survey,2025-04-01,53900,Good,5,Minor scope difference, accepted by the analyst.
+IT-415,Applications Support Analyst,296,Cranmere Carrier Compensation Survey,2026-07-01,53400,Good,14,Minor scope difference, accepted by the analyst.
+IT-720,Systems Analyst,441,Cranmere Carrier Compensation Survey,2026-07-01,73100,Exact,12,Title and scope agree with the published definition.
+IT-720,Systems Analyst,441,Delaney National Insurance Survey,2025-04-01,70600,Exact,8,Title and scope agree with the published definition.
+IT-920,IT Manager,594,Cranmere Carrier Compensation Survey,2026-07-01,99700,Exact,6,Title and scope agree with the published definition.
+IT-920,IT Manager,594,Delaney National Insurance Survey,2025-04-01,96200,Exact,5,Title and scope agree with the published definition.
+MR-105,Mailroom and Records Clerk,152,Cranmere Carrier Compensation Survey,2026-07-01,42900,Good,12,Minor scope difference, accepted by the analyst.
+PA-210,Policy Administration Clerk,168,Cranmere Carrier Compensation Survey,2026-07-01,42100,Exact,28,Title and scope agree with the published definition.
+PA-210,Policy Administration Clerk,168,Delaney National Insurance Survey,2025-04-01,40600,Exact,24,Title and scope agree with the published definition.
+PA-320,Policy Administration Analyst,235,Cranmere Carrier Compensation Survey,2026-07-01,47200,Good,17,Minor scope difference, accepted by the analyst.
+PA-320,Policy Administration Analyst,235,Delaney National Insurance Survey,2025-04-01,45500,Good,13,Minor scope difference, accepted by the analyst.
+PR-310,Premium Audit Clerk,251,Cranmere Carrier Compensation Survey,2026-07-01,50100,Good,9,Minor scope difference, accepted by the analyst.
+UA-205,Underwriting Assistant,203,Cranmere Carrier Compensation Survey,2026-07-01,47300,Good,22,Minor scope difference, accepted by the analyst.
+UA-205,Underwriting Assistant,203,Delaney National Insurance Survey,2025-04-01,45600,Good,18,Minor scope difference, accepted by the analyst.
+UW-320,"Senior Underwriter, Commercial Lines",478,Cranmere Carrier Compensation Survey,2026-07-01,80600,Exact,19,Title and scope agree with the published definition.
+UW-320,"Senior Underwriter, Commercial Lines",478,Delaney National Insurance Survey,2025-04-01,77800,Exact,15,Title and scope agree with the published definition.
+UW-405,Underwriting Technician,274,Cranmere Carrier Compensation Survey,2026-07-01,49800,Good,15,Minor scope difference, accepted by the analyst.
+UW-405,Underwriting Technician,274,Delaney National Insurance Survey,2025-04-01,48100,Good,11,Minor scope difference, accepted by the analyst.
+UW-505,Underwriter I,344,Cranmere Carrier Compensation Survey,2026-07-01,57300,Good,21,Minor scope difference, accepted by the analyst.
+UW-505,Underwriter I,344,Delaney National Insurance Survey,2025-04-01,55300,Good,17,Minor scope difference, accepted by the analyst.
+UW-705,Underwriter II,429,Cranmere Carrier Compensation Survey,2026-07-01,71400,Good,23,Minor scope difference, accepted by the analyst.
+UW-705,Underwriter II,429,Delaney National Insurance Survey,2025-04-01,68900,Good,19,Minor scope difference, accepted by the analyst.
+UW-805,Underwriting Supervisor,528,Cranmere Carrier Compensation Survey,2026-07-01,88500,Exact,11,Title and scope agree with the published definition.
+UW-805,Underwriting Supervisor,528,Delaney National Insurance Survey,2025-04-01,85400,Exact,7,Title and scope agree with the published definition.
+UW-905,Underwriting Manager,583,Cranmere Carrier Compensation Survey,2026-07-01,96900,Good,8,Minor scope difference, accepted by the analyst.
+UW-905,Underwriting Manager,583,Delaney National Insurance Survey,2025-04-01,93500,Good,5,Minor scope difference, accepted by the analyst.

@@ -1,0 +1,685 @@
+{
+  "bands": [
+    [
+      120,
+      169
+    ],
+    [
+      170,
+      219
+    ],
+    [
+      220,
+      269
+    ],
+    [
+      270,
+      319
+    ],
+    [
+      320,
+      369
+    ],
+    [
+      370,
+      419
+    ],
+    [
+      420,
+      469
+    ],
+    [
+      470,
+      519
+    ],
+    [
+      520,
+      569
+    ],
+    [
+      570,
+      619
+    ],
+    [
+      620,
+      669
+    ]
+  ],
+  "grade_min": {
+    "1": "34900",
+    "2": "40200",
+    "3": "41300",
+    "4": "43800",
+    "5": "47600",
+    "6": "53800",
+    "7": "60000",
+    "8": "65600",
+    "9": "72000",
+    "10": "81100",
+    "11": "92300"
+  },
+  "grade_mid": {
+    "1": "41900",
+    "2": "45900",
+    "3": "49600",
+    "4": "53600",
+    "5": "58300",
+    "6": "65900",
+    "7": "73500",
+    "8": "82000",
+    "9": "90000",
+    "10": "101400",
+    "11": "115400"
+  },
+  "grade_max": {
+    "1": "48900",
+    "2": "56300",
+    "3": "57800",
+    "4": "63500",
+    "5": "69000",
+    "6": "78000",
+    "7": "87000",
+    "8": "98400",
+    "9": "108000",
+    "10": "121700",
+    "11": "138500"
+  },
+  "grade_min_pref": {
+    "1": "34900",
+    "2": "38300",
+    "3": "41300",
+    "4": "43800",
+    "5": "47600",
+    "6": "53800",
+    "7": "60000",
+    "8": "65600",
+    "9": "72000",
+    "10": "81100",
+    "11": "92300"
+  },
+  "usable_count": {
+    "1": 4,
+    "2": 4,
+    "3": 3,
+    "4": 4,
+    "5": 3,
+    "6": 0,
+    "7": 4,
+    "8": 1,
+    "9": 3,
+    "10": 5,
+    "11": 2
+  },
+  "mechanism": {
+    "1": "Market Median",
+    "2": "Continuity Floor",
+    "3": "Step Repair",
+    "4": "Step Repair",
+    "5": "Market Median",
+    "6": "Interpolated",
+    "7": "Market Median",
+    "8": "Market Median",
+    "9": "Market Median",
+    "10": "Market Median",
+    "11": "Market Median"
+  },
+  "zone_table": {
+    "1|Zone 1": {
+      "min": 32100,
+      "mid": 38500,
+      "max": 45000,
+      "floor_applied": false,
+      "floor_val": 28600.0,
+      "floor_type": "hourly",
+      "geo_min": 32100
+    },
+    "1|Zone 2": {
+      "min": 34900,
+      "mid": 41900,
+      "max": 48900,
+      "floor_applied": false,
+      "floor_val": 31532.8,
+      "floor_type": "hourly",
+      "geo_min": 34900
+    },
+    "1|Zone 3": {
+      "min": 39100,
+      "mid": 46900,
+      "max": 54800,
+      "floor_applied": false,
+      "floor_val": 35630.4,
+      "floor_type": "hourly",
+      "geo_min": 39100
+    },
+    "2|Zone 1": {
+      "min": 37000,
+      "mid": 42200,
+      "max": 51800,
+      "floor_applied": false,
+      "floor_val": 28600.0,
+      "floor_type": "hourly",
+      "geo_min": 37000
+    },
+    "2|Zone 2": {
+      "min": 40200,
+      "mid": 45900,
+      "max": 56300,
+      "floor_applied": false,
+      "floor_val": 31532.8,
+      "floor_type": "hourly",
+      "geo_min": 40200
+    },
+    "2|Zone 3": {
+      "min": 45000,
+      "mid": 51400,
+      "max": 63100,
+      "floor_applied": false,
+      "floor_val": 35630.4,
+      "floor_type": "hourly",
+      "geo_min": 45000
+    },
+    "3|Zone 1": {
+      "min": 38000,
+      "mid": 45600,
+      "max": 53200,
+      "floor_applied": false,
+      "floor_val": 28600.0,
+      "floor_type": "hourly",
+      "geo_min": 38000
+    },
+    "3|Zone 2": {
+      "min": 41300,
+      "mid": 49600,
+      "max": 57800,
+      "floor_applied": false,
+      "floor_val": 31532.8,
+      "floor_type": "hourly",
+      "geo_min": 41300
+    },
+    "3|Zone 3": {
+      "min": 46300,
+      "mid": 55600,
+      "max": 64700,
+      "floor_applied": false,
+      "floor_val": 35630.4,
+      "floor_type": "hourly",
+      "geo_min": 46300
+    },
+    "4|Zone 1": {
+      "min": 40300,
+      "mid": 49300,
+      "max": 58400,
+      "floor_applied": false,
+      "floor_val": 28600.0,
+      "floor_type": "hourly",
+      "geo_min": 40300
+    },
+    "4|Zone 2": {
+      "min": 43800,
+      "mid": 53600,
+      "max": 63500,
+      "floor_applied": false,
+      "floor_val": 31532.8,
+      "floor_type": "hourly",
+      "geo_min": 43800
+    },
+    "4|Zone 3": {
+      "min": 49100,
+      "mid": 60000,
+      "max": 71100,
+      "floor_applied": false,
+      "floor_val": 35630.4,
+      "floor_type": "hourly",
+      "geo_min": 49100
+    },
+    "5|Zone 1": {
+      "min": 43800,
+      "mid": 53600,
+      "max": 63500,
+      "floor_applied": false,
+      "floor_val": 28600.0,
+      "floor_type": "hourly",
+      "geo_min": 43800
+    },
+    "5|Zone 2": {
+      "min": 47600,
+      "mid": 58300,
+      "max": 69000,
+      "floor_applied": false,
+      "floor_val": 31532.8,
+      "floor_type": "hourly",
+      "geo_min": 47600
+    },
+    "5|Zone 3": {
+      "min": 53300,
+      "mid": 65300,
+      "max": 77300,
+      "floor_applied": false,
+      "floor_val": 35630.4,
+      "floor_type": "hourly",
+      "geo_min": 53300
+    },
+    "6|Zone 1": {
+      "min": 49500,
+      "mid": 60600,
+      "max": 71800,
+      "floor_applied": false,
+      "floor_val": 28600.0,
+      "floor_type": "hourly",
+      "geo_min": 49500
+    },
+    "6|Zone 2": {
+      "min": 53800,
+      "mid": 65900,
+      "max": 78000,
+      "floor_applied": false,
+      "floor_val": 31532.8,
+      "floor_type": "hourly",
+      "geo_min": 53800
+    },
+    "6|Zone 3": {
+      "min": 60300,
+      "mid": 73800,
+      "max": 87400,
+      "floor_applied": false,
+      "floor_val": 35630.4,
+      "floor_type": "hourly",
+      "geo_min": 60300
+    },
+    "7|Zone 1": {
+      "min": 55200,
+      "mid": 67600,
+      "max": 80000,
+      "floor_applied": false,
+      "floor_val": 43888.0,
+      "floor_type": "salary",
+      "geo_min": 55200
+    },
+    "7|Zone 2": {
+      "min": 62400,
+      "mid": 73500,
+      "max": 87000,
+      "floor_applied": true,
+      "floor_val": 62400.0,
+      "floor_type": "salary",
+      "geo_min": 60000
+    },
+    "7|Zone 3": {
+      "min": 67200,
+      "mid": 82300,
+      "max": 97400,
+      "floor_applied": false,
+      "floor_val": 66000.0,
+      "floor_type": "salary",
+      "geo_min": 67200
+    },
+    "8|Zone 1": {
+      "min": 60400,
+      "mid": 75400,
+      "max": 90500,
+      "floor_applied": false,
+      "floor_val": 43888.0,
+      "floor_type": "salary",
+      "geo_min": 60400
+    },
+    "8|Zone 2": {
+      "min": 65600,
+      "mid": 82000,
+      "max": 98400,
+      "floor_applied": false,
+      "floor_val": 62400.0,
+      "floor_type": "salary",
+      "geo_min": 65600
+    },
+    "8|Zone 3": {
+      "min": 73500,
+      "mid": 91800,
+      "max": 110200,
+      "floor_applied": false,
+      "floor_val": 66000.0,
+      "floor_type": "salary",
+      "geo_min": 73500
+    },
+    "9|Zone 1": {
+      "min": 66200,
+      "mid": 82800,
+      "max": 99400,
+      "floor_applied": false,
+      "floor_val": 43888.0,
+      "floor_type": "salary",
+      "geo_min": 66200
+    },
+    "9|Zone 2": {
+      "min": 72000,
+      "mid": 90000,
+      "max": 108000,
+      "floor_applied": false,
+      "floor_val": 62400.0,
+      "floor_type": "salary",
+      "geo_min": 72000
+    },
+    "9|Zone 3": {
+      "min": 80600,
+      "mid": 100800,
+      "max": 121000,
+      "floor_applied": false,
+      "floor_val": 66000.0,
+      "floor_type": "salary",
+      "geo_min": 80600
+    },
+    "10|Zone 1": {
+      "min": 74600,
+      "mid": 93300,
+      "max": 112000,
+      "floor_applied": false,
+      "floor_val": 43888.0,
+      "floor_type": "salary",
+      "geo_min": 74600
+    },
+    "10|Zone 2": {
+      "min": 81100,
+      "mid": 101400,
+      "max": 121700,
+      "floor_applied": false,
+      "floor_val": 62400.0,
+      "floor_type": "salary",
+      "geo_min": 81100
+    },
+    "10|Zone 3": {
+      "min": 90800,
+      "mid": 113600,
+      "max": 136300,
+      "floor_applied": false,
+      "floor_val": 66000.0,
+      "floor_type": "salary",
+      "geo_min": 90800
+    },
+    "11|Zone 1": {
+      "min": 84900,
+      "mid": 106200,
+      "max": 127400,
+      "floor_applied": false,
+      "floor_val": 43888.0,
+      "floor_type": "salary",
+      "geo_min": 84900
+    },
+    "11|Zone 2": {
+      "min": 92300,
+      "mid": 115400,
+      "max": 138500,
+      "floor_applied": false,
+      "floor_val": 62400.0,
+      "floor_type": "salary",
+      "geo_min": 92300
+    },
+    "11|Zone 3": {
+      "min": 103400,
+      "mid": 129200,
+      "max": 155100,
+      "floor_applied": false,
+      "floor_val": 66000.0,
+      "floor_type": "salary",
+      "geo_min": 103400
+    }
+  },
+  "grade_of": {
+    "CS-110": 1,
+    "PA-140": 1,
+    "CS-120": 1,
+    "MR-105": 1,
+    "MR-160": 1,
+    "PA-210": 1,
+    "BL-215": 2,
+    "BL-175": 2,
+    "CS-230": 2,
+    "UA-205": 2,
+    "UA-225": 2,
+    "CL-305": 2,
+    "CL-315": 3,
+    "PA-320": 3,
+    "PR-335": 3,
+    "PR-310": 3,
+    "AC-430": 3,
+    "CL-410": 3,
+    "UW-405": 4,
+    "IT-440": 4,
+    "AC-420": 4,
+    "IT-415": 4,
+    "HR-445": 4,
+    "HR-425": 4,
+    "CL-525": 4,
+    "CL-210": 5,
+    "CL-510": 5,
+    "UW-530": 5,
+    "UW-505": 5,
+    "AC-540": 5,
+    "AC-520": 5,
+    "AC-620": 5,
+    "AC-610": 6,
+    "IT-630": 6,
+    "CL-640": 6,
+    "UW-650": 6,
+    "CL-730": 6,
+    "CL-710": 7,
+    "UW-705": 7,
+    "IT-740": 7,
+    "IT-720": 7,
+    "HR-750": 7,
+    "AC-715": 7,
+    "AC-760": 7,
+    "CL-850": 7,
+    "UW-320": 8,
+    "UW-830": 8,
+    "IT-840": 8,
+    "CL-810": 9,
+    "UW-805": 9,
+    "AC-860": 9,
+    "AC-820": 9,
+    "IT-930": 9,
+    "CL-960": 9,
+    "HR-940": 9,
+    "CL-910": 10,
+    "UW-905": 10,
+    "CL-950": 10,
+    "IT-920": 10,
+    "AC-960": 10,
+    "AC-915": 10,
+    "DIR-040": 10,
+    "DIR-010": 10,
+    "DIR-020": 11,
+    "DIR-050": 11,
+    "DIR-030": 11
+  },
+  "points_of": {
+    "CS-110": 128,
+    "PA-140": 134,
+    "CS-120": 141,
+    "MR-105": 152,
+    "MR-160": 163,
+    "PA-210": 168,
+    "BL-215": 177,
+    "BL-175": 186,
+    "CS-230": 191,
+    "UA-205": 203,
+    "UA-225": 209,
+    "CL-305": 218,
+    "CL-315": 227,
+    "PA-320": 235,
+    "PR-335": 244,
+    "PR-310": 251,
+    "AC-430": 259,
+    "CL-410": 266,
+    "UW-405": 274,
+    "IT-440": 281,
+    "AC-420": 288,
+    "IT-415": 296,
+    "HR-445": 299,
+    "HR-425": 305,
+    "CL-525": 316,
+    "CL-210": 322,
+    "CL-510": 331,
+    "UW-530": 338,
+    "UW-505": 344,
+    "AC-540": 351,
+    "AC-520": 356,
+    "AC-620": 365,
+    "AC-610": 372,
+    "IT-630": 381,
+    "CL-640": 394,
+    "UW-650": 402,
+    "CL-730": 407,
+    "CL-710": 424,
+    "UW-705": 429,
+    "IT-740": 435,
+    "IT-720": 441,
+    "HR-750": 446,
+    "AC-715": 452,
+    "AC-760": 459,
+    "CL-850": 461,
+    "UW-320": 478,
+    "UW-830": 493,
+    "IT-840": 505,
+    "CL-810": 524,
+    "UW-805": 528,
+    "AC-860": 534,
+    "AC-820": 547,
+    "IT-930": 556,
+    "CL-960": 561,
+    "HR-940": 562,
+    "CL-910": 571,
+    "UW-905": 583,
+    "CL-950": 588,
+    "IT-920": 594,
+    "AC-960": 601,
+    "AC-915": 605,
+    "DIR-040": 611,
+    "DIR-010": 618,
+    "DIR-020": 629,
+    "DIR-050": 636,
+    "DIR-030": 642
+  },
+  "titles": {
+    "CS-110": "Customer Service Representative I",
+    "PA-140": "Policy Services Clerk",
+    "CS-120": "Customer Service Representative II",
+    "MR-105": "Mailroom and Records Clerk",
+    "MR-160": "Records Technician",
+    "PA-210": "Policy Administration Clerk",
+    "BL-215": "Billing Specialist",
+    "BL-175": "Billing Clerk II",
+    "CS-230": "Customer Service Representative III",
+    "UA-205": "Underwriting Assistant",
+    "UA-225": "Underwriting Support Clerk",
+    "CL-305": "Claims Assistant",
+    "CL-315": "Claims Intake Specialist",
+    "PA-320": "Policy Administration Analyst",
+    "PR-335": "Premium Audit Analyst",
+    "PR-310": "Premium Audit Clerk",
+    "AC-430": "Accounts Payable Analyst",
+    "CL-410": "Claims Adjuster I",
+    "UW-405": "Underwriting Technician",
+    "IT-440": "Desktop Support Analyst",
+    "AC-420": "Staff Accountant",
+    "IT-415": "Applications Support Analyst",
+    "HR-445": "Recruiting Coordinator",
+    "HR-425": "Human Resources Generalist",
+    "CL-525": "Claims Adjuster, Field",
+    "CL-210": "Claims Assistant, Midwest cut",
+    "CL-510": "Claims Adjuster II",
+    "UW-530": "Underwriter, Personal Lines",
+    "UW-505": "Underwriter I",
+    "AC-540": "Reinsurance Analyst",
+    "AC-520": "Financial Analyst",
+    "AC-620": "Actuarial Analyst II",
+    "AC-610": "Actuarial Analyst I",
+    "IT-630": "Data Engineer",
+    "CL-640": "Claims Quality Reviewer",
+    "UW-650": "Product Analyst",
+    "CL-730": "Subrogation Specialist",
+    "CL-710": "Claims Adjuster III",
+    "UW-705": "Underwriter II",
+    "IT-740": "Network Engineer",
+    "IT-720": "Systems Analyst",
+    "HR-750": "Compensation Analyst",
+    "AC-715": "Senior Financial Analyst",
+    "AC-760": "Treasury Analyst",
+    "CL-850": "Litigation Specialist",
+    "UW-320": "Senior Underwriter, Commercial Lines",
+    "UW-830": "Senior Underwriter, Personal Lines",
+    "IT-840": "Security Engineer",
+    "CL-810": "Claims Supervisor",
+    "UW-805": "Underwriting Supervisor",
+    "AC-860": "Senior Actuarial Analyst",
+    "AC-820": "Actuarial Analyst III",
+    "IT-930": "Enterprise Architect",
+    "CL-960": "Claims Technical Lead",
+    "HR-940": "HR Business Partner",
+    "CL-910": "Claims Manager",
+    "UW-905": "Underwriting Manager",
+    "CL-950": "Claims Operations Manager",
+    "IT-920": "IT Manager",
+    "AC-960": "Reserving Manager",
+    "AC-915": "Actuarial Manager",
+    "DIR-040": "Director, Information Technology",
+    "DIR-010": "Director, Claims Operations",
+    "DIR-020": "Director, Underwriting",
+    "DIR-050": "Director, Finance",
+    "DIR-030": "Director, Actuarial Services"
+  },
+  "excluded": {
+    "AC-610": [
+      [
+        "Hollis Regional Property and Casualty Study",
+        "2024-10-01",
+        60400,
+        "Good",
+        16,
+        [
+          "Source effective 2024-10-01 is more than 24 months before the 1 Jan 2027 structure effective date"
+        ]
+      ]
+    ],
+    "CL-210": [
+      [
+        "Cranmere Carrier Compensation Survey",
+        "2026-07-01",
+        52600,
+        "Good",
+        3,
+        [
+          "Cut carries only 3 incumbents, below the 5-incumbent minimum"
+        ]
+      ]
+    ],
+    "CL-960": [
+      [
+        "Cranmere Carrier Compensation Survey",
+        "2026-07-01",
+        96000,
+        "Partial",
+        14,
+        [
+          "Scope match recorded as Partial, not Exact or Good"
+        ]
+      ]
+    ]
+  },
+  "step_repair_detail": {
+    "3": [
+      "low",
+      48900,
+      45900
+    ],
+    "4": [
+      "low",
+      53100,
+      49600
+    ]
+  },
+  "interp_from": {
+    "6": [
+      5,
+      7
+    ]
+  }
+}

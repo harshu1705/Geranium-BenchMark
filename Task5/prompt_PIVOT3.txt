@@ -1,0 +1,13 @@
+Gerald and Linda Whitfield came in last week for their annual review and this time they want a real answer on whether retiring in two years actually works, not just the usual check-in. Gerald's 60, Linda's 58, and they're set on both retiring when he turns 62. I told them we'd put together a proper readiness assessment before their next appointment.
+
+Pull their current holdings from Account_Statements_Summary.xlsx and figure out where they actually stand today: total investable assets, and the blended stock/bond/cash mix across all five accounts weighted by balance. Compare that mix to the near-retirement target noted in Client_Intake_and_Goals_Summary.docx and tell me how far off they are.
+
+Project the portfolio forward to their retirement date two years out. Household_Budget_and_Planning_Assumptions.xlsx has the growth rate and the contribution amounts they're still putting in until then, so use those rather than guessing.
+
+For the spending side, that same file breaks out what they're spending now versus what they expect to spend once retired. Use the retirement column, not the current one, and don't forget it's in today's dollars, so it needs to be inflated out to their actual retirement date using the assumption in that file. There's also a separate health insurance bridge cost in there for the years before Medicare kicks in at 65 that doesn't show up in the regular budget line, so make sure that gets added on top for those specific years.
+
+Social_Security_Benefit_Estimates.docx has what each of them would get at 62, 65, and 67. They're currently leaning toward claiming at 62, but I want you to actually run the numbers both ways, claiming at 62 versus waiting until 65 and self-funding that gap out of the portfolio, and tell me which one gets them closer to sustainable, using the 4% withdrawal guideline referenced in the intake file as your sustainability check.
+
+Once you've got the real numbers, tell me straight whether this retirement date is actually supportable, what the gap looks like under each Social Security scenario, and what you'd recommend on the asset allocation and on withdrawal order across their accounts once they're drawing income. Insurance_and_Estate_Summary.docx has some gaps I want flagged too if they're relevant to whether this plan holds up.
+
+Deliverable: Whitfield_Retirement_Readiness_Assessment.docx, covering their current financial position, the retirement income needs analysis, the Social Security claiming comparison, the portfolio sustainability test under each scenario, an asset allocation and withdrawal sequencing recommendation, and a final action plan.

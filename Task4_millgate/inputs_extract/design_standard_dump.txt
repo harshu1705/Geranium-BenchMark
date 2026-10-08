@@ -1,0 +1,53 @@
+Millgate Mutual salary structure design standard
+Total Rewards. Revised 18 September 2026. Applies to the structure effective 1 January 2027.
+This standard fixes the geometry of the salary structure. It does not fix the implementation budget, the population an adjustment is costed over, or any statutory minimum; those are set elsewhere and are not restated here.
+Band Construction
+Grades are built from the evaluation point totals in force. The lowest point total on the schedule is rounded down to the nearest 10 points to give the floor of the first band. Each band is 50 points wide, and bands are added in sequence until the highest point total on the schedule falls inside a band. The number of grades is whatever that arithmetic produces. It is not set in advance and is not adjusted to a preferred count.
+Benchmark Eligibility
+A survey match is usable only where all of the following hold. The source's effective date is no more than 24 months before the structure effective date. The scope match is recorded as Exact or Good. The cut carries at least 5 incumbents. A match failing any of these is recorded with the reason and takes no part in any calculation.
+Aging
+A usable match is aged to the structure effective date at 3.2 percent a year, applied pro rata by whole month. The horizon is measured from the effective date of the source the match came from. Sources carry different effective dates and are aged over different horizons.
+Blend
+Where a job carries usable matches in more than one source the aged figures are combined at the published source weights: Cranmere 60 percent, Delaney 40 percent. Where a job carries a usable match in one source only, that source carries the full weight.
+Midpoint
+A grade's midpoint is the median of the blended rates of the usable benchmark jobs whose evaluation points fall inside the band, rounded as set out under Rounding. Where a grade contains an even number of usable benchmark jobs the median is the mean of the two middle values. Where a grade contains no usable benchmark job at all, its midpoint is interpolated linearly between the nearest benchmarked grades below and above it. A grade is never left without a midpoint and is never merged into its neighbor.
+Step Band
+The step from one grade's midpoint to the next is at least 8 percent and no more than 14 percent. Pairs are tested in ascending grade order. Where a pair falls outside the band it is the upper grade of that pair whose midpoint moves, to the nearest permitted boundary, rounded to the hundred that lies inside the band. A midpoint moved under this clause replaces the market-derived figure; the market derivation is not run again.
+Range Geometry
+A grade's spread is fixed by where the grade sits in the ladder:
+The geometry is the same at every grade and in every zone. A grade's minimum is its midpoint divided by one plus half its spread. A grade's maximum is its minimum multiplied by one plus its spread. A zone's minimum is the grade minimum multiplied by the zone factor, and a zone's maximum is the grade maximum multiplied by the same factor. The midpoint is the market or step anchor and is not re-derived from a minimum that some other clause has moved.
+Continuity Floor
+Where the minimum in force for a grade number under the structure in the appendix is higher than the minimum derived for that same grade number, the figure in force is the authoritative minimum and the maximum follows from it under Range Geometry. No range minimum falls year on year.
+Statutory Floor
+A grade whose band ceiling is below 420 points is treated as non-exempt for this clause and is tested against the annualized hourly minimum, at 2080 hours. A grade at or above that ceiling is tested against the exempt salary threshold. In either case the figure tested is the highest applicable to any state mapped to the zone, and a zone minimum is the greater of the figure derived under Range Geometry and that floor, rounded up to the next hundred. A zone maximum is not moved by this clause.
+Zone Factors
+Rounding
+Money is rounded to the nearest hundred dollars, halves upward, once at each point this standard names and never applied again to a figure already rounded. Two clauses round in a fixed direction instead: a step repair rounds inward, to the hundred inside the band, and a statutory floor rounds up.
+Attribution
+Every grade records the mechanism that set its figures, from Market Median, Interpolated, Step Repair and Continuity Floor. Where more than one mechanism touched a grade, the mechanism recorded is the one applied last.
+Appendix: the structure in force
+Millgate Mutual Total Rewards.
+Revised 18 September 2026. Supersedes the edition of 12 August 2024.
+--- TABLE ---
+Grades | Spread
+1 to 3 | 40 percent
+4 to 7 | 45 percent
+8 and above | 50 percent
+--- TABLE ---
+Zone | Factor | States
+Zone 1 | 0.92 | Ohio, Indiana, Missouri
+Zone 2 | 1.00 | Colorado, Illinois, Minnesota
+Zone 3 | 1.12 | California, Washington, New York
+--- TABLE ---
+Grade | Minimum in force
+1 | $33,100
+2 | $40,200
+3 | $39,800
+4 | $41,500
+5 | $45,200
+6 | $50,900
+7 | $57,300
+8 | $62,800
+9 | $69,100
+10 | $76,400
+11 | $84,900

@@ -1,0 +1,35 @@
+COMMERCIAL LOAN ALLOWANCE FOR LOAN AND LEASE LOSSES (ALLL) POLICY
+Tri-County Community Bank | Credit Risk Division
+Policy Effective Date: January 1, 2025 | Review Cycle: Quarterly (CECL)
+1. Purpose and Scope
+This policy establishes the Bank's methodology for estimating and testing the adequacy of the Allowance for Loan and Lease Losses (ALLL) under the Current Expected Credit Loss (CECL) standard for the commercial loan portfolio. The methodology applies to all commercial loan relationships exceeding $250,000 in outstanding balance. The Credit Risk Division must produce a quarterly ALLL Reserve Adequacy Memorandum testing the sufficiency of the booked reserve against the reserve required under this methodology.
+2. Definitions
+Allowance for Loan and Lease Losses (ALLL): A valuation reserve, carried on the Bank's books, established to absorb estimated credit losses inherent in the loan portfolio.
+Pooled Reserve: A reserve computed by applying a historical loss rate to the aggregate outstanding balance of all loans sharing a given Internal Risk Rating, excluding loans that are individually evaluated under Section 4.
+Individually Evaluated (Collateral-Dependent) Loan: A loan that must be removed from pooled treatment and evaluated on a standalone basis because repayment is expected to be provided substantially through the operation or sale of collateral.
+Qualitative Factor (Q-Factor) Adjustment: A basis-point add-on to a pool's historical loss rate, applied to capture emerging risk in that pool that is not yet reflected in historical loss experience.
+Reserve Shortfall: The amount by which the reserve required under this methodology exceeds the currently booked ALLL balance. A shortfall must be recognized as additional provision expense in the current quarter.
+3. Historical Loss Rate Pools
+All commercial loans not individually evaluated under Section 4 must be pooled strictly by Internal Risk Rating (per the 6-point scale defined in the Loan Portfolio Review Policy) and assigned the following historical loss rate, applied to the aggregate outstanding balance of the pool. Historical loss rates are sourced from the ALLL_Loss_Rate_and_Reserve_Data.xlsx workbook maintained by the Finance Department and must not be altered or estimated independently.
+4. Individually Evaluated (Collateral-Dependent) Loans
+Any loan carrying an Internal Risk Rating of 6, or classified as non-performing (90 or more days past due), must be removed from pooled treatment and specifically evaluated for a standalone reserve. The specific reserve is calculated as:
+Specific Reserve = MAX(0, Outstanding Balance − (Appraised Collateral Value × (1 − Estimated Disposition Cost %)))
+The Estimated Disposition Cost % is sourced from ALLL_Loss_Rate_and_Reserve_Data.xlsx and reflects the estimated cost of liquidating the collateral (auction fees, legal fees, holding costs). The most recent appraised value on file must be used regardless of loan origination date.
+5. Qualitative Factor (Q-Factor) Adjustments
+Any pool (Ratings 1 through 5) that contains one or more loans carrying an active covenant breach as of the review date — a breach not yet cured or offset by a documented, approved waiver — must receive a Q-Factor add-on of 25 basis points (0.25%) to that pool's historical loss rate, applied to the full outstanding balance of the pool. This adjustment reflects emerging credit deterioration in the pool that has not yet worked its way into historical loss experience. The add-on applies at the pool level, not to the individual breaching loan, and stacks with the base historical loss rate for that pool. Covenant breach status must be independently verified against the Covenant Compliance Workbook, Borrower Financial Statements, and Appraisal and Collateral Summary before a Q-Factor is applied — pre-calculated breach flags must not be accepted without recomputation.
+6. Reserve Adequacy Determination
+Total Required Reserve is the sum of all pooled reserves (Ratings 1 through 5, inclusive of any applicable Q-Factor add-ons) plus all specific reserves for individually evaluated loans. This total must be compared against the currently booked ALLL balance as recorded in ALLL_Loss_Rate_and_Reserve_Data.xlsx:
+• If Total Required Reserve exceeds the booked balance, the shortfall must be recognized as additional provision expense in the current quarter and reported to the Board Audit Committee.
+• If the booked balance exceeds Total Required Reserve by more than 10%, the excess must be evaluated for release, subject to Board approval.
+• If the booked balance is within 10% of Total Required Reserve in either direction, the reserve is considered adequate and no provision action is required.
+7. Quarterly ALLL Reserve Adequacy Memorandum Requirements
+At the end of each quarter, the Credit Risk Division must produce an ALLL Reserve Adequacy Memorandum. The memorandum must include:
+• Executive Summary with the overall reserve adequacy conclusion and the dollar shortfall or excess.
+• Portfolio Segmentation showing loan count and aggregate balance by Internal Risk Rating pool.
+• Pooled Reserve Calculation showing, for each pool, the base historical loss rate, any Q-Factor add-on and its trigger, the adjusted rate, and the resulting pooled reserve.
+• Individually Evaluated Loan Analysis showing, for each collateral-dependent loan, the outstanding balance, appraised collateral value, disposition cost assumption, and resulting specific reserve.
+• Covenant Breach and Watch List Cross-Reference documenting which loans and pools triggered a Q-Factor and why, cross-checked against the underlying financial and appraisal data.
+• Reserve Adequacy Conclusion comparing Total Required Reserve to the booked balance and stating the recommended provision action.
+• Policy/Source Reconciliation documenting how pre-calculated fields were verified against underlying source data and how any conflicts were resolved.
+8. Approval and Distribution
+The completed ALLL Reserve Adequacy Memorandum must be reviewed and approved by the Chief Credit Officer prior to submission to the Board Audit Committee. Distribution: Chief Credit Officer, Chief Financial Officer, Board Audit Committee, and the Bank's external auditor.

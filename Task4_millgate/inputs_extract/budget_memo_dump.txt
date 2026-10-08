@@ -1,0 +1,22 @@
+Implementation budget and phase-in for the 2027 structure
+From Dov Ferreira, VP Total Rewards. 2 December 2026.
+Renata, this settles the money side so you can finish the specification. The geometry is not mine to change and nothing below touches it.
+Dates
+The structure takes effect 1 January 2027. Any adjustment it causes is paid from 1 February 2027. Where a phase-in applies the remainder is paid from 1 February 2028.
+Who is costed
+Cost the structure over the incumbents on the roster who are in employment on 1 February 2027. Colleagues on approved leave are in employment and are costed. Colleagues whose employment ends before that date are not, whatever the roster showed when it was pulled.
+The budget
+The board has approved $355,000 for structure implementation. That is the cash cost of moving people to the new minimums, not a provision and not a reserve; it is payroll and it lands in the year it is paid.
+The rules on movement
+Nobody's salary is reduced. Where a salary already sits above the new maximum for the grade and zone it is left where it is and no adjustment arises. Where a salary sits below the new zone minimum it is brought to that minimum.
+Phase-in
+Where the total cost of doing that exceeds $355,000 the movement is phased. On 1 February 2027 each affected colleague receives the greater of half the shortfall to the new minimum, and whatever is needed to reach the statutory floor applicable to them. The remainder is paid on 1 February 2028. That rule is settled and is not yours to reopen. Apply it and show me both figures.
+Why the board set it where it did
+The number is not a guess. Finance modeled the movement off last year's structure and the roster as it stood in the summer, and came out around three hundred and ten. The board added headroom and stopped there because the combined ratio target for 2027 does not survive a bigger number, and because half of what we are fixing is compression we created ourselves by holding ranges flat through 2025. I would rather phase the fix than shrink it.
+What the load team needs from you
+Pilar's window closes 19 December 2026 and she will not hold it open. She needs a complete range for every grade in every zone, with no blanks, because the loader rejects a partial grade rather than importing what it has. Where a grade cannot be completed from what we hold, that is a blocker: put it on the face of the specification with the missing field named, so she can chase it rather than discover it at load.
+What I do not want
+Do not trim the ladder to fit the money. The grade count comes out of the point arithmetic and the midpoints come out of the market, and if the answer is more expensive than I would like then that is the answer. If something in the files cannot settle a figure, tell me what is missing rather than putting a number in and moving on.
+Dov Ferreira
+VP Total Rewards, Millgate Mutual
+2 December 2026

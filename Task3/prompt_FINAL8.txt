@@ -1,0 +1,21 @@
+The external auditors are going to want to see our Q4 2025 ALLL testing before they sign off, and honestly I haven't looked closely at whether our booked reserve still holds up given what happened with a couple of these credits this quarter. Need you to run the full CECL reserve adequacy test per ALLL_CECL_Reserve_Policy.docx and write it up.
+
+Loss rates and the reserve assumptions are all in ALLL_Loss_Rate_and_Reserve_Data.xlsx: disposition cost, the Q-Factor basis points, and what we've currently got booked. For everything else you'll need Loan_Register_Q4_2025.xlsx, Borrower_Financial_Statements_Summary.xlsx, Appraisal_and_Collateral_Summary_Q4_2025.xlsx, Covenant_Compliance_Workbook_Q4_2025.xlsx, and Exception_Tracking_Log_Q4_2025.xlsx.
+
+A few things to watch for: the Covenant Compliance Workbook already has actual-vs-threshold values filled in, but the policy is explicit that those breach flags can't be taken at face value for the Q-Factor determination. Recompute DSCR, LTV, and Current Ratio yourself from the underlying financials and collateral figures before deciding which pools get the add-on.
+
+Walk through it the way Section 7 of the policy lays out:
+
+Segment every loan by Internal Risk Rating and pull loan count and balance for each pool. Pull the one loan that has to be individually evaluated (rating 6, or 90+ days past due) out of the pooled treatment entirely.
+
+For each of the five pooled tiers, apply the historical loss rate from the loss-rate table, figure out which pools have an actively breaching loan in them and apply the 25bps Q-Factor to those, and show me the resulting pooled reserve per tier.
+
+For the individually evaluated loan, walk through outstanding balance, appraised collateral value, the disposition cost haircut, and the resulting specific reserve.
+
+Tie the covenant/watch-list picture back to the reserve calc: which loans triggered which pool's Q-Factor, and why.
+
+Add up total required reserve against what's currently booked, tell me whether we're within the 10% tolerance band, and if not, what the shortfall or excess is and what needs to happen about it.
+
+Close it out with a reconciliation section showing how you verified the workbook's pre-calculated numbers instead of just trusting them.
+
+Write it up as Tri_County_ALLL_Reserve_Adequacy_Memo_Q4_2025.docx: those six sections plus an Executive Summary up front, matching the seven-part structure Section 7 of the policy lays out.

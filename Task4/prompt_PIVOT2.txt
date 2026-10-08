@@ -1,0 +1,17 @@
+The public adjuster on the Bluegrass Precision Tooling fire claim just sent over the Proof of Loss and I need a full settlement recommendation before I can move this off my desk. This is a bigger one than most of what's crossed my queue lately, so walk through the whole policy analysis rather than just eyeballing the adjuster's numbers. Everything you need is in Heartland_Mutual_Commercial_Property_Policy.docx.
+
+Start with Public_Adjuster_Claim_Submission.docx for what's actually being claimed, then check it against Origin_and_Cause_Investigation_Report.docx, Contractor_Repair_Estimate.xlsx, Business_Financial_Statements.xlsx, and Statement_of_Values_Appraisal.xlsx.
+
+A few things I want you to work through carefully. First, the fire investigator traced this back to a 2023 electrical modification that wasn't up to code, so figure out whether that changes the coverage picture given how the policy treats faulty workmanship versus a fire that results from it. Don't just assume the whole claim is covered or excluded without walking through that.
+
+Second, the contractor's estimate lumps code-required upgrades in with the base repair cost, but the policy treats those two categories differently. Separate them out and apply the right provision to each.
+
+Third, run the coinsurance math on the building and on the business personal property separately using the appraised values in the Statement of Values against what's actually carried. The adjuster is asking us to skip this because the insured has a clean claims history, which isn't a basis this policy gives us for waiving it.
+
+Fourth, the business personal property loss needs to be valued at actual cash value first, with whatever's left as replacement cost value held back until the insured actually replaces the equipment, not paid out up front the way the adjuster's asking.
+
+Fifth, work out the business income loss the way the policy defines actual loss sustained, using the pre-loss trend and the post-loss partial operations data, and don't forget to account for the extra expense the insured spent to get back up and running at the temporary facility. Then check the total against the combined limit for that coverage.
+
+Once you've got all of that sorted, give me a total recommended settlement broken out by coverage, and call out anywhere the number you land on differs from what was actually claimed and why.
+
+Write it up as Claim_Settlement_Recommendation_CLM-2025-08841.docx, following the recommendation structure the policy spells out.

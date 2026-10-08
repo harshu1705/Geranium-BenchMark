@@ -1,0 +1,73 @@
+P0: Loan Portfolio Review Report
+P1: Tri-County Community Bank | Q4 2025
+P2: 1. Executive Summary
+P3: This report details the health assessment for the commercial loan portfolio as of Q4 2025. The portfolio presently consists of 29 active commercial loans with a total aggregate outstanding balance of $134,656,509.
+P4: A thorough analysis indicates several areas of credit risk that require management attention. Multiple loans exhibit active covenant breaches. Furthermore, the portfolio includes specific non-performing assets that are currently on non-accrual status. Several exposures require Watch List classification due to deteriorated risk grades, payment delays, or concurrent covenant violations. Concentration risk is also elevated, as the portfolio exceeds the single-borrower limit for C2 Tech Campus, the loan-type limit for Commercial Mortgages, and the loan-officer limit for James Trotter. Finally, a significant number of open administrative exceptions remain unresolved.
+P5: Given these findings, the overall portfolio risk is elevated, and immediate remedial action is advised.
+P6: 2. Portfolio Overview
+P7: The loan population consists of 29 commercial loans. The total outstanding portfolio balance stands at $134,656,509.
+P8: 3. Covenant Compliance Findings
+P9: The compliance review identified several covenant violations across the portfolio. A detailed breakdown by covenant type is provided below.
+P10: DSCR Violations (Minimum: 1.25x)
+P11: The DSCR analysis relies on the 1.25x policy minimum and identifies the following breaches:
+P12: LN-006 — Willow Creek Office Park LLC — 1.14x
+P13: LN-009 — Component Precision Machining LLC — 1.02x
+P14: LN-017 — Copperfield Development Partners LLC — 1.08x
+P15: LN-025 — Sentinel Hospitality Group LLC — 1.19x
+P16: Note: LN-001 has a DSCR of 1.28x and is fully compliant.
+P17: LTV Violations (Maximum: 75%)
+P18: The LTV analysis relies on the 75% policy maximum and identifies the following breach:
+P19: LN-017 — 81.4% — breach
+P20: Current Ratio Violations (Minimum: 1.10x)
+P21: The Current Ratio analysis relies on the 1.10x policy minimum and identifies the following breaches:
+P22: LN-011 — 1.04x
+P23: LN-025 — 0.96x
+P24: Note: LN-017 and LN-025 present with two concurrent covenant violations.
+P25: 4. Watch List and Concentration Analysis
+P26: The Watch List determination relies on the strict criteria defined in Section 4. The following loans require Watch List treatment:
+P27: LN-006 — Willow Creek Office Park LLC. Trigger: Risk Grade 5
+P28: LN-009 — Component Precision Machining LLC. Trigger: Risk Grade 6 + 95 DPD
+P29: LN-017 — Copperfield Development Partners LLC. Trigger: Risk Grade 6 + 97 DPD + 2 covenant breaches
+P30: LN-025 — Sentinel Hospitality Group LLC. Trigger: 2 concurrent covenant breaches
+P31: Concentration Risk
+P32: Single-Borrower Limit: 15%
+P33: LN-028 — C2 Tech Campus — $21,117,450 — 15.68%. Conclusion: BREACH.
+P34: Loan-Type Limit: 40%
+P35: Commercial Mortgages exceed the 40% concentration limit, carrying an aggregate balance of $88,481,044 and a portfolio share of approximately 65.72%.
+P36: Loan Officer Limit: 40%
+P37: James Trotter — $82,101,025 — approximately 60.97%. Conclusion: BREACH.
+P38: Sarah Jenkins — $30,250,550 — approximately 22.46%. Conclusion: Compliant.
+P39: Michael Chang — $22,304,934 — approximately 16.56%. Conclusion: Compliant.
+P40: 5. Exception Tracking
+P41: The remaining open exceptions are recorded below:
+P42: 6. Non-Performing Loan Schedule
+P43: The following loans satisfy the Section 5 definition of non-performing:
+P44: LN-009 — Component Precision Machining LLC — 95 days past due — Non-Accrual
+P45: LN-017 — Copperfield Development Partners LLC — 97 days past due — Non-Accrual
+P46: 7. Final Portfolio Risk Assessment
+P47: The portfolio exhibits elevated risk due to covenant breaches, non-performing loans, Watch List exposures, and concentration-limit findings. Management should initiate remediation plans to mitigate potential credit losses.
+P48: 8. Policy/Source Reconciliation
+P49: All findings reconcile directly with the Q4 2025 input files and the Loan Portfolio Review Policy. Values have been cross-checked to ensure accuracy and limit hallucination or unsubstantiated claims.
+=== TABLES ===
+--- TABLE 0 ---
+['Loan Type', 'Aggregate Balance', '% of Portfolio', 'Result']
+['Agricultural Term Loan', '$2,193,810', '1.63%', 'Compliant']
+['Commercial Mortgage', '$88,481,044', '65.71%', 'BREACH']
+['Construction Loan', '$10,550,680', '7.84%', 'Compliant']
+['Equipment Loan', '$3,051,850', '2.27%', 'Compliant']
+['Floor Plan Loan', '$7,194,920', '5.34%', 'Compliant']
+['Line of Credit', '$2,902,460', '2.16%', 'Compliant']
+['Term Loan', '$20,281,745', '15.06%', 'Compliant']
+--- TABLE 1 ---
+['Exception ID', 'Loan ID', 'Borrower', 'Exception Type', 'Identified', 'Officer', 'Status']
+['EXC-001', 'LN-001', 'ABC Industrial LLC', 'DSCR Covenant Breach', '2025-11-18', 'Diana Flores', 'Open — Monitoring']
+['EXC-002', 'LN-002', 'XYZ Retail Partners', 'LTV Covenant Breach', '2025-10-05', 'Marcus Webb', 'Open — Escalated to Watch List']
+['EXC-003', 'LN-002', 'XYZ Retail Partners', 'Current Ratio Breach', '2025-10-05', 'Marcus Webb', 'Open — Escalated to Watch List']
+['EXC-004', 'LN-002', 'XYZ Retail Partners', 'Payment Delinquency', '2025-12-03', 'Marcus Webb', 'Open — Formal demand issued']
+['EXC-005', 'LN-004', 'Delta Auto Group', 'DSCR Covenant Breach', '2025-12-09', 'James Trotter', 'Open — Monitoring']
+['EXC-006', 'LN-004', 'Delta Auto Group', 'Payment Delinquency', '2025-12-09', 'James Trotter', 'Open — Awaiting payment confirmation']
+['EXC-007', 'LN-006', 'Epsilon Restaurant Group', 'Current Ratio Breach', '2025-12-01', 'Marcus Webb', 'Open — Follow-up Scheduled']
+['EXC-008', 'LN-008', 'Eta Print & Packaging Inc.', 'DSCR Covenant Breach', '2025-09-22', 'Marcus Webb', 'Open — Legal Hold']
+['EXC-009', 'LN-008', 'Eta Print & Packaging Inc.', 'LTV Covenant Breach', '2025-09-22', 'Marcus Webb', 'Open — Legal Hold']
+['EXC-010', 'LN-008', 'Eta Print & Packaging Inc.', 'Non-Performing / 90+ DPD', '2025-09-22', 'Marcus Webb', 'Open — Loss Reserve Active']
+['EXC-011', 'LN-010', 'Iota Storage Partners', 'LTV Covenant Breach', '2025-11-30', 'James Trotter', 'Open — Appraisal Dispute']

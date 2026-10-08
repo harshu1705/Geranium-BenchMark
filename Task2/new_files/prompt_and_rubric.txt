@@ -1,0 +1,31 @@
+Prompt:
+Hey, I need you to draft a Trade Credit Decision Memo regarding the Hartsfield Polymer Technologies, LLC account. They just submitted a request to increase their unsecured credit limit from $400k (Net 30) to $1,500,000 (Net 60) to support a new automotive contract. The decision date is August 20, 2026. Treat this as your exact as-of date for all temporal and financial analyses.
+
+Please review the Customer_Credit_Application_Hartsfield.docx and their financials in Hartsfield_Polymer_Unaudited_Financials.xlsx. I need you to independently assess their financial health and compare it against the strict minimum requirements set out in our Crestline_Corporate_Credit_Policy.docx for $1M+ unsecured lines. Pay close attention to definitions like EBIT when calculating the required metrics.
+
+Also, we need to check their payment behavior. Look at the Crestline_AR_Ledger_Hartsfield_History.xlsx and determine if their recent payment history strictly complies with our internal policy threshold for the exact 3-month window ending on the decision date.
+
+Finally, review the Dun_and_Bradstreet_Credit_Report.docx to see if there are any public records or legal filings that would disqualify them from an unsecured limit increase under our policy.
+
+Compile all of this analysis into a Word document named Trade_Credit_Decision_Memo.docx. It should include an executive summary, an independent financial health assessment, your detailed quantitative financial analysis, the payment history findings, the D&B report analysis, and a clear, quantified final recommendation. Make sure you strictly adhere to the deterministic rules in Section 4 when stating whether we are approving the $1.5M unsecured request, declining it, or approving it with specific conditions.
+
+Rubric:
+1. (+5) The output file is named exactly Trade_Credit_Decision_Memo.docx.
+2. (+4) The memo contains an Executive Summary section.
+3. (+3) The memo interprets the Z-score calculation, explicitly discussing what the result means for the applicant's financial health relative to the policy requirement.
+4. (+3) The memo includes a section analyzing the Internal Payment History or AR Ledger.
+5. (+3) The memo includes a section discussing Public Records or the D&B report.
+6. (+4) The memo correctly calculates Working Capital as $930,700 (Current Assets $4,115,200 - Current Liabilities $3,184,500).
+7. (+5) The memo correctly calculates the Altman Z-score as 1.77.
+8. (+3) The memo correctly calculates the 'A' component of the Z-score as 0.0914 (accept 0.09 to 0.10).
+9. (+3) The memo correctly calculates the 'B' component of the Z-score as 0.0920 (accept 0.09 to 0.10).
+10. (+4) The memo correctly calculates the 'C' component of the Z-score using strict EBIT as 0.0791 (accept 0.079 to 0.08).
+11. (+3) The memo correctly calculates the 'D' component of the Z-score as 0.4053 (accept 0.40 to 0.41).
+12. (+3) The memo correctly calculates the 'E' component of the Z-score as 1.0248 (accept 1.02 to 1.03).
+13. (+5) The memo explicitly concludes that the calculated Z-score (1.77) fails the 1.80 minimum policy requirement.
+14. (+5) The memo explicitly recognizes the exact 3-month AR window (May 20 to August 20, 2026) and correctly calculates the average Days to Pay for invoices within that window as 45.25 days.
+15. (+4) The memo explicitly identifies that the 45.25 days to pay strictly exceeds the 45-day policy maximum.
+16. (+5) The memo explicitly identifies the $45,000 active State Tax Lien from the D&B report.
+17. (+4) The memo explicitly states that the tax lien violates the policy prohibition against unresolved liens exceeding $10,000.
+18. (+5) The memo makes a final recommendation of 'Decline' and explicitly justifies it by referencing Section 4(b) of the revised Credit Policy, noting that two or more criteria failures (and/or an active tax lien) strictly prohibit conditional approval.
+19. (-5) The memo fabricates any invoice amounts, tax lien values, or financial figures not present in the provided input files.

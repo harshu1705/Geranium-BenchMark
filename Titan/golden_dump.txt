@@ -1,0 +1,177 @@
+P0 [Normal] PROJECT TITAN DUE DILIGENCE REPORT
+P1 [Normal] Target: HealthSync Inc.
+P2 [Normal] Prepared: August 29, 2026  |  Classification: M&A Confidential
+P4 [Heading 1] 1. Executive Summary
+P5 [Normal] FINAL RECOMMENDATION: NO-GO
+P6 [Normal] The acquisition of HealthSync Inc. cannot proceed as of this report date. Policy §4.4.c mandates an automatic NO-GO when any GDPR Technical Safeguard control is rated Not Met, unless a formal written CISO waiver is documented prior to the Board Review. GDPR control SC-10 (Automatic Logoff) is currently Not Met — directly caused by VULN-0031 (auto session timeout not enforced on the executive dashboard). No CISO waiver exists in the supplied materials. This single finding is dispositive.
+P7 [Normal] Additional material concerns reinforcing the NO-GO posture include:
+P8 [List Bullet] 16 of 23 legacy integration pilots calculate below the 95% success-rate threshold, directly contradicting Director of M&A Integration Sarah Chen's tracker statement that integration pilots 'completed successfully.'
+P9 [List Bullet] VULN-0031 — the SC-10 blocker — is absent from the Known Integration Quirks list in the Acquisition Announcement Draft, constituting a material omission in external communications.
+P10 [List Bullet] Legal sign-off (Dr. Lisa Pham, Chief Legal Officer) is Pending/Blocked pending an updated GDPR risk assessment. No date or owner is recorded in the tracker for this action.
+P11 [List Bullet] Chief Privacy Officer Kevin Park is Pending, awaiting Legal's discussion of GDPR audit implications.
+P12 [List Bullet] The stress-test environment was provisioned below the Policy 4.5.c minimum, making all SLA results provisional.
+P13 [List Bullet] AC-7 → VULN-0019 (PARTIALLY MET): GDPR control AC-7 (Audit controls — record and examine activity) is Partially Met. The audit logging gap in the PII export workflow is directly tied to VULN-0019. The CISO’s sign-off is conditioned on resolving this vulnerability. The M&A Sign-off Tracker requires VULN-0019 to be resolved before the closing date but does NOT specify a particular calendar date for that condition. The GDPR Privacy Audit Checklist separately records a VULN-0019/AC-7 remediation target of September 2, 2026. If met, September 2 precedes the September 8 hard close and satisfies the Policy §4.4.b 30-day post-close window requirement.
+P14 [Heading 1] 2. Due Diligence Policy Evaluation
+
+=== TABLE 0 ===
+  R0: Policy Criterion | Status | Finding
+  R1: GDPR Compliance — Not Met controls (§4.4.c) | NOT MET | SC-10 is Not Met due to VULN-0031. Automatic NO-GO without formal CISO waiver.
+  R2: GDPR Compliance — Partially Met controls (§4.4.b) | CONDITIONALLY MET | AC-7 (VULN-0019) and AU-4 (VULN-0023) have remediation plans within 30 days.
+  R3: SLA Thresholds P50/P95 (§4.5.a) | MET | STRESS-001 passed at P50 (0.8s) and P95 (1.9s). All other scenarios passed.
+  R4: P99 SLA (§4.5.b) | FAIL | STRESS-001 Customer Record Search API: P99 = 4.2s, threshold ≤3.0s. VP Engineering accepted this risk in writing.
+  R5: Test Environment Capacity (§4.5.c) | NOT MET | Environment Specs sheet states approximately 60% overall capacity. The 80% minimum required by §4.5.c is not met. All SLA results are provisional. See §6 for detailed capacity analysis.
+  R6: Integration Pilot Results | NOT MET | 16 of 23 pilots below 95%. Prompt instructions prohibit relying on stakeholder assurances over objective engineering data.
+  R7: Stakeholder Sign-offs | NOT MET | Approval conditioned strictly on resolving VULN-0019 (PII export audit trail) before the closing date. The M&A Sign-off Tracker does NOT specify a particular calendar date for this condition — it states only that VULN-0019 must be resolved before closing date. (Note: The GDPR Privacy Audit Checklist separately records a VULN-0019/AC-7 remediation target of September 2, 2026; however, that date appears in the checklist, not in the CISO’s sign-off condition.)
+  R8: Critical Vulnerability Remediation (§5) | NOT MET | Policy §5 requires that each vulnerability with an effective severity of 'Critical' must be either (a) resolved, or (b) have a documented mitigation plan approved by the CTO. There are 5 effective-Critical vulnerabilities: VULN-0012, VULN-0019, VULN-0023, VULN-0037, and VULN-0041. The source files do not document CTO approval of a mitigation plan for any of them, nor is a CTO role recorded in the M&A Sign-off Tracker. Policy §5 is therefore NOT MET. Note: Policy §5 does not authorize a 'formal CTO waiver' as an alternative — the only permitted paths are resolution or a documented CTO-approved mitigation plan.
+=== END TABLE 0 ===
+
+P16 [Heading 1] 3. Vulnerability Analysis
+P17 [Normal] The Security Vulnerability Scan contains 47 open vulnerabilities. Effective severity is determined by applying the Policy §3.1 conflict-resolution rule: where the QA Auditor and Target IT ratings disagree, the higher rating governs. Distribution after applying this rule:
+
+=== TABLE 1 ===
+  R0: Effective Severity | Count
+  R1: Blocker | 1
+  R2: Critical | 5
+  R3: Major | 10
+  R4: Minor | 22
+  R5: Cosmetic | 9
+  R6: Total | 47
+=== END TABLE 1 ===
+
+P19 [Normal] Key vulnerability findings:
+P20 [Normal] VULN-0031 (Blocker, Session Management): Auto session timeout not enforced on the executive dashboard. Both the QA Auditor and Target IT rate this Blocker. This directly causes GDPR control SC-10 (Automatic Logoff) to be Not Met and is the single dispositive NO-GO trigger under Policy §4.4.c. Critically, VULN-0031 does NOT appear in the Known Integration Quirks list in the Acquisition Announcement Draft — only VULN-0014, VULN-0024, VULN-0037, and VULN-0049 are listed there. This material omission represents a significant communications and compliance risk.
+P21 [Normal] VULN-0037 (Critical effective severity, Executive Dashboard): Executive dashboard timeouts may cause unsaved notes to be lost. QA Auditor rates this Critical (data loss); Target IT rates it Major (autosave covers most cases). Applying the conflict-resolution rule, the effective severity is Critical. However, this vulnerability IS listed in the Acquisition Announcement Draft's Known Quirks section as a minor inconvenience. This mischaracterisation of a Critical defect as a cosmetic quirk in external communications must be corrected.
+P22 [Normal] VULN-0012 and VULN-0028 — Unmatched GDPR Records: Both vulnerabilities carry GDPR Impact = Yes in the Security Vulnerability Scan, but neither has a corresponding control entry in the GDPR Privacy Audit Checklist. The available source files therefore do not establish a control-specific remediation mapping for these two vulnerabilities, and the applicable 30-day GDPR remediation clock cannot be formally verified from the supplied records. This gap must be addressed in the GDPR compliance review before closing.
+P23 [Normal] Note on VULN-0037 and the Acquisition Announcement Draft: VULN-0037 appears in the 'Known Integration Quirks' section of the draft. The vulnerability scan confirms VULN-0037 exists with a Critical effective severity. However, VULN-0031 — the SC-10 Blocker — is conspicuously absent from that same list, despite being the single most consequential open issue.
+P24 [Normal] Policy §5 Compliance Assessment: Policy §5 requires that each effective-Critical vulnerability be either (a) resolved prior to the Board Review, or (b) have a documented mitigation plan approved by the CTO. The Policy does not authorize a 'formal CTO waiver' as an alternative. There are 5 effective-Critical vulnerabilities (VULN-0012, VULN-0019, VULN-0023, VULN-0037, VULN-0041). None are marked Resolved in the Security Vulnerability Scan. The M&A Sign-off Tracker contains no CTO role and records no CTO-approved mitigation plans for any of these vulnerabilities. Policy §5 is therefore NOT MET for all five.
+P25 [Heading 1] 4. GDPR Compliance Status
+P26 [Normal] The GDPR Privacy Audit Checklist covers 45 technical safeguard controls across five categories. Summary: 39 Met, 2 Partially Met, 1 Not Met, 3 N/A.
+P27 [Normal] SC-10 → VULN-0031 (NOT MET): GDPR control SC-10 (Automatic Logoff) is rated Not Met. The root cause is VULN-0031 — the auto session timeout is not enforced on the new executive dashboard. Under Policy §4.4.c, this is an automatic NO-GO for Not Met controls. No CISO waiver is documented. The VULN-0031 remediation target date is listed as September 6, 2026.
+P28 [Normal] AC-7 → VULN-0019 (PARTIALLY MET): GDPR control AC-7 (Audit controls — record and examine activity) is Partially Met. The audit logging gap in the PII export workflow is directly tied to VULN-0019. The CISO’s sign-off is conditioned on resolving this vulnerability. The M&A Sign-off Tracker requires VULN-0019 to be resolved before the closing date but does NOT specify a particular calendar date for that condition. The GDPR Privacy Audit Checklist separately records a VULN-0019/AC-7 remediation target of September 2, 2026. If met, September 2 precedes the September 8 hard close and satisfies the Policy §4.4.b 30-day post-close window requirement.
+P29 [Normal] AU-4 → VULN-0023 (PARTIALLY MET): GDPR control AU-4 (Audit log completeness for PII access events) is Partially Met. Gaps appear under high-concurrency conditions. The fix is directly tied to VULN-0023, targeting September 4, 2026. This satisfies the Policy §4.4.b 30-day window.
+P30 [Normal] VULN-0012 and VULN-0028 — No Corresponding GDPR Control (Unmatched Records): VULN-0012 (PII export silent failure) and VULN-0028 (Encryption at rest — new v4.2 fields) are both marked GDPR Impact = Yes in the vulnerability scan. However, neither vulnerability has a corresponding control row in the GDPR Privacy Audit Checklist. The available source records therefore do not support assigning either vulnerability to a specific GDPR control or applying the control-specific 30-day remediation rule to those records. This gap must be resolved with the responsible compliance team.
+P31 [Heading 1] 5. Integration Pilot Analysis
+P32 [Normal] All 23 legacy system integration pilots from Legacy_System_Integration_Pilots_Aug2026.xlsx were reviewed. The success rate for each pilot is calculated from the underlying Success and Total values in the spreadsheet. The applicable threshold is 95%.
+P33 [Normal] Sarah Chen Statement vs. Underlying Data — Material Contradiction: The M&A Sign-off Tracker records Sarah Chen (Director of M&A Integration) as 'Approved' with the note: 'Integration pilots completed successfully.' This statement is directly contradicted by the underlying integration data. 16 of the 23 pilots calculate a success rate below the 95% threshold. Under Policy §1.3, objective engineering data takes precedence over executive assurances. Sarah Chen's sign-off cannot be relied upon as a quality gate.
+P34 [Normal] The following 16 pilots (of 23 total) fall below the 95% threshold:
+
+=== TABLE 2 ===
+  R0: Pilot ID | Pilot Name | Total / Success | Success Rate
+  R1: PILOT-001 | Active Directory Federation | 126/142 | 88.7%
+  R2: PILOT-002 | Customer Record Sync | 198/234 | 84.6%
+  R3: PILOT-003 | GDPR Subject Access Request Export | 82/89 | 92.1%
+  R4: PILOT-005 | API Gateway — v4.2 endpoints | 281/312 | 90.1%
+  R5: PILOT-006 | Database Migration Scripts | 58/67 | 86.6%
+  R6: PILOT-007 | GDPR Consent Audit | 128/156 | 82.1%
+  R7: PILOT-009 | Role-Based Access Control | 185/203 | 91.1%
+  R8: PILOT-011 | Customer Search — Full Text | 77/88 | 87.5%
+  R9: PILOT-012 | Billing System Integration | 155/167 | 92.8%
+  R10: PILOT-014 | Contract Lifecycle Module | 98/112 | 87.5%
+  R11: PILOT-015 | Notification Service | 88/98 | 89.8%
+  R12: PILOT-016 | Session Management | 78/84 | 92.9%
+  R13: PILOT-018 | Data Encryption — At Rest | 49/56 | 87.5%
+  R14: PILOT-019 | Third-Party API Integrations | 178/189 | 94.2%
+  R15: PILOT-021 | UI Regression — Mobile | 176/198 | 88.9%
+  R16: PILOT-023 | End-to-End — Customer Journey | 39/45 | 86.7%
+=== END TABLE 2 ===
+
+P36 [Normal] The 7 pilots that met or exceeded the 95% threshold were: PILOT-004 (98.3%), PILOT-008 (96.8%), PILOT-010 (97.2%), PILOT-013 (97.3%), PILOT-017 (96.3%), PILOT-020 (96.6%), and PILOT-022 (97.4%).
+P37 [Normal] Additional note on PILOT-007 (GDPR Consent Audit, 82.1%): The spreadsheet records 14 tests as Skipped due to environment issues. The success rate of 82.1% is calculated as 128 successful out of 156 total endpoints (including skipped). Even excluding skipped tests, 128/142 = 90.1%, which still falls below the 95% threshold. The execution rate itself (142/156 = 91.0%) is also below 95%, which is a separate concern.
+P38 [Heading 1] 6. Infrastructure / Stress-Test Assessment
+P39 [Normal] STRESS-001 — P99 SLA Failure: The Customer Record Search API (STRESS-001) failed the P99 SLA threshold. The measured P99 response time was 4.2s against an SLA threshold of ≤3.0s. P50 (0.8s) and P95 (1.9s) were within SLA. Per Policy §4.5.b, VP Engineering Raj Malhotra has provided written risk acceptance, which satisfies the policy requirement for this specific scenario. Query optimization is recommended post-merger.
+P40 [Normal] Environment Capacity — Policy 4.5.c Not Met: The Environment Specs sheet in Cloud_Infrastructure_Stress_Test_Aug2026.xlsx states that the test environment 'represents approximately 60% of target production capacity.' Policy 4.5.c requires the test environment to be provisioned at a minimum of 80% of target production capacity. The 60% figure violates this requirement.
+P41 [Normal] ⚠ Source Limitation — Capacity Calculation Methodology: The individual component ratios listed in the Environment Specs sheet are: CPU Cores 50%, RAM 50%, Storage IOPS 50%, Network Bandwidth 10%, Database Instance ~50%, Application Servers 50%, Load Balancer 'Simplified.' These ratios do not independently establish an overall figure of 60% because no weighting methodology is provided in the source document. The 60% figure appears only in the summary note and cannot be independently verified from the listed components without a weighting formula. This report does not invent such a formula. Regardless of the aggregation method, however, the reported environment remains materially below the Policy 4.5.c requirement, and the SLA results carry a qualification: they are not representative of full production load.
+P42 [Heading 1] 7. Stakeholder Sign-off Status
+P43 [Normal] The following stakeholders have non-Approved statuses as of this report. Each is evaluated based strictly on the M&A Sign-off Tracker and associated source files.
+
+=== TABLE 3 ===
+  R0: Stakeholder | Role | Status | Condition / Blocker
+  R1: Dr. Lisa Pham | Chief Legal Officer | Pending / BLOCKED | Blocked pending updated GDPR risk assessment from compliance team after recent audit findings. The tracker records no owner or deadline for this action item. No date is provided in the source materials; none is invented here.
+  R2: Priya Deshpande | CISO | Conditional | Approval conditioned strictly on resolving VULN-0019 (PII export audit trail) before the closing date. The M&A Sign-off Tracker does NOT specify a particular calendar date for this condition — it states only that VULN-0019 must be resolved before closing date. (Note: The GDPR Privacy Audit Checklist separately records a VULN-0019/AC-7 remediation target of September 2, 2026; however, that date appears in the checklist, not in the CISO’s sign-off condition.)
+  R3: Kevin Park | Chief Privacy Officer | Pending | Waiting to sync with Legal on the GDPR audit implications. No deadline is recorded in the tracker.
+  R4: Anita Flores | Head of QA | Conditional | Approval conditioned on resolving VULN-0049 (login page background image load) within the first 30 days post-close. VULN-0049 target date: September 15, 2026. Assessment: The hard closing date is September 8, 2026. September 15 is exactly 7 days after the closing date, which clearly falls within the 30-day post-close window and satisfies the condition.
+  R5: Sarah Chen | Director of M&A Integration | Approved (CONTRADICTED) | Recorded as Approved with note 'Integration pilots completed successfully.' This is directly contradicted by 16 of 23 pilots falling below the 95% threshold. Under Policy §1.3, this approval cannot be accepted at face value. See §5.
+=== END TABLE 3 ===
+
+P45 [Heading 1] 8. Risk Matrix
+
+=== TABLE 4 ===
+  R0: Risk Area | Risk Item | Likelihood | Impact | Mitigation / Status
+  R1: GDPR Gaps | SC-10 Not Met / VULN-0031 Blocker | Certain | Critical | NO-GO trigger. Must resolve VULN-0031 or obtain formal CISO waiver before Board Review.
+  R2: GDPR Gaps | AC-7 Partially Met / VULN-0019 Critical | High | High | Approval conditioned strictly on resolving VULN-0019 (PII export audit trail) before the closing date. The M&A Sign-off Tracker does NOT specify a particular calendar date for this condition — it states only that VULN-0019 must be resolved before closing date. (Note: The GDPR Privacy Audit Checklist separately records a VULN-0019/AC-7 remediation target of September 2, 2026; however, that date appears in the checklist, not in the CISO’s sign-off condition.)
+  R3: GDPR Gaps | AU-4 Partially Met / VULN-0023 Critical | Medium | High | Fix targeted for Sep 4, 2026. Within 30-day window if closing proceeds.
+  R4: GDPR Gaps | VULN-0012 / VULN-0028 — No GDPR Control Mapping | Medium | High | GDPR Impact=Yes but no checklist control entry. Cannot verify 30-day clock. Requires compliance team review.
+  R5: Infrastructure | STRESS-001 P99 SLA Failure | Medium | Medium | Risk formally accepted by VP Engineering. Query optimization required post-merger.
+  R6: Infrastructure | Under-provisioned Test Environment (Policy 4.5.c) | Certain | Medium | 60% capacity reported; 80% required. All SLA results provisional. Capacity discrepancy methodology unclear.
+  R7: Integration | 16/23 Pilots Below 95% Threshold | Certain | High | Sarah Chen's 'completed successfully' sign-off contradicted by data. Policy §1.3 applies. Comprehensive re-testing required.
+  R8: Defects | VULN-0037 Misrepresented in PR Draft | Certain | High | Critical defect listed as minor quirk in Acquisition Announcement Draft. Correction required before any public release.
+  R9: Defects | VULN-0031 Absent from PR Draft Known Quirks | Certain | High | The single Blocker-rated defect is not disclosed in external communications at all.
+  R10: Stakeholder Sign-offs | Dr. Lisa Pham — Legal Pending/Blocked | Certain | High | No owner or deadline in tracker. GDPR risk assessment must be completed and reviewed.
+  R11: Stakeholder Sign-offs | Kevin Park — Privacy Officer Pending | High | Medium | Awaiting Legal sync on GDPR audit implications. No deadline recorded.
+  R12: Stakeholder Sign-offs | Approval conditioned strictly on resolving VULN-0019 (PII export audit trail) before the closing date. The M&A Sign-off Tracker does NOT specify a particular calendar date for this condition — it states only that VULN-0019 must be resolved before closing date. (Note: The GDPR Privacy Audit Checklist separately records a VULN-0019/AC-7 remediation target of September 2, 2026; however, that date appears in the checklist, not in the CISO’s sign-off condition.) | High | High | CISO approval conditional on VULN-0019 being resolved before the closing date. The M&A Sign-off Tracker provides only 'before closing date' — no specific calendar date. Must be resolved before the acquisition closing date.
+  R13: Stakeholder Sign-offs | Anita Flores — QA Conditional (VULN-0049) | Low | Low | Condition tied to UI cosmetic fix by Sep 15. Depends on confirmed closing date.
+=== END TABLE 4 ===
+
+P47 [Heading 1] 9. Final Recommendation
+P48 [Normal] RECOMMENDATION: NO-GO
+P49 [Normal] The acquisition of HealthSync Inc. must not proceed at this time. The following conditions constitute mandatory blockers under the applicable Due Diligence Evaluation Policy:
+P50 [List Bullet] GDPR SC-10 Not Met / VULN-0031 (Blocker): Policy §4.4.c requires automatic NO-GO for a Not Met GDPR control without a formal written CISO waiver. VULN-0031 causes SC-10 to be Not Met. No waiver is documented. This is non-negotiable and sufficient alone to halt the acquisition. Additionally, VULN-0031 is absent from the Known Quirks list in the Acquisition Announcement Draft — a material disclosure gap.
+P51 [List Bullet] Legal Sign-off Blocked — Dr. Lisa Pham: Chief Legal Officer Dr. Lisa Pham is Pending/Blocked. Her sign-off is required but is blocked pending an updated GDPR risk assessment. The tracker records no owner or deadline for the assessment. The acquisition cannot proceed without Legal clearance.
+P52 [List Bullet] Privacy Officer Pending — Kevin Park: Chief Privacy Officer Kevin Park is Pending, waiting for Legal's discussion of GDPR audit implications. No deadline is recorded. Both Pending sign-offs must be cleared before closing.
+P53 [List Bullet] Integration Pilot Quality (16/23 below 95%): Objective engineering data shows 16 of 23 integration pilots below the 95% threshold. This contradicts Sarah Chen's 'completed successfully' assurance. Comprehensive pilot remediation and re-testing is required before this gate can be cleared.
+P54 [List Bullet] Under-provisioned Stress-Test Environment: The test environment representing approximately 60% of production capacity violates Policy 4.5.c (80% minimum). All reported SLA results are therefore provisional and cannot be relied upon as representative of production performance.
+P56 [Normal] Additionally, the following conditions must be satisfied before any revised GO consideration: VULN-0012 and VULN-0028 assigned to specific GDPR controls or formally scoped; Priya Deshpande's CISO conditional cleared; Anita Flores's QA conditional verified; and VULN-0037 removed from the PR draft's Known Quirks characterization.
+P57 [Heading 1] 10. Appendix: Complete Vulnerability Table
+P58 [Normal] All 47 open vulnerabilities with their effective severity (higher of QA Auditor and Target IT ratings per Policy §3.1), GDPR flag, and status. Distribution: 1 Blocker, 5 Critical, 10 Major, 22 Minor, 9 Cosmetic.
+
+=== TABLE 5 ===
+  R0: Vuln ID | QA Sev | IT Sev | Effective Sev | GDPR | Status
+  R1: VULN-0003 | Major | Major | Major | No | Reopened
+  R2: VULN-0004 | Major | Major | Major | No | In Progress
+  R3: VULN-0005 | Major | Major | Major | No | In Progress
+  R4: VULN-0006 | Major | Major | Major | No | Under Review
+  R5: VULN-0007 | Major | Major | Major | No | In Progress
+  R6: VULN-0008 | Minor | Minor | Minor | No | In Progress
+  R7: VULN-0009 | Minor | Minor | Minor | No | Under Review
+  R8: VULN-0010 | Minor | Minor | Minor | No | Open
+  R9: VULN-0011 | Minor | Minor | Minor | No | In Progress
+  R10: VULN-0012 | Critical | Major | Critical | Yes | In Progress
+  R11: VULN-0013 | Minor | Minor | Minor | No | Open
+  R12: VULN-0014 | Cosmetic | Cosmetic | Cosmetic | No | Open
+  R13: VULN-0015 | Major | Major | Major | No | In Progress
+  R14: VULN-0016 | Minor | Minor | Minor | No | Open
+  R15: VULN-0017 | Minor | Minor | Minor | No | In Progress
+  R16: VULN-0018 | Cosmetic | Cosmetic | Cosmetic | No | Open
+  R17: VULN-0019 | Critical | Critical | Critical | Yes | In Progress
+  R18: VULN-0020 | Minor | Minor | Minor | No | Waiting on Info
+  R19: VULN-0021 | Minor | Minor | Minor | No | Open
+  R20: VULN-0022 | Minor | Minor | Minor | No | Open
+  R21: VULN-0023 | Critical | Major | Critical | Yes | In Progress
+  R22: VULN-0024 | Cosmetic | Cosmetic | Cosmetic | No | Open
+  R23: VULN-0025 | Minor | Minor | Minor | No | In Progress
+  R24: VULN-0026 | Minor | Minor | Minor | No | Under Review
+  R25: VULN-0027 | Minor | Minor | Minor | No | In Progress
+  R26: VULN-0028 | Major | Major | Major | Yes | In Progress
+  R27: VULN-0029 | Cosmetic | Cosmetic | Cosmetic | No | Open
+  R28: VULN-0030 | Cosmetic | Cosmetic | Cosmetic | No | Open
+  R29: VULN-0031 | Blocker | Blocker | Blocker | Yes | Open
+  R30: VULN-0032 | Minor | Minor | Minor | No | Open
+  R31: VULN-0033 | Minor | Minor | Minor | No | Waiting on Info
+  R32: VULN-0034 | Minor | Minor | Minor | No | Under Review
+  R33: VULN-0035 | Major | Major | Major | No | In Progress
+  R34: VULN-0036 | Minor | Minor | Minor | No | In Progress
+  R35: VULN-0037 | Critical | Major | Critical | No | Open
+  R36: VULN-0038 | Cosmetic | Cosmetic | Cosmetic | No | Open
+  R37: VULN-0039 | Major | Major | Major | No | Under Review
+  R38: VULN-0040 | Minor | Minor | Minor | No | In Progress
+  R39: VULN-0041 | Critical | Critical | Critical | No | In Progress
+  R40: VULN-0042 | Cosmetic | Cosmetic | Cosmetic | No | Waiting on Info
+  R41: VULN-0043 | Minor | Minor | Minor | No | Open
+  R42: VULN-0044 | Major | Major | Major | No | In Progress
+  R43: VULN-0045 | Minor | Minor | Minor | No | Under Review
+  R44: VULN-0046 | Minor | Minor | Minor | No | Under Review
+  R45: VULN-0047 | Cosmetic | Cosmetic | Cosmetic | No | Waiting on Info
+  R46: VULN-0048 | Minor | Minor | Minor | No | Reopened
+  R47: VULN-0049 | Cosmetic | Cosmetic | Cosmetic | No | Open
+=== END TABLE 5 ===
+
