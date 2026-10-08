@@ -1,0 +1,197 @@
+
+REPORT OF MARKET CONDUCT EXAMINATION
+Kansas Insurance Department, Market Regulation Division.
+Cottonwood Mutual Casualty Company, NAIC 41883, domiciled in Kansas. Claims handling, private passenger automobile. Examination period 01/01/2025 to 12/31/2025. Fieldwork closed 02/27/2026. Examiner in charge D. Yoakum.
+Scope of the examination
+The company produced 24 claim files on 01/22/2026 in answer to the Division's request of 12/18/2025. The request was for claims of which the company received notice during the examination period. 2 of the files produced fall outside it and are removed from the sample under 2.2, and from the denominator of every standard as well as from the exceptions.
+File
+Notice received
+Why it is removed
+CM-24-1187
+11/21/2024
+Notice received in 2024, outside the examination period. Standard 2.2.
+CM-24-1226
+12/09/2024
+Notice received in 2024, outside the examination period. Standard 2.2.
+The examination therefore reaches 22 of the 24 files the company produced. Each standard is tested against the files to which it applies and not against the sample as a whole, as 2.3 requires, so the denominators below differ from one another.
+Standard by standard
+Standard
+What it requires
+Denominator
+Exceptions
+Error rate
+Tolerance
+Outcome
+4.1
+Acknowledgment within ten working days of notice
+22
+2
+9.09 percent
+7 percent
+Finding
+4.2
+Written decision within thirty calendar days of the completed proof of loss
+22
+3
+13.64 percent
+7 percent
+Finding
+4.3
+Payment within ten working days of the signed release
+19
+0
+0.00 percent
+7 percent
+Within tolerance
+4.4
+A denial states the policy provision relied on
+3
+1
+33.33 percent
+0 percent
+Finding
+4.5
+A total loss settlement includes sales tax and the title and registration fee
+6
+3
+50.00 percent
+7 percent
+Finding
+5.1
+The complaint register carries every complaint the Department forwarded
+5
+2
+40.00 percent
+0 percent
+Finding
+Standard 4.4 was tested against the three files closed without payment, CM-25-0264, CM-25-0530 and CM-25-0976. Standard 4.5 was tested against the six total loss settlements, CM-25-0207, CM-25-0402, CM-25-0498, CM-25-0768, CM-25-0803 and CM-25-1052. Standard 4.3 was tested against the nineteen files closed with a payment. The files in exception on each standard are these.
+Standard
+Files in exception
+4.1
+CM-25-0621, CM-25-0851
+4.2
+CM-25-0264, CM-25-0455, CM-25-0930
+4.3
+None
+4.4
+CM-25-0530
+4.5
+CM-25-0207, CM-25-0498, CM-25-0803
+5.1
+KID-2025-0778, KID-2025-1604
+The two standards found in the previous examination
+The company was found on 4.2 and on 4.3 in its 2021 examination and gave the Commissioner an undertaking to correct both. One has been corrected and one has not.
+Standard
+Then
+Now
+What follows
+4.2
+11.4 percent
+13.64 percent, a finding
+A finding on a standard found in the previous examination. The penalty rate is 750.00 for each exception under 6.2, not 250.00.
+4.3
+9.2 percent
+0.00 percent, within tolerance
+Corrected. No penalty arises on it and 6.3 requires that the correction be recorded.
+Penalty
+Standard
+Exceptions
+Rate for each
+Penalty
+Why that rate
+4.1
+2
+250.00
+500.00
+Not previously found against the company. Standard 6.2.
+4.2
+3
+750.00
+2,250.00
+Found in the previous examination. Standard 6.2.
+4.4
+1
+250.00
+250.00
+Not previously found against the company. Standard 6.2.
+4.5
+3
+250.00
+750.00
+Not previously found against the company. Standard 6.2.
+5.1
+2
+250.00
+500.00
+Not previously found against the company. Standard 6.2.
+Total
+11
+
+4,250.00
+
+The penalty is computed on the number of exceptions and not on the error rate, as 6.1 requires. Standard 4.5 carries three exceptions and 4.4 carries one, and the rate is the same on both because neither was found in the previous examination, although the error rate on 4.5 is 50.00 percent and on 4.4 is 33.33 percent.
+Restitution
+Three total loss settlements were paid without the sales tax, the title and registration fee, or both. The company pays the difference with interest at ten percent simple from the day it paid to the day of this report, on a basis of three hundred and sixty five days, under 6.4.
+A settlement on one of these files is the actual cash value, plus sales tax at seven and one half percent of that value, plus the title and registration fee of 42.50. Against that, CM-25-0207 was issued 14,382.00, which is the actual cash value and nothing else. CM-25-0498 was issued 10,475.88, which is short the fee alone. CM-25-0803 was issued 21,206.50, which is short the tax. The other three settlements were issued in full and are not in exception.
+File
+Actual cash value
+Underpaid
+Paid on
+Days
+Interest
+Owed
+CM-25-0207
+14,382.00
+1,121.15
+03/25/2025
+352
+108.12
+1,229.27
+CM-25-0498
+9,745.00
+42.50
+07/02/2025
+253
+2.95
+45.45
+CM-25-0803
+21,164.00
+1,587.30
+10/29/2025
+134
+58.27
+1,645.57
+Total
+
+2,750.95
+
+
+169.34
+2,920.29
+The 42.50 owed on file CM-25-0498 is the title and registration fee alone. Standard 6.5 does not permit it to be disregarded for its size.
+What the company must do, and by when
+What
+Standard
+By when
+Pay restitution of 2,920.29 to the three policyholders named in the table above, each with the interest shown against that file. The money goes to the claimant and not to the Division.
+6.4
+MC-9 fixes no period. The order adopting this report fixes the date.
+Pay the penalty of 4,250.00 to the Division
+6.1
+MC-9 fixes no period, and no penalty falls due until the report is adopted. The order fixes the date.
+File a corrective action plan for each of the five standards found
+6.6
+MC-9 fixes no period. The order adopting this report fixes the date, as the order on the 2021 examination did.
+Enter in the complaint register the two complaints the Division forwarded and the register omits
+5.1
+MC-9 fixes no period. The order adopting this report fixes the date.
+Reconcile the register against the Division's record for the whole period and report what the reconciliation finds
+5.2
+MC-9 fixes no period. The order adopting this report fixes the date.
+MC-9 6.6 requires the examiner to state what the company must do and by when. What must be done is in the table above. MC-9 fixes no period for any of it, the Division's file fixes none, and the examiner does not fix one: on the company's 2021 examination it was the Commissioner's order adopting the report that required a corrective action plan for each standard found and quarterly progress reports for four quarters, and the dates for what is required here fall to be fixed the same way. Nothing in this report should be read as allowing the company a period the order has not given it.
+What this examination does not settle
+The dates tested are the dates the company's own claim system holds. The Division has not tested that system and the report does not warrant that the dates in it are the dates on which the acts recorded actually happened. Where a date in the system is wrong the exception count on the standard it bears on would move with it.
+The examination reaches claims handling and nothing else. No underwriting, rating or policyholder service practice of the company has been examined, and nothing in this report should be read as a finding that any of them complies with anything.
+Whether the company received notice of any complaint the Division did not forward is outside this examination. Standard 5.1 measures the register against what the Division forwarded, and the Division's record of that is what governs under 5.2.
+The company produced the sample itself and represented the production complete. The Division has not audited it. A file the company did not produce would not appear in any denominator or in any exception above.
+D. Yoakum, examiner in charge. 03/12/2026.

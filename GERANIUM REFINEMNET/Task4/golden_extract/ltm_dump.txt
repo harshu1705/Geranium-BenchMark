@@ -1,0 +1,172 @@
+A1: "LTM Build  —  FY-base + Q1'26 − Q1'25 ($ in millions except per-share)"
+B3: "McDonald's (MCD)  —  FY-base: FY2024"
+G3: 'Yum! Brands (YUM)  —  FY-base: FY2025'
+L3: "Domino's (DPZ)  —  FY-base: FY2025"
+B4: 'FY2024'
+C4: "Q1'26"
+D4: "Q1'25"
+E4: 'LTM'
+G4: 'FY2025'
+H4: "Q1'26"
+I4: "Q1'25"
+J4: 'LTM'
+L4: 'FY2025'
+M4: "Q1'26"
+N4: "Q1'25"
+O4: 'LTM'
+A5: 'Revenue'
+B5: 25920
+C5: 6517
+D5: 5956
+E5: '=B5+C5-D5'
+G5: 8214
+H5: 2059
+I5: 1787
+J5: '=G5+H5-I5'
+L5: 4939.994
+M5: 1150.594
+N5: 1112.056
+O5: '=L5+M5-N5'
+A6: 'EBIT (income from operations), GAAP'
+B6: 11712
+C6: 2953
+D6: 2648
+E6: '=B6+C6-D6'
+G6: 2574
+H6: 644
+I6: 548
+J6: '=G6+H6-I6'
+L6: 953.974
+M6: 230.357
+N6: 210.095
+O6: '=L6+M6-N6'
+A7: 'One-time items (add-back, pre-tax)'
+B7: 291
+C7: 47
+D7: 66
+E7: '=B7+C7-D7'
+G7: 122
+H7: -6
+I7: 27
+J7: '=G7+H7-I7'
+L7: -4.028
+M7: -7.78
+N7: 0
+O7: '=L7+M7-N7'
+A8: 'Adjusted EBIT'
+B8: '=B6+B7'
+C8: '=C6+C7'
+D8: '=D6+D7'
+E8: '=E6+E7'
+G8: '=G6+G7'
+H8: '=H6+H7'
+I8: '=I6+I7'
+J8: '=J6+J7'
+L8: '=L6+L7'
+M8: '=M6+M7'
+N8: '=N6+N7'
+O8: '=O6+O7'
+A9: 'D&A (per cash flow statement)'
+B9: 2097
+C9: 566
+D9: 520
+E9: '=B9+C9-D9'
+G9: 206
+H9: 60
+I9: 45
+J9: '=G9+H9-I9'
+L9: 88.827
+M9: 20.434
+N9: 20.362
+O9: '=L9+M9-N9'
+A10: 'Adjusted EBITDA'
+B10: '=B8+B9'
+C10: '=C8+C9'
+D10: '=D8+D9'
+E10: '=E8+E9'
+G10: '=G8+G9'
+H10: '=H8+H9'
+I10: '=I8+I9'
+J10: '=J8+J9'
+L10: '=L8+L9'
+M10: '=M8+M9'
+N10: '=N8+N9'
+O10: '=O8+O9'
+A11: 'Net income, GAAP'
+B11: 8223
+C11: 1983
+D11: 1868
+E11: '=B11+C11-D11'
+G11: 1559
+H11: 432
+I11: 253
+J11: '=G11+H11-I11'
+L11: 601.704
+M11: 139.811
+N11: 149.651
+O11: '=L11+M11-N11'
+A12: 'One-time items, after-tax (add-back)'
+B12: 236
+C12: 36
+D12: 51
+E12: '=B12+C12-D12'
+G12: 141
+H12: -14
+I12: 113
+J12: '=G12+H12-I12'
+L12: 0
+M12: 0
+N12: 0
+O12: '=L12+M12-N12'
+A13: 'Adjusted net income'
+B13: '=B11+B12'
+C13: '=C11+C12'
+D13: '=D11+D12'
+E13: '=E11+E12'
+G13: '=G11+G12'
+H13: '=H11+H12'
+I13: '=I11+I12'
+J13: '=J11+J12'
+L13: '=L11+L12'
+M13: '=M11+M12'
+N13: '=N11+N12'
+O13: '=O11+O12'
+A14: 'Diluted shares, most recent period (mm)'
+B14: 721.9
+C14: 713.5
+D14: 718.2
+E14: '=B14+C14-D14'
+G14: 281
+H14: 279
+I14: 282
+J14: '=G14+H14-I14'
+L14: 34.238
+M14: 33.815
+N14: 34.554
+O14: '=L14+M14-N14'
+A15: 'Adjusted diluted EPS (LTM shares)'
+B15: '=IFERROR(B13/C14,"-")'
+C15: '=IFERROR(C13/C14,"-")'
+D15: '=IFERROR(D13/C14,"-")'
+E15: '=IFERROR(E13/C14,"-")'
+G15: '=IFERROR(G13/H14,"-")'
+H15: '=IFERROR(H13/H14,"-")'
+I15: '=IFERROR(I13/H14,"-")'
+J15: '=IFERROR(J13/H14,"-")'
+L15: '=IFERROR(L13/M14,"-")'
+M15: '=IFERROR(M13/M14,"-")'
+N15: '=IFERROR(N13/M14,"-")'
+O15: '=IFERROR(O13/M14,"-")'
+A17: 'Adj EBITDA margin (LTM)'
+E17: '=IFERROR(E10/E5,"-")'
+J17: '=IFERROR(J10/J5,"-")'
+O17: '=IFERROR(O10/O5,"-")'
+A18: 'Adj EBIT margin (LTM)'
+E18: '=IFERROR(E8/E5,"-")'
+J18: '=IFERROR(J8/J5,"-")'
+O18: '=IFERROR(O8/O5,"-")'
+A19: "Revenue growth YoY (Q1'26 vs Q1'25)"
+E19: '=IFERROR(C5/D5-1,"-")'
+J19: '=IFERROR(H5/I5-1,"-")'
+O19: '=IFERROR(M5/N5-1,"-")'
+A21: "Source: MCD 10-K FY2024 (p.13, 18, 40, 43) + MCD 10-Q Q1'26 (p.3, 4, 6, 21).  YUM 10-K FY2025 (p.38, 59, 61, 75) + YUM 10-Q Q1'26 (p.4, 6, 7, 10, 12, 18, 27, 28).  DPZ 10-K FY2025 (p.56, 59, 68) + DPZ 10-Q Q1'26 (p.3, 4, 6, 9, 13).  D&A from the cash flow statement.  One-time items from each company's non-GAAP reconciliation, or from the income statement where the company publishes none (DPZ).  DPZ figures converted from $000s to $mm.  LTM EPS uses the most recent (Q1'26) diluted share count."

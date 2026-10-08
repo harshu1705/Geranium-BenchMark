@@ -1,0 +1,69 @@
+UPDATED RUBRIC — only criteria that changed numbers/wording are shown in full;
+all others (1, 2, 3, 13, 14, 15, 16, 17, 23, 26, 30, 31, 32, 33, 35, 36, 37, 38, 39) are UNCHANGED from the original submission.
+
+Criterion 4 — weight 4
+LTM revenue in millions of dollars is 27,446 for McDonald's, 8,486 for Yum and 4,978.5 for Domino's.
+
+Criterion 5 — weight 5
+LTM adjusted EBITDA in millions of dollars is 15,153 for McDonald's, 2,980 for Yum and 1,051.3 for Domino's.
+
+Criterion 6 — weight 3
+LTM adjusted EBIT in millions of dollars is 12,908 for McDonald's, 2,759 for Yum and 962.4 for Domino's.
+
+Criterion 7 — weight 4
+LTM adjusted net income in millions of dollars is 8,841 for McDonald's, 1,752 for Yum and 582.7 for Domino's.
+
+Criterion 8 — weight 3
+LTM adjusted diluted earnings per share is 12.39 for McDonald's, 6.28 for Yum and 17.23 for Domino's.
+
+Criterion 9 — weight 3
+The annual base period is fiscal 2025 for all three companies — McDonald's 10-K covers the year ended December 31, 2025, Yum and Domino's likewise fiscal 2025 — and the LTM period is that base plus the first quarter of 2026 less the first quarter of 2025.
+
+Criterion 10 — weight 5
+Depreciation and amortization is read from the cash flow statement, giving LTM figures in millions of dollars of 2,245 for McDonald's, 221 for Yum and 88.9 for Domino's.
+
+Criterion 11 — weight 5
+The one-time items stripped out of LTM EBIT are 210 for McDonald's from impairment and other charges, 89 for Yum from Special Items and a net gain of 11.8 for Domino's from refranchising and asset sales, in millions of dollars.
+
+Criterion 12 — weight 3
+The adjusted McDonald's figures for the annual base period land on the amounts McDonald's itself publishes: non-GAAP operating income of 12,621 and non-GAAP net income of 8,741.
+
+Criterion 18 — weight 3
+Leverage is reported for each name as net debt over LTM adjusted EBITDA at 2.6x for McDonald's, 3.8x for Yum and 4.4x for Domino's.
+
+Criterion 19 — weight 3
+LTM EV/Revenue is 8.6x for McDonald's, 6.3x for Yum and 3.0x for Domino's.
+
+Criterion 20 — weight 4
+LTM EV/EBITDA is 15.7x for McDonald's, 17.8x for Yum and 14.4x for Domino's.
+
+Criterion 21 — weight 3
+LTM EV/EBIT is 18.4x for McDonald's, 19.3x for Yum and 15.7x for Domino's.
+
+Criterion 22 — weight 4
+LTM P/E is 22.4x for McDonald's, 23.9x for Yum and 18.0x for Domino's.
+
+Criterion 24 — weight 3
+Adjusted EBITDA margin sits beside the multiples at 55.2 percent for McDonald's, 35.1 percent for Yum and 21.1 percent for Domino's, that is 0.552, 0.351 and 0.211 of LTM revenue.
+
+Criterion 25 — weight 3
+A group statistic across the three names is carried in the multiples table, with median EV/Revenue 6.3x, EV/EBITDA 15.7x, EV/EBIT 18.4x and P/E 22.4x, and mean 6.0x, 16.0x, 17.8x and 21.4x.
+
+Criterion 27 — weight 3
+The group median EV/EBITDA gives implied share prices of 126.87 for Yum and 349.29 for Domino's, and 277.97 for McDonald's, whose own multiple is the median of the three.
+
+Criterion 28 — weight 3
+The group median P/E gives implied share prices of 140.87 for Yum and 386.57 for Domino's, with McDonald's again at 277.97.
+
+Criterion 29 — weight 3
+Each implied price is set against the May 28 close as an upside or a shortfall, putting Yum 15.4 percent below its close on EV/EBITDA and Domino's 12.5 percent above, that is -0.154 and 0.125.
+
+Criterion 34 — weight -5
+A source note cites a page number beyond the length of the filing it names, such as a page above 95 in the McDonald's 10-K, above 134 in the Yum 10-K, above 140 in the Domino's 10-K, above 44 in the McDonald's 10-Q, above 413 in the Yum 10-Q or above 35 in the Domino's 10-Q.
+
+---
+WHY THESE CHANGED (for your reference, not to paste into the form):
+
+1) McDonald's input file was FY2024, one year behind Yum's and Domino's genuine FY2025 10-Ks, so "FY2024 + Q1'26 stub - Q1'25 stub" was silently splicing in Apr-Dec 2024 instead of Apr-Dec 2025 - not a real LTM. Fixed by swapping in McDonald's actual FY2025 10-K (year ended Dec 31, 2025: revenue $26,885mm, operating income $12,393mm, net income $8,563mm, D&A $2,199mm, impairment/other charges $229mm, non-GAAP OI $12,621mm, non-GAAP NI $8,741mm - all sourced from the real SEC EDGAR filing, accession 0000063908-26-000035). This changes every McDonald's LTM figure but leaves Yum and Domino's untouched, and it also flips which company sits at the group median for EV/EBITDA, EV/EBIT and P/E (now McDonald's instead of Yum on those, though McDonald's is still self-consistent at its own price by construction).
+
+2) Domino's P/E previously stayed on unadjusted GAAP net income/EPS even though the same workbook strips $11.8mm of one-time gains (refranchising + aircraft sale) out of adjusted EBIT/EBITDA - an internal inconsistency the reviewer flagged. Fixed by tax-effecting each one-time item at Domino's own effective tax rate for that period (FY2025: 21.9% = 168,634/770,338 from the 10-K income statement; Q1'26: 22.6% = 40,831/180,642 from the 10-Q), which are formulas in the workbook, not hardcoded numbers. This lowers Domino's adjusted net income/EPS and raises its P/E slightly (17.7x to 18.0x).

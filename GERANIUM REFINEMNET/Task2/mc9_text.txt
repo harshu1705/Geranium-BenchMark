@@ -1,0 +1,101 @@
+Kansas Insurance Department
+Market conduct examination standards
+Bulletin MC-9, in force from July 1, 2024.
+Page 1
+Market Conduct Examination Standards
+How an examiner of this Department tests a company's claim files, what the tolerances are, and what
+follows from a finding.
+Kansas Insurance Department, Market Regulation Division. Bulletin MC-9, in force from July 1, 2024,
+superseding MC-8.
+1.  Scope
+1.1  This bulletin governs every market conduct examination of claims handling the Division conducts on a company
+authorized in this state.
+1.2  The examiner works from the sample the company produces, the company's own records of what it did with
+each file, and the Division's file on the company.
+1.3  A working day is a day other than a Saturday, a Sunday or a holiday on the schedule at the back of this bulletin.
+A period stated in working days counts neither the day it begins on nor any day excluded by this paragraph.
+2.  Scope of the sample
+2.1  The sample is drawn from claims of which the company received notice inside the examination period.
+2.2  A file the company includes whose notice date falls outside the examination period is removed from the sample.
+It is removed from the denominator of every standard as well as from the exceptions, and the examiner states
+how many files were removed and why.
+2.3  A standard is tested only against the files to which it applies. The denominator of a standard is the number of
+files in scope to which that standard applies, and it is not the size of the sample.
+2.4  A claim closed without payment is tested under 4.1, 4.2 and 4.4. It is not tested under 4.3 or 4.5, no payment and
+no settlement having been made.
+3.  How a standard is tested
+3.1  The error rate of a standard is the number of exceptions divided by the denominator at 2.3, carried to two
+decimal places.
+3.2  A standard whose error rate exceeds its tolerance is a finding. A standard whose error rate equals its tolerance is
+not.
+3.3  The general tolerance is seven percent. The standards at 4.4 and 5.1 carry a tolerance of zero, so a single
+exception on either is a finding.
+4.  The claim handling standards
+4.1  The company acknowledges a claim within ten working days of receiving notice of it.
+4.2  The company issues a written decision within thirty calendar days of receiving a completed proof of loss.
+4.3  The company pays within ten working days of receiving a signed release.
+4.4  A denial states the policy provision the company relies on. Tolerance zero.
+4.5  A total loss settlement on a private passenger automobile includes sales tax at seven and one half percent of the
+actual cash value and the title and registration fee of 42.50.
+
+Kansas Insurance Department
+Market conduct examination standards
+Bulletin MC-9, in force from July 1, 2024.
+Page 2
+5.  Records
+5.1  The company maintains a complaint register carrying every complaint the Division has forwarded to it.
+Tolerance zero. Each complaint the Division forwarded and the register omits is one exception.
+5.2  The register is tested against the Division's own record of what it forwarded, and the Division's record governs.
+6.  What follows from a finding
+6.1  A penalty is assessed on each finding at the rate in the schedule at the back, multiplied by the number of
+exceptions on that standard. The penalty is computed on exceptions and not on the error rate.
+6.2  The rate is 250.00 for a finding the company has not been made on before, and 750.00 for a finding on a
+standard on which the company was made a finding in its previous examination. The Division's file records
+what the previous examination found.
+6.3  Where a standard was a finding in the previous examination and is within tolerance in this one, no penalty arises
+on it and the examiner records that it has been corrected.
+6.4  Where the examination finds that a claimant was paid less than the policy required, the company pays the
+difference with interest at ten percent simple from the day it paid to the day of the report. Interest is
+computed on a basis of three hundred and sixty five days.
+6.5  Restitution under 6.4 is owed whatever the size of the underpayment. A small underpayment is not disregarded.
+6.6  The examiner states, for each finding, what the company must do and by when, and states anything the
+examination was not able to settle.
+7.  Schedules
+Penalty rates
+Finding
+Rate for each exception
+Not previously made against the company
+250.00
+Made in the company's previous examination
+750.00
+Holidays observed in 2025, for the working day count at 1.3
+Date
+Holiday
+01/01/2025
+New Year's Day
+01/20/2025
+Martin Luther King Jr. Day
+05/26/2025
+Memorial Day
+06/19/2025
+Juneteenth
+07/04/2025
+Independence Day
+09/01/2025
+Labor Day
+11/11/2025
+Veterans Day
+11/27/2025
+Thanksgiving Day
+11/28/2025
+Day after Thanksgiving
+12/25/2025
+Christmas Day
+
+Kansas Insurance Department
+Market conduct examination standards
+Bulletin MC-9, in force from July 1, 2024.
+Page 3
+MC-9 rewrites 2.2, 2.3 and 6.2 and adds 6.3 and 6.5. Examiners holding MC-8 should destroy it. Questions go to the Director of Market
+Regulation.
+

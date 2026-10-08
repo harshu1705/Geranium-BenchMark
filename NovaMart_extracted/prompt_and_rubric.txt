@@ -1,0 +1,36 @@
+Prompt:
+Hey team,
+
+We just received an application from a retail chain called NovaMart Inc. looking to bind a $15M Cyber Liability policy. I need someone to review their submission and put together an Underwriting Memorandum for me before our 3:00 PM internal pricing call.
+
+I've dropped all the necessary materials into the shared drive: Underwriting_Guidelines_v2.docx, NovaMart_Cyber_Application.docx, Loss_Run_History_2021_2026.xlsx, Third_Party_Security_Scan.xlsx, Ransomware_Supplemental_App.docx, Financial_Statements_Summary.xlsx, and Broker_Email_Correspondence.docx.
+
+Please apply our standard Underwriting Guidelines strictly. You'll need to calculate the base premium off their most recent revenue numbers, and then determine if we need to apply any penalty multipliers based on their loss run history (check the last 3 years carefully) or their ransomware controls. Also, check the perimeter scan for any critical vulnerabilities.
+
+I need a single Word document named Underwriting_Memo_NovaMart.docx. Start with an Executive Summary and a clear final recommendation (Approve, Decline, or Conditional Go). Then, walk through the Premium Calculation and justify the math based on the guidelines. Next, determine if they are eligible for the requested limit and state whose authority level is required to bind this. Finally, include any Mandatory Conditions, and end the report with a Risk Matrix Summary table covering their Loss History, Ransomware Controls, Perimeter Security, and how our premium compares to the Broker's target.
+
+Please be exact with the premium calculation multipliers. Thanks!
+
+
+Rubric:
+1. (+1) The deliverable must be a single Word document named Underwriting_Memo_NovaMart.docx.
+2. (+3) The Executive Summary must provide a final recommendation of DECLINE.
+3. (+5) The report must explicitly state that the decline is mandated because Endpoint Detection & Response (EDR) is missing on 2% of endpoints.
+4. (+3) The report must state the Base Premium Calculation is $25,120, derived from $502,400,000 in revenue.
+5. (+3) The report must apply a Loss Run Surcharge Multiplier of 1.20x.
+6. (+2) The report must justify the Loss Run surcharge by citing the cyber-only 3-year total of $650,000 (CLM-25-1102 only), correctly excluding the January 2023 claim (CLM-23-4412) as outside the 3-year lookback measured from the submission/effective date.
+7. (+3) The report must apply a Security Surcharge Multiplier of 1.25x.
+8. (+2) The report must justify the Security Surcharge by citing the lack of MFA for Contractor Remote Access.
+9. (+5) The report must state the Final Calculated Premium is $37,680.
+10. (+3) The report concludes that multiple decline conditions exist (EDR gap and Critical CVE) and that Section 8 requires immediate file closure with no VP referral for multiple simultaneous decline conditions.
+11. (+2) The Mandatory Conditions section explicitly states that the critical CVE exists and would normally require either decline or 15-day remediation subjectivity, but that the file is being declined.
+12. (+3) The report must state that the Third-Party Security Scan identified an open Critical vulnerability, CVE-2023-4528, on the VPN appliance.
+13. (+3) The report must include a Risk Matrix Summary table that covers Loss History.
+14. (+1) The report must include a Risk Matrix Summary table that covers Ransomware Controls.
+15. (+1) The report must include a Risk Matrix Summary table that covers Perimeter Security.
+16. (+1) The report must include a Risk Matrix Summary table that compares the final calculated premium against the broker target premium.
+17. (+1) The Risk Matrix flags CVE-2023-4528 (Critical) on the VPN as an open perimeter security issue.
+18. (+3) The report explicitly determines whether NovaMart is eligible for the requested $15,000,000 limit, concluding that the missing contractor MFA caps the eligible limit at $10,000,000.
+19. (-5) The memo recommends a clean bind or conditional approval despite the mandatory decline conditions.
+20. (-3) The report states or implies NovaMart is eligible for the requested $15,000,000 limit despite missing Contractor/Third-Party MFA, which caps the eligible limit at $10,000,000 per Section 5.
+21. (+2) The report must explicitly state that Senior Underwriter authority would normally be required for a $10,000,000 limit.

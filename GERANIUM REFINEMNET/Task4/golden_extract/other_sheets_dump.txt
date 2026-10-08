@@ -1,0 +1,229 @@
+=== Summary ===
+A2: '$ in millions except per-share data and multiples  |  Share prices: May 28, 2026  |  Multiples use comparable (adj) EBITDA, EBIT, and EPS  |  EV on financial-debt basis  |  MCD FY-base = FY2024 (10-K fiscal year ended Dec 31, 2024)'
+A3: 'Company'
+B3: 'Price'
+C3: 'Mkt Cap\n($mm)'
+D3: 'Net Debt\n($mm)'
+E3: 'EV\n($mm)'
+F3: 'EV /\nRevenue'
+G3: 'EV /\nEBITDA'
+H3: 'EV /\nEBIT'
+I3: 'P / E'
+J3: "Rev Growth\n(Q1'26 YoY)"
+K3: 'Adj EBITDA\nMargin'
+L3: 'Adj EBIT\nMargin'
+M3: 'Net Debt /\nEBITDA'
+A4: "McDonald's"
+B4: "='EV Bridge'!B5"
+C4: "='EV Bridge'!B7"
+D4: "='EV Bridge'!B14"
+E4: "='EV Bridge'!B15"
+F4: '=IFERROR(E4/\'LTM Build\'!E5,"-")'
+G4: '=IFERROR(E4/\'LTM Build\'!E10,"-")'
+H4: '=IFERROR(E4/\'LTM Build\'!E8,"-")'
+I4: '=IFERROR(B4/\'LTM Build\'!E15,"-")'
+J4: "='LTM Build'!E19"
+K4: "='LTM Build'!E17"
+L4: "='LTM Build'!E18"
+M4: "='EV Bridge'!B21"
+A5: 'Yum! Brands'
+B5: "='EV Bridge'!C5"
+C5: "='EV Bridge'!C7"
+D5: "='EV Bridge'!C14"
+E5: "='EV Bridge'!C15"
+F5: '=IFERROR(E5/\'LTM Build\'!J5,"-")'
+G5: '=IFERROR(E5/\'LTM Build\'!J10,"-")'
+H5: '=IFERROR(E5/\'LTM Build\'!J8,"-")'
+I5: '=IFERROR(B5/\'LTM Build\'!J15,"-")'
+J5: "='LTM Build'!J19"
+K5: "='LTM Build'!J17"
+L5: "='LTM Build'!J18"
+M5: "='EV Bridge'!C21"
+A6: "Domino's"
+B6: "='EV Bridge'!D5"
+C6: "='EV Bridge'!D7"
+D6: "='EV Bridge'!D14"
+E6: "='EV Bridge'!D15"
+F6: '=IFERROR(E6/\'LTM Build\'!O5,"-")'
+G6: '=IFERROR(E6/\'LTM Build\'!O10,"-")'
+H6: '=IFERROR(E6/\'LTM Build\'!O8,"-")'
+I6: '=IFERROR(B6/\'LTM Build\'!O15,"-")'
+J6: "='LTM Build'!O19"
+K6: "='LTM Build'!O17"
+L6: "='LTM Build'!O18"
+M6: "='EV Bridge'!D21"
+A7: 'Mean'
+F7: '=AVERAGE(F4:F6)'
+G7: '=AVERAGE(G4:G6)'
+H7: '=AVERAGE(H4:H6)'
+I7: '=AVERAGE(I4:I6)'
+J7: '=AVERAGE(J4:J6)'
+K7: '=AVERAGE(K4:K6)'
+L7: '=AVERAGE(L4:L6)'
+M7: '=AVERAGE(M4:M6)'
+A8: 'Median'
+F8: '=MEDIAN(F4:F6)'
+G8: '=MEDIAN(G4:G6)'
+H8: '=MEDIAN(H4:H6)'
+I8: '=MEDIAN(I4:I6)'
+J8: '=MEDIAN(J4:J6)'
+K8: '=MEDIAN(K4:K6)'
+L8: '=MEDIAN(L4:L6)'
+M8: '=MEDIAN(M4:M6)'
+
+=== EV Bridge ===
+A1: 'EV Bridge  —  Share Price to Enterprise Value & Leverage  ($ in millions)'
+B3: "McDonald's"
+C3: 'Yum! Brands'
+D3: "Domino's"
+A4: 'Ticker'
+B4: 'MCD'
+C4: 'YUM'
+D4: 'DPZ'
+A5: 'Share price (May 28, 2026)'
+B5: 277.97
+C5: 150.03
+D5: 310.35
+A6: "Diluted shares (mm) — Q1'26 10-Q"
+B6: "='LTM Build'!C14"
+C6: "='LTM Build'!H14"
+D6: "='LTM Build'!M14"
+A7: 'Market capitalization'
+B7: '=B5*B6'
+C7: '=C5*C6'
+D7: '=D5*D6'
+A9: 'Long-term debt'
+B9: 40105
+C9: 10213
+D9: 4876.122
+A10: 'Short-term borrowings / current LTD'
+B10: 0
+C10: 1741
+D10: 7.411
+A11: 'Finance leases not already inside the lines above'
+B11: 0
+C11: 0
+D11: 0
+A12: 'Total financial debt'
+B12: '=B9+B10+B11'
+C12: '=C9+C10+C11'
+D12: '=D9+D10+D11'
+A13: 'Cash & equivalents'
+B13: 1170
+C13: 689
+D13: 232.922
+A14: 'Net debt (financial debt − cash)'
+B14: '=B12-B13'
+C14: '=C12-C13'
+D14: '=D12-D13'
+A15: 'Enterprise value (financial-debt basis)'
+B15: '=B7+B14'
+C15: '=C7+C14'
+D15: '=D7+D14'
+A17: 'Lease liabilities outside financial debt (memo)'
+B17: 14776
+C17: 1190
+D17: 252.24
+A18: 'Enterprise value (lease-adjusted, memo)'
+B18: '=B15+B17'
+C18: '=C15+C17'
+D18: '=D15+D17'
+A20: 'Adj EBITDA (LTM) — from LTM Build'
+B20: "='LTM Build'!E10"
+C20: "='LTM Build'!J10"
+D20: "='LTM Build'!O10"
+A21: 'Net debt / Adj EBITDA (x)'
+B21: '=IFERROR(B14/B20,"-")'
+C21: '=IFERROR(C14/C20,"-")'
+D21: '=IFERROR(D14/D20,"-")'
+A22: '(Net debt + memo leases) / Adj EBITDA (x)'
+B22: '=IFERROR((B14+B17)/B20,"-")'
+C22: '=IFERROR((C14+C17)/C20,"-")'
+D22: '=IFERROR((D14+D17)/D20,"-")'
+A24: "Financial debt = long-term debt + short-term borrowings / current portion.  YUM finance lease obligations of $146mm are a component of the Note 11 long-term debt total (10-Q p.18) and DPZ finance lease principal of $127.259mm sits inside the current and long-term debt captions (10-Q p.13), so neither is added again.  MCD reports lease liabilities in separate captions from debt and does not split operating from finance at Q1'26 (10-Q p.3).  Memo leases: MCD $14,776mm total lease liability (current 707 + long-term 14,069), YUM $1,190mm non-current operating lease liabilities (10-Q p.12, the only lease amount disclosed), DPZ $252.240mm operating lease liabilities (current 49.490 + long-term 202.750).  Headline multiples use the financial-debt EV."
+
+=== Implied Value ===
+A1: 'Implied Value  —  Group Median Applied to Each Name  ($ in millions except per-share)'
+A4: 'Group median assumptions (flex these to run scenarios):'
+A5: '  Group median EV / Revenue'
+B5: '=Summary!F8'
+A6: '  Group median EV / EBITDA'
+B6: '=Summary!G8'
+A7: '  Group median EV / EBIT'
+B7: '=Summary!H8'
+A8: '  Group median P / E'
+B8: '=Summary!I8'
+C11: 'EV / Revenue'
+H11: 'EV / EBITDA'
+L11: 'EV / EBIT'
+P11: 'P / E'
+A12: 'Company'
+B12: 'Actual\nPrice'
+C12: 'Adj Rev\n(LTM, $mm)'
+D12: 'Impl EV\n(EV/Rev)'
+E12: 'Impl Equity\n(EV/Rev)'
+F12: 'Impl Price\n(EV/Rev)'
+G12: 'Upside /\n(Down)'
+H12: 'Impl EV\n(EV/EBITDA)'
+I12: 'Impl Equity\n(EV/EBITDA)'
+J12: 'Impl Price\n(EV/EBITDA)'
+K12: 'Upside /\n(Down)'
+L12: 'Impl EV\n(EV/EBIT)'
+M12: 'Impl Equity\n(EV/EBIT)'
+N12: 'Impl Price\n(EV/EBIT)'
+O12: 'Upside /\n(Down)'
+P12: 'Impl Price\n(P/E)'
+Q12: 'Upside /\n(Down)'
+A13: "McDonald's"
+B13: "='EV Bridge'!B5"
+C13: "='LTM Build'!E5"
+D13: "=B5*'LTM Build'!E5"
+E13: "=D13-('EV Bridge'!B14)"
+F13: '=IFERROR(E13/\'LTM Build\'!C14,"-")'
+G13: '=IFERROR(F13/B13-1,"-")'
+H13: "=B6*'LTM Build'!E10"
+I13: "=H13-('EV Bridge'!B14)"
+J13: '=IFERROR(I13/\'LTM Build\'!C14,"-")'
+K13: '=IFERROR(J13/B13-1,"-")'
+L13: "=B7*'LTM Build'!E8"
+M13: "=L13-('EV Bridge'!B14)"
+N13: '=IFERROR(M13/\'LTM Build\'!C14,"-")'
+O13: '=IFERROR(N13/B13-1,"-")'
+P13: '=IFERROR(B8*\'LTM Build\'!E15,"-")'
+Q13: '=IFERROR(P13/B13-1,"-")'
+A14: 'Yum! Brands'
+B14: "='EV Bridge'!C5"
+C14: "='LTM Build'!J5"
+D14: "=B5*'LTM Build'!J5"
+E14: "=D14-('EV Bridge'!C14)"
+F14: '=IFERROR(E14/\'LTM Build\'!H14,"-")'
+G14: '=IFERROR(F14/B14-1,"-")'
+H14: "=B6*'LTM Build'!J10"
+I14: "=H14-('EV Bridge'!C14)"
+J14: '=IFERROR(I14/\'LTM Build\'!H14,"-")'
+K14: '=IFERROR(J14/B14-1,"-")'
+L14: "=B7*'LTM Build'!J8"
+M14: "=L14-('EV Bridge'!C14)"
+N14: '=IFERROR(M14/\'LTM Build\'!H14,"-")'
+O14: '=IFERROR(N14/B14-1,"-")'
+P14: '=IFERROR(B8*\'LTM Build\'!J15,"-")'
+Q14: '=IFERROR(P14/B14-1,"-")'
+A15: "Domino's"
+B15: "='EV Bridge'!D5"
+C15: "='LTM Build'!O5"
+D15: "=B5*'LTM Build'!O5"
+E15: "=D15-('EV Bridge'!D14)"
+F15: '=IFERROR(E15/\'LTM Build\'!M14,"-")'
+G15: '=IFERROR(F15/B15-1,"-")'
+H15: "=B6*'LTM Build'!O10"
+I15: "=H15-('EV Bridge'!D14)"
+J15: '=IFERROR(I15/\'LTM Build\'!M14,"-")'
+K15: '=IFERROR(J15/B15-1,"-")'
+L15: "=B7*'LTM Build'!O8"
+M15: "=L15-('EV Bridge'!D14)"
+N15: '=IFERROR(M15/\'LTM Build\'!M14,"-")'
+O15: '=IFERROR(N15/B15-1,"-")'
+P15: '=IFERROR(B8*\'LTM Build\'!O15,"-")'
+Q15: '=IFERROR(P15/B15-1,"-")'
+A17: "Implied EV = group median multiple × company LTM metric.  Implied equity = implied EV − net financial debt.  Implied price = implied equity ÷ diluted shares (Q1'26 period).  Upside/(down) = implied price ÷ actual price − 1.  P/E implied price = median P/E × LTM adj EPS directly (no EV step).  All assumptions in rows 5–8 are formula-linked from Summary median; flex Summary prices or LTM metrics to update."
+

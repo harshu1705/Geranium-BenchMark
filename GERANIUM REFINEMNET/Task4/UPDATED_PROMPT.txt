@@ -1,0 +1,14 @@
+Hey, can you put together a trading comps model for the three QSR names: McDonald's, Yum, and Domino's? I want a real build I can defend in front of the team, not just a one-page multiples table.
+
+Everything's in the folder, FY2025 10-K and 1Q26 10-Q for each name:
+McDonald's: MCD 10K 2025.pdf, MCD 10Q 1Q26.pdf
+Yum: YUM 10K 2025.pdf, YUM 10Q 1Q26.pdf
+Domino's: DPZ 10K 2025.pdf, DPZ 10Q 1Q26.pdf
+
+Run it on an LTM basis (FY2025 for all three, plus the Q1'26 stub less Q1'25) and line the three up on the usual multiples: EV/Revenue, EV/EBITDA, EV/EBIT, and P/E, with growth and margins alongside. Get EBITDA right, pull D&A from the cash flow, and strip the one-time noise so it's comparable - if a company doesn't publish its own adjusted net income (Domino's doesn't), tax-effect the one-time item yourself using that company's own effective tax rate so the P/E lines up with the same adjusted EBIT/EBITDA basis instead of quietly reverting to GAAP. Then walk a proper EV bridge for each since these names are levered very differently. Apply the group multiples back to each name for an implied value versus where they're trading, and give me a few charts that make the comparison easy to see.
+
+Use the May 28 closes for market cap (MCD $277.97, YUM $150.03, DPZ $310.35) paired with diluted shares from the filings, and keep it formula-driven so I can flex a price or an assumption.
+
+Save it as QSR_Comps_LTM_1Q26.xlsx.
+
+Thanks!

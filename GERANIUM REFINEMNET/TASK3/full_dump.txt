@@ -1,0 +1,97 @@
+[P1] APPRAISAL REVIEW
+[P2] Arizona Appraisal Quality Review
+[P3] Closed repair files from the 2026 monsoon review window
+[P4] To: Director, Physical Damage
+[P5] From: Regional Appraisal Quality
+[P6] Date: September 2, 2026
+[P7] Decision: Maintain the current rate matrix; apply targeted facility and appraiser controls
+[TABLE9]
+   | Recommendation: Do not open a territory-wide labor-rate change. The rate threshold is not met, and nearly all monetary exposure is tied to Old Pueblo Auto Body (F-211). Route the six High files for manager review, place F-211 supplements above $250 under temporary supervisor preapproval, and put AP-204 on a limited one-hundred-percent review cycle.
+[P11] Decision
+[P12] The review covered 32 closed-paid repair claims totaling $232,699.69. Fourteen claims had at least one monetary or sequencing exception, including six High and eight Moderate files. Monetary exposure is $4,500.75, or 1.9% of final repair paid. Unsupported non-labor approvals account for $4,243.25; unauthorized labor-rate variance adds $257.50.
+[P13] A broad rate response is not supported. Unauthorized rate variance appears on 9 of 32 claims (28.1%) and at three facilities. The standard requires at least 30 percent of reviewed claims, four facilities and consistent market support. The notes instead show isolated approvals and one heavily concentrated facility pattern. F-211 accounts for $4,414.75, or 98.1% of all monetary exposure.
+[P14] What the review found
+[TABLE15]
+   | Measure | Result | Management reading
+   | Claims reviewed | 32 | Full closed-paid population in the supplied extract
+   | Final repair paid | $232,699.69 | Denominator for portfolio exposure
+   | Exception claims | 14 (43.8%) | Six High; eight Moderate
+   | Unauthorized rate exposure | $257.50 | 9 claims
+   | Unsupported non-labor exposure | $4,243.25 | 6 claims
+   | Total monetary exposure | $4,500.75 | 1.9% of final repair paid
+   | Original approval sequence | 5 claims | Approved before a qualified inspection
+   | Late supplement support | 4 claims | Evidence arrived after approval but before closure
+[P17] Review basis
+[P18] Every claim was matched across the closed-claim, supplement and timeline extracts. Labor lines were tested against the county and operation ceiling effective on the approval date. Valid aluminum and remote premiums were retained only where facility eligibility and code requirements were satisfied. Non-labor approvals above $150 were tested for evidence by closure, and original approvals were tested against inspection order and FAST-8 requirements. Dollar exposure includes only excess labor above the permitted rate and unsupported non-labor approvals; sequencing-only events add no dollars.
+[P19] Valid special handling was left in place. ALUM-08 was supported on AZR-26-0706, AZR-26-0718 and AZR-26-0732. REMOTE-06 was supported on AZR-26-0712 and AZR-26-0728. EMERG-2 was valid on AZR-26-0711 and AZR-26-0728, while FAST-8 was valid on AZR-26-0703, AZR-26-0711 and AZR-26-0728. None of these events was counted as leakage.
+[P20] Claims requiring manager review
+[TABLE21]
+   | Claim | Appraiser | Facility | Exposure | Why High
+   | AZR-26-0709 | AP-204 | F-211 | $656.25 | Unauthorized labor rate; Missing support at closure
+   | AZR-26-0714 | AP-204 | F-211 | $940.40 | Unauthorized labor rate; Missing support at closure; Original approval before qualified inspection
+   | AZR-26-0719 | AP-204 | F-211 | $547.25 | Unauthorized labor rate; Missing support at closure; Original approval before qualified inspection
+   | AZR-26-0724 | AP-311 | F-211 | $762.60 | Unauthorized labor rate; Missing support at closure; Original approval before qualified inspection
+   | AZR-26-0727 | AP-427 | F-211 | $496.90 | Unauthorized labor rate; Missing support at closure
+   | AZR-26-0730 | AP-427 | F-211 | $1,011.35 | Unauthorized labor rate; Missing support at closure; Original approval before qualified inspection
+[P23] All six High files are tied to F-211 and combine an unauthorized rate with missing support at closure. Four also have an invalid original-approval sequence. Managers should start with these files; each has at least $500 of exposure or more than one critical exception type.
+[P25] Where the exposure sits
+[TABLE26]
+   | Appraiser ID | Reviewed | Exceptions | Exposure
+   | AP-118 | 8 | 3 | $35.00
+   | AP-204 | 11 | 5 | $2,178.90
+   | AP-311 | 6 | 3 | $778.60
+   | AP-427 | 7 | 3 | $1,508.25
+[P28] AP-204 has five exception files in an eleven-file population and $2,178.90 of exposure, or 48.4% of the total. Only $35.00 sits outside F-211. The main control problem is concentrated at one facility and crosses appraisers; AP-204 also needs coaching.
+[TABLE29]
+   | Facility | Name | Reviewed | Exceptions | Exposure
+   | F-101 | Phoenix Central Collision | 4 | 1 | $0.00
+   | F-108 | Tempe Auto Body | 4 | 3 | $35.00
+   | F-117 | Desert Aluminum Works | 2 | 0 | $0.00
+   | F-203 | Tucson Precision Collision | 4 | 2 | $51.00
+   | F-211 | Old Pueblo Auto Body | 9 | 7 | $4,414.75
+   | F-304 | Prescott Bodycraft | 3 | 1 | $0.00
+   | F-402 | Flagstaff Collision North | 4 | 0 | $0.00
+   | F-409 | High Country Auto Repair | 2 | 0 | $0.00
+[P31] Other exceptions
+[TABLE32]
+   | Claim | Appraiser | Facility | Exposure | Control theme
+   | AZR-26-0704 | AP-118 | F-203 | $35.00 | Unauthorized labor rate
+   | AZR-26-0705 | AP-118 | F-304 | $0.00 | Supplement support received after approval
+   | AZR-26-0707 | AP-118 | F-101 | $0.00 | Original approval before qualified inspection
+   | AZR-26-0716 | AP-204 | F-211 | $0.00 | Supplement support received after approval
+   | AZR-26-0717 | AP-204 | F-108 | $35.00 | Unauthorized labor rate
+   | AZR-26-0721 | AP-311 | F-203 | $16.00 | Unauthorized labor rate
+   | AZR-26-0723 | AP-311 | F-108 | $0.00 | Supplement support received after approval
+   | AZR-26-0731 | AP-427 | F-108 | $0.00 | Supplement support received after approval
+[P34] Nine distinct claims have an approval-sequencing issue: 5 original estimates were approved before a qualified inspection, and 4 supplements received support after approval but before closure. Payment was eventually supported on the latter files, but approval happened before the required control was complete.
+[P35] Rate matrix
+[TABLE36]
+   | Standard test | Observed | Result
+   | Unauthorized rate exceptions on at least 30% of reviewed claims | 9 of 32 (28.1%) | Not met
+   | Exceptions at four or more facilities | 3 facilities: F-108, F-203, F-211 | Not met
+   | Notes show a consistent market condition | Requests cite individual facility or subcontractor preference; no bulletin or market authorization | Not met
+[P38] None of the three conditions is met, so the current county and operation ceilings should remain in place. A territory-wide change would treat a concentrated control problem as a market-rate problem and blur the difference between valid specialty premiums and unsupported exceptions.
+[P39] Actions
+[P40] F-211 control: for 30 calendar days, require supervisor preapproval for every supplement above $250 and every labor rate above the published ceiling. Vendor Governance owns the control; exit requires a ten-file sample with no unsupported approval and no unauthorized rate.
+[P41] AP-204 control: apply one-hundred-percent supervisor review to the next 15 supplements, followed by a ten-file calibration sample. The Regional Appraisal Manager owns the review; exit requires correct rate, evidence and sequence treatment in every sampled file.
+[P42] High-file review: Claim Management should review the six High files by September 16, 2026. Record the recovery assessment, documentation follow-up and coding disposition for each file before closing the review. Exposure totals $4,414.75; it is not an established recovery entitlement.
+[P43] Workflow edit: Claims Systems should implement and test the approval block by September 16, 2026. For non-labor approvals above $150, require received evidence or a valid EMERG-2 note. Before release, verify that supported approvals proceed, documented emergencies proceed, and unsupported approvals are blocked; evidence added later must not erase the original sequencing event.
+[P44] Thirty-day resample: Regional Appraisal Quality owns a repeat test of the first 30 closed-paid files after the control period. Complete it within 30 calendar days after that period ends and verify claim count, rate incidence, facility count, market support and exposure reconciliation. Open a rate study only if the resample reaches the standard's 30-percent, four-facility and market-support thresholds.
+[P46] Files used
+[TABLE47]
+   | Filename | Location used | Purpose
+   | closed_claims_extract.xlsx | Closed Claims; Repair Timing; Field Guide | Population, paid amounts, assignments and authorization-to-completion days
+   | supplement_activity.xlsx | Supplement Lines; Code Notes | Rates, hours, approved amounts, evidence timing and exception codes
+   | inspection_timeline.xlsx | Claim Timeline; Event Definitions | Inspection, photo and approval sequencing
+   | territory_rate_matrix.xlsx | Rate Matrix; Facility Roster; Exception Codes | Permitted rates and valid premium/control conditions
+   | appraisal_quality_standard.docx | Sections 1-9 | Monetary, sequencing, priority and portfolio decision rules
+   | field_review_notes.docx | FRN-03 through FRN-32 | Narrative validation for special handling and exception requests
+[P49] Checks
+[TABLE50]
+   | Check | Calculation | Result
+   | Monetary exposure | $257.50 + $4,243.25 | $4,500.75
+   | Exposure rate | $4,500.75 / $232,699.69 | 1.9%
+   | High-file total | Sum of the six High claim exposures | $4,414.75
+   | F-211 concentration | $4,414.75 / $4,500.75 | 98.1%
+   | Exception count | 6 High + 8 Moderate | 14
+[P52] Review limitation: this memo evaluates only the supplied closed repair files and repository records through August 31, 2026. It does not determine whether any recovery is legally or operationally available after payment. Claim management should make that separate decision on the six High files.
